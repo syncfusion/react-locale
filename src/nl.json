@@ -1,81 +1,87 @@
 {
   "nl": {
     "message": {
-      "close": "Dichtbij"
+      "close": "Sluiten"
     },
     "grid": {
-      "noRecordsMessage": "Geen records om weer te geven",
-      "filterBarTooltip": "\"S filterbalkcel",
+      "noRecordsMessage": "Er zijn geen records om weer te geven",
+      "filterBarTooltip": "\"s filterbalkcel",
       "invalidFilterMessage": "Ongeldige filtergegevens",
-      "booleanTrueLabel": "WAAR",
+      "booleanTrueLabel": "waar",
       "booleanFalseLabel": "vals",
       "addButtonLabel": "Toevoegen",
-      "editButtonLabel": "Bewerking",
-      "cancelButtonLabel": "Annuleren",
-      "updateButtonLabel": "Update",
+      "editButtonLabel": "Bewerken",
+      "cancelButtonLabel": "Annuleer",
+      "updateButtonLabel": "Bijwerken",
       "deleteButtonLabel": "Verwijderen",
-      "searchButtonLabel": "Zoekopdracht",
-      "unsavedChangesConfirmation": "Niet -opgeslagen wijzigingen gaan verloren. Weet je zeker dat je door wilt gaan?",
-      "noRecordsEditMessage": "Geen records geselecteerd voor bewerkingsbewerking",
-      "noRecordsDeleteMessage": "Geen records geselecteerd voor verwijderingsbewerking",
-      "okButtonLabel": "OK",
-      "confirmDeleteMessage": "Weet u zeker dat u het record wilt verwijderen?"
+      "searchButtonLabel": "Zoeken",
+      "unsavedChangesConfirmation": "Niet-opgeslagen wijzigingen gaan verloren. Weet u zeker dat u wilt doorgaan?",
+      "noRecordsEditMessage": "Geen records geselecteerd voor bewerking",
+      "noRecordsDeleteMessage": "Er zijn geen records geselecteerd voor verwijdering",
+      "okButtonLabel": "Oké",
+      "confirmDeleteMessage": "Weet u zeker dat u de record wilt verwijderen?"
     },
     "pager": {
       "currentPageLabel": "{0} van {1} pagina's",
-      "totalItemsLabel": "({0} items)",
-      "totalItemLabel": "({0} item)",
+      "totalItemsLabel": "({0} artikelen)",
+      "totalItemLabel": "({0} artikel)",
       "firstPageTooltip": "Ga naar de eerste pagina",
       "lastPageTooltip": "Ga naar de laatste pagina",
       "nextPageTooltip": "Ga naar de volgende pagina",
       "previousPageTooltip": "Ga naar de vorige pagina",
-      "nextPageGroupTooltip": "Ga naar de volgende pagina -groep",
-      "previousPageGroupTooltip": "Ga naar de vorige pagina -groep",
-      "paginationStatusMessage": "Pager extern bericht",
+      "nextPageGroupTooltip": "Ga naar de volgende paginagroep",
+      "previousPageGroupTooltip": "Ga naar de vorige paginagroep",
+      "pagerStatusMessage": "Extern bericht van pager",
       "pageLabel": "Pagina ",
-      "ofLabel": " van ",
+      "pagerOfLabel": " van ",
       "pagesLabel": " Pagina's"
     },
     "chart": {
-      "zoom": "Zoom",
-      "zoomIn": "Zoomin",
-      "zoomOut": "Zoomout",
-      "reset": "Resetten",
+      "zoom": "Zoomen",
+      "zoomIn": "Inzoomen",
+      "zoomOut": "Uitzoomen",
+      "reset": "Opnieuw instellen",
       "pan": "Pan",
-      "resetZoom": "Reset zoom"
+      "resetZoom": "Zoom opnieuw instellen"
     },
     "dialog": {
-      "close": "Dichtbij"
+      "close": "Sluiten"
     },
     "calendar": {
-      "today": "Vandaag"
+      "today": "Vandaag",
+      "nextMonth": "Volgende maand",
+      "previousMonth": "Vorige maand",
+      "nextYear": "Volgend jaar",
+      "previousYear": "Vorig jaar",
+      "nextDecade": "Volgend decennium",
+      "previousDecade": "Vorig decennium"
     },
     "datepicker": {
       "today": "Vandaag",
       "placeholder": "Kies een datum"
     },
     "formValidator": {
-      "required": "Dit veld is vereist.",
-      "email": "Voer een geldig e -mailadres in.",
+      "required": "Dit veld is verplicht.",
+      "email": "Voer een geldig e-mailadres in.",
       "url": "Voer een geldige URL in.",
       "date": "Voer een geldige datum in.",
-      "dateIso": "Voer een geldige datum in (ISO) in.",
+      "dateIso": "Voer een geldige datum in (ISO).",
       "creditCard": "Voer een geldig kaartnummer in.",
       "number": "Voer een geldig nummer in.",
       "digits": "Voer alleen cijfers in.",
-      "maxLength": "Voer niet meer in dan {0} tekens.",
-      "minLength": "Voer ten minste {0} tekens in.",
-      "rangeLength": "Voer een waarde in tussen {0} en {1} tekens lang.",
+      "maxLength": "Voer niet meer dan {0} tekens in.",
+      "minLength": "Voer minimaal {0} tekens in.",
+      "rangeLength": "Voer een waarde in die tussen de {0} en {1} tekens lang is.",
       "range": "Voer een waarde in tussen {0} en {1}.",
-      "max": "Voer een waarde in die minder dan of gelijk is aan {0}.",
-      "min": "Voer een waarde in die groter is dan of gelijk aan {0}.",
+      "max": "Voer een waarde in die kleiner is dan of gelijk is aan {0}.",
+      "min": "Voer een waarde in die groter is dan of gelijk is aan {0}.",
       "regex": "Voer een juiste waarde in.",
       "tel": "Voer een geldig telefoonnummer in.",
-      "equalTo": "Voer opnieuw dezelfde waarde in."
+      "equalTo": "Voer dezelfde waarde opnieuw in."
     },
     "numericTextbox": {
-      "increment": "Verhogwaarde",
-      "decrement": "Afname waarde",
+      "increment": "Waarde verhogen",
+      "decrement": "Waarde verlagen",
       "clear": "Duidelijk"
     },
     "textarea": {
@@ -83,6 +89,69 @@
     },
     "textbox": {
       "clear": "Duidelijk"
+    },
+    "schedule": {
+      "addTitle": "Titel toevoegen",
+      "save": "Opslaan",
+      "edit": "Bewerken",
+      "delete": "Verwijderen",
+      "moreDetails": "Meer details",
+      "close": "Sluiten",
+      "newEvent": "Nieuw evenement",
+      "today": "Vandaag",
+      "allDay": "De hele dag",
+      "day": "Dag",
+      "week": "Week",
+      "workweek": "Werkweek",
+      "month": "Maand",
+      "more": "meer",
+      "expandAllDaySection": "Vouw het gedeelte voor de hele dag uit",
+      "collapseAllDaySection": "Sectie hele dag samenvouwen",
+      "deleteEvent": "Evenement verwijderen",
+      "confirmDeleteMessage": "Weet je zeker dat je dit evenement wilt verwijderen?",
+      "cancel": "Annuleer",
+      "title": "Titel",
+      "location": "Locatie",
+      "description": "Beschrijving",
+      "startDate": "Startdatum",
+      "endDate": "Einddatum",
+      "startTime": "Begintijd",
+      "endTime": "Eindtijd"
+    },
+    "timepicker": {
+      "placeholder": "Kies een tijdstip"
+    },
+    "scheduler": {
+      "addTitle": "Titel toevoegen",
+      "save": "Opslaan",
+      "edit": "Bewerken",
+      "delete": "Verwijderen",
+      "moreDetails": "Meer details",
+      "close": "Sluiten",
+      "newEvent": "Nieuw evenement",
+      "today": "Vandaag",
+      "allDay": "De hele dag",
+      "day": "Dag",
+      "week": "Week",
+      "workweek": "Werkweek",
+      "month": "Maand",
+      "more": "meer",
+      "expandAllDaySection": "Vouw het gedeelte voor de hele dag uit",
+      "collapseAllDaySection": "Sectie hele dag samenvouwen",
+      "deleteEvent": "Evenement verwijderen",
+      "confirmDeleteMessage": "Weet je zeker dat je dit evenement wilt verwijderen?",
+      "cancel": "Annuleer",
+      "title": "Titel",
+      "location": "Locatie",
+      "description": "Beschrijving",
+      "startDate": "Startdatum",
+      "endDate": "Einddatum",
+      "startTime": "Begintijd",
+      "endTime": "Eindtijd"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "Geen records gevonden",
+      "errorMessage": "Verzoek mislukt"
     }
   }
 }

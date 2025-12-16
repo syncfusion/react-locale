@@ -1,54 +1,60 @@
 {
   "da": {
     "message": {
-      "close": "Tæt"
+      "close": "Luk"
     },
     "grid": {
-      "noRecordsMessage": "Ingen poster til visning",
-      "filterBarTooltip": "\"S Filter Bar Cell",
+      "noRecordsMessage": "Ingen poster at vise",
+      "filterBarTooltip": "\"s filterbjælkecelle",
       "invalidFilterMessage": "Ugyldige filterdata",
-      "booleanTrueLabel": "ægte",
+      "booleanTrueLabel": "sandt",
       "booleanFalseLabel": "falsk",
-      "addButtonLabel": "Tilføje",
-      "editButtonLabel": "Redigere",
-      "cancelButtonLabel": "Ophæve",
+      "addButtonLabel": "Tilføj",
+      "editButtonLabel": "Rediger",
+      "cancelButtonLabel": "Annuller",
       "updateButtonLabel": "Opdatering",
       "deleteButtonLabel": "Slet",
-      "searchButtonLabel": "Søge",
-      "unsavedChangesConfirmation": "Ufravigede ændringer vil gå tabt. Er du sikker på, at du vil fortsætte?",
-      "noRecordsEditMessage": "Ingen poster valgt til redigeringsoperation",
-      "noRecordsDeleteMessage": "Ingen poster valgt til slet drift",
+      "searchButtonLabel": "Søg",
+      "unsavedChangesConfirmation": "Ikke-gemte ændringer vil gå tabt. Er du sikker på, at du vil fortsætte?",
+      "noRecordsEditMessage": "Ingen poster valgt til redigering",
+      "noRecordsDeleteMessage": "Ingen poster valgt til sletning",
       "okButtonLabel": "OK",
       "confirmDeleteMessage": "Er du sikker på, at du vil slette posten?"
     },
     "pager": {
       "currentPageLabel": "{0} af {1} sider",
-      "totalItemsLabel": "({0} varer)",
-      "totalItemLabel": "({0} vare)",
+      "totalItemsLabel": "({0} elementer)",
+      "totalItemLabel": "({0} element)",
       "firstPageTooltip": "Gå til første side",
       "lastPageTooltip": "Gå til sidste side",
       "nextPageTooltip": "Gå til næste side",
       "previousPageTooltip": "Gå til forrige side",
-      "nextPageGroupTooltip": "Gå til gruppen Next Page",
+      "nextPageGroupTooltip": "Gå til næste sidegruppe",
       "previousPageGroupTooltip": "Gå til forrige sidegruppe",
-      "paginationStatusMessage": "Pager ekstern besked",
+      "pagerStatusMessage": "Personsøger ekstern besked",
       "pageLabel": "Side ",
-      "ofLabel": " af ",
+      "pagerOfLabel": " af ",
       "pagesLabel": " Sider"
     },
     "chart": {
       "zoom": "Zoom",
-      "zoomIn": "Zoomin",
-      "zoomOut": "Zoomout",
+      "zoomIn": "Zoom ind",
+      "zoomOut": "Zoom ud",
       "reset": "Nulstil",
-      "pan": "Pande",
+      "pan": "Pan",
       "resetZoom": "Nulstil zoom"
     },
     "dialog": {
-      "close": "Tæt"
+      "close": "Luk"
     },
     "calendar": {
-      "today": "I dag"
+      "today": "I dag",
+      "nextMonth": "Næste måned",
+      "previousMonth": "Forrige måned",
+      "nextYear": "Næste år",
+      "previousYear": "Forrige år",
+      "nextDecade": "Næste årti",
+      "previousDecade": "Forrige årti"
     },
     "datepicker": {
       "today": "I dag",
@@ -56,26 +62,26 @@
     },
     "formValidator": {
       "required": "Dette felt er påkrævet.",
-      "email": "Indtast en gyldig e -mail -adresse.",
-      "url": "Indtast en gyldig URL.",
-      "date": "Indtast en gyldig dato.",
-      "dateIso": "Indtast en gyldig dato (ISO).",
-      "creditCard": "Indtast gyldigt kortnummer.",
-      "number": "Indtast et gyldigt nummer.",
+      "email": "Indtast venligst en gyldig e-mailadresse.",
+      "url": "Indtast venligst en gyldig URL.",
+      "date": "Indtast venligst en gyldig dato.",
+      "dateIso": "Indtast venligst en gyldig dato (ISO).",
+      "creditCard": "Indtast venligst et gyldigt kortnummer.",
+      "number": "Indtast venligst et gyldigt nummer.",
       "digits": "Indtast kun cifre.",
-      "maxLength": "Indtast venligst ikke mere end {0} tegn.",
+      "maxLength": "Indtast ikke mere end {0} tegn.",
       "minLength": "Indtast mindst {0} tegn.",
-      "rangeLength": "Indtast en værdi mellem {0} og {1} tegn lange.",
-      "range": "Indtast en værdi mellem {0} og {1}.",
-      "max": "Indtast en værdi mindre end eller lig med {0}.",
-      "min": "Indtast en værdi større end eller lig med {0}.",
-      "regex": "Indtast en korrekt værdi.",
-      "tel": "Indtast et gyldigt telefonnummer.",
-      "equalTo": "Indtast den samme værdi igen."
+      "rangeLength": "Indtast en værdi på mellem {0} og {1} tegn.",
+      "range": "Indtast venligst en værdi mellem {0} og {1}.",
+      "max": "Indtast venligst en værdi mindre end eller lig med {0}.",
+      "min": "Indtast en værdi, der er større end eller lig med {0}.",
+      "regex": "Indtast venligst en korrekt værdi.",
+      "tel": "Indtast venligst et gyldigt telefonnummer.",
+      "equalTo": "Indtast venligst den samme værdi igen."
     },
     "numericTextbox": {
-      "increment": "Øget værdi",
-      "decrement": "DEMPRIMENT VÆRDI",
+      "increment": "Øge værdi",
+      "decrement": "Sænk værdi",
       "clear": "Klar"
     },
     "textarea": {
@@ -83,6 +89,69 @@
     },
     "textbox": {
       "clear": "Klar"
+    },
+    "schedule": {
+      "addTitle": "Tilføj titel",
+      "save": "Gem",
+      "edit": "Rediger",
+      "delete": "Slet",
+      "moreDetails": "Flere detaljer",
+      "close": "Luk",
+      "newEvent": "Ny begivenhed",
+      "today": "I dag",
+      "allDay": "Hele dagen",
+      "day": "dag",
+      "week": "uge",
+      "workweek": "Arbejdsuge",
+      "month": "Måned",
+      "more": "mere",
+      "expandAllDaySection": "Udvid heldagsafsnittet",
+      "collapseAllDaySection": "Skjul heldagsafsnittet",
+      "deleteEvent": "Slet begivenhed",
+      "confirmDeleteMessage": "Er du sikker på, at du vil slette denne begivenhed?",
+      "cancel": "Annuller",
+      "title": "Titel",
+      "location": "Beliggenhed",
+      "description": "Beskrivelse",
+      "startDate": "Startdato",
+      "endDate": "Slutdato",
+      "startTime": "Starttidspunkt",
+      "endTime": "Sluttidspunkt"
+    },
+    "timepicker": {
+      "placeholder": "Vælg et tidspunkt"
+    },
+    "scheduler": {
+      "addTitle": "Tilføj titel",
+      "save": "Gem",
+      "edit": "Rediger",
+      "delete": "Slet",
+      "moreDetails": "Flere detaljer",
+      "close": "Luk",
+      "newEvent": "Ny begivenhed",
+      "today": "I dag",
+      "allDay": "Hele dagen",
+      "day": "dag",
+      "week": "uge",
+      "workweek": "Arbejdsuge",
+      "month": "Måned",
+      "more": "mere",
+      "expandAllDaySection": "Udvid heldagsafsnittet",
+      "collapseAllDaySection": "Skjul heldagsafsnittet",
+      "deleteEvent": "Slet begivenhed",
+      "confirmDeleteMessage": "Er du sikker på, at du vil slette denne begivenhed?",
+      "cancel": "Annuller",
+      "title": "Titel",
+      "location": "Beliggenhed",
+      "description": "Beskrivelse",
+      "startDate": "Startdato",
+      "endDate": "Slutdato",
+      "startTime": "Starttidspunkt",
+      "endTime": "Sluttidspunkt"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "Ingen registreringer fundet",
+      "errorMessage": "Anmodning mislykkedes"
     }
   }
 }

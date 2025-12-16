@@ -1,54 +1,60 @@
 {
   "pl": {
     "message": {
-      "close": "Zamknąć"
+      "close": "Zamknij"
     },
     "grid": {
       "noRecordsMessage": "Brak rekordów do wyświetlenia",
-      "filterBarTooltip": "„Komórka słupka filtrów S",
+      "filterBarTooltip": "komórka paska filtra",
       "invalidFilterMessage": "Nieprawidłowe dane filtra",
-      "booleanTrueLabel": "PRAWDA",
-      "booleanFalseLabel": "FAŁSZ",
-      "addButtonLabel": "Dodać",
-      "editButtonLabel": "Redagować",
-      "cancelButtonLabel": "Anulować",
+      "booleanTrueLabel": "prawda",
+      "booleanFalseLabel": "fałszywe",
+      "addButtonLabel": "Dodaj",
+      "editButtonLabel": "Edytuj",
+      "cancelButtonLabel": "Anuluj",
       "updateButtonLabel": "Aktualizacja",
-      "deleteButtonLabel": "Usuwać",
+      "deleteButtonLabel": "Usuń",
       "searchButtonLabel": "Szukaj",
-      "unsavedChangesConfirmation": "Niezbawne zmiany zostaną utracone. Czy na pewno chcesz kontynuować?",
-      "noRecordsEditMessage": "Brak rekordów do edycji",
-      "noRecordsDeleteMessage": "Brak rekordów do obsługi usuwania",
+      "unsavedChangesConfirmation": "Niezapisane zmiany zostaną utracone. Czy na pewno chcesz kontynuować?",
+      "noRecordsEditMessage": "Nie wybrano żadnych rekordów do edycji",
+      "noRecordsDeleteMessage": "Nie wybrano żadnych rekordów do usunięcia",
       "okButtonLabel": "OK",
       "confirmDeleteMessage": "Czy na pewno chcesz usunąć rekord?"
     },
     "pager": {
-      "currentPageLabel": "{0} stron {1}",
-      "totalItemsLabel": "({0} i elementy)",
-      "totalItemLabel": "({0} item)",
+      "currentPageLabel": "{0} z {1} stron",
+      "totalItemsLabel": "({0} elementy)",
+      "totalItemLabel": "({0} element)",
       "firstPageTooltip": "Przejdź do pierwszej strony",
       "lastPageTooltip": "Przejdź do ostatniej strony",
       "nextPageTooltip": "Przejdź do następnej strony",
       "previousPageTooltip": "Przejdź do poprzedniej strony",
-      "nextPageGroupTooltip": "Przejdź do grupy następnej strony",
+      "nextPageGroupTooltip": "Przejdź do następnej grupy stron",
       "previousPageGroupTooltip": "Przejdź do poprzedniej grupy stron",
-      "paginationStatusMessage": "Pagera wiadomość zewnętrzna",
+      "pagerStatusMessage": "Zewnętrzna wiadomość pagera",
       "pageLabel": "Strona ",
-      "ofLabel": " z ",
+      "pagerOfLabel": " z ",
       "pagesLabel": " Strony"
     },
     "chart": {
-      "zoom": "Brzęczenie",
-      "zoomIn": "Zoomin",
-      "zoomOut": "Zoomout",
-      "reset": "Nastawić",
-      "pan": "Patelnia",
+      "zoom": "Powiększ",
+      "zoomIn": "Powiększ",
+      "zoomOut": "ZoomOut",
+      "reset": "Zresetuj",
+      "pan": "Pan",
       "resetZoom": "Zresetuj Zoom"
     },
     "dialog": {
-      "close": "Zamknąć"
+      "close": "Zamknij"
     },
     "calendar": {
-      "today": "Dzisiaj"
+      "today": "Dzisiaj",
+      "nextMonth": "Następny miesiąc",
+      "previousMonth": "Poprzedni miesiąc",
+      "nextYear": "Następny rok",
+      "previousYear": "Poprzedni rok",
+      "nextDecade": "Następna dekada",
+      "previousDecade": "Poprzednia dekada"
     },
     "datepicker": {
       "today": "Dzisiaj",
@@ -56,26 +62,26 @@
     },
     "formValidator": {
       "required": "To pole jest wymagane.",
-      "email": "Wprowadź ważny adres e -mail.",
-      "url": "Wprowadź ważny adres URL.",
-      "date": "Wprowadź ważną datę.",
-      "dateIso": "Wprowadź ważną datę (ISO).",
-      "creditCard": "Wprowadź prawidłowy numer karty.",
-      "number": "Wprowadź ważny numer.",
-      "digits": "Wprowadź tylko cyfry.",
-      "maxLength": "Wpisz nie więcej niż {0} znaki.",
-      "minLength": "Wpisz co najmniej {0} znaki.",
-      "rangeLength": "Wprowadź wartość między znakami między {0} a {1}.",
-      "range": "Wprowadź wartość między {0} i {1}.",
+      "email": "Proszę podać prawidłowy adres e-mail.",
+      "url": "Proszę wprowadzić prawidłowy adres URL.",
+      "date": "Proszę wprowadzić prawidłową datę.",
+      "dateIso": "Proszę podać prawidłową datę (ISO).",
+      "creditCard": "Proszę podać prawidłowy numer karty.",
+      "number": "Proszę wprowadzić prawidłowy numer.",
+      "digits": "Proszę wpisać tylko cyfry.",
+      "maxLength": "Wprowadź nie więcej niż {0} znaków.",
+      "minLength": "Wprowadź co najmniej {0} znaków.",
+      "rangeLength": "Wprowadź wartość o długości od {0} do {1} znaków.",
+      "range": "Wprowadź wartość z zakresu od {0} do {1}.",
       "max": "Wprowadź wartość mniejszą lub równą {0}.",
       "min": "Wprowadź wartość większą lub równą {0}.",
-      "regex": "Wprowadź właściwą wartość.",
-      "tel": "Wprowadź ważny numer telefonu.",
+      "regex": "Proszę wprowadzić poprawną wartość.",
+      "tel": "Proszę wprowadzić prawidłowy numer telefonu.",
       "equalTo": "Wprowadź ponownie tę samą wartość."
     },
     "numericTextbox": {
-      "increment": "Wartość przyrostowa",
-      "decrement": "Wartość zmniejszania",
+      "increment": "Zwiększ wartość",
+      "decrement": "Zmniejsz wartość",
       "clear": "Jasne"
     },
     "textarea": {
@@ -83,6 +89,69 @@
     },
     "textbox": {
       "clear": "Jasne"
+    },
+    "schedule": {
+      "addTitle": "Dodaj tytuł",
+      "save": "Zapisz",
+      "edit": "Edytuj",
+      "delete": "Usuń",
+      "moreDetails": "Więcej szczegółów",
+      "close": "Zamknij",
+      "newEvent": "Nowe wydarzenie",
+      "today": "Dzisiaj",
+      "allDay": "Cały dzień",
+      "day": "Dzień",
+      "week": "Tydzień",
+      "workweek": "Tydzień Pracy",
+      "month": "Miesiąc",
+      "more": "więcej",
+      "expandAllDaySection": "Rozwiń sekcję całodobową",
+      "collapseAllDaySection": "Zwiń sekcję całodniową",
+      "deleteEvent": "Usuń wydarzenie",
+      "confirmDeleteMessage": "Czy na pewno chcesz usunąć to wydarzenie?",
+      "cancel": "Anuluj",
+      "title": "Tytuł",
+      "location": "Lokalizacja",
+      "description": "Opis",
+      "startDate": "Data rozpoczęcia",
+      "endDate": "Data końcowa",
+      "startTime": "Czas rozpoczęcia",
+      "endTime": "Koniec czasu"
+    },
+    "timepicker": {
+      "placeholder": "Wybierz czas"
+    },
+    "scheduler": {
+      "addTitle": "Dodaj tytuł",
+      "save": "Zapisz",
+      "edit": "Edytuj",
+      "delete": "Usuń",
+      "moreDetails": "Więcej szczegółów",
+      "close": "Zamknij",
+      "newEvent": "Nowe wydarzenie",
+      "today": "Dzisiaj",
+      "allDay": "Cały dzień",
+      "day": "Dzień",
+      "week": "Tydzień",
+      "workweek": "Tydzień Pracy",
+      "month": "Miesiąc",
+      "more": "więcej",
+      "expandAllDaySection": "Rozwiń sekcję całodobową",
+      "collapseAllDaySection": "Zwiń sekcję całodniową",
+      "deleteEvent": "Usuń wydarzenie",
+      "confirmDeleteMessage": "Czy na pewno chcesz usunąć to wydarzenie?",
+      "cancel": "Anuluj",
+      "title": "Tytuł",
+      "location": "Lokalizacja",
+      "description": "Opis",
+      "startDate": "Data rozpoczęcia",
+      "endDate": "Data końcowa",
+      "startTime": "Czas rozpoczęcia",
+      "endTime": "Koniec czasu"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "Nie znaleziono żadnych rekordów",
+      "errorMessage": "Żądanie nie powiodło się"
     }
   }
 }

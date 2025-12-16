@@ -1,81 +1,87 @@
 {
   "fa": {
     "message": {
-      "close": "نزدیک"
+      "close": "بستن"
     },
     "grid": {
-      "noRecordsMessage": "بدون سوابق نمایش",
-      "filterBarTooltip": "\"سلول نوار فیلتر",
-      "invalidFilterMessage": "داده های فیلتر نامعتبر",
-      "booleanTrueLabel": "درست",
-      "booleanFalseLabel": "دروغ",
-      "addButtonLabel": "اضافه کردن",
-      "editButtonLabel": "ویرایش کردن",
-      "cancelButtonLabel": "لغو کردن",
-      "updateButtonLabel": "بروزرسانی",
-      "deleteButtonLabel": "حذف کردن",
-      "searchButtonLabel": "جستجو",
-      "unsavedChangesConfirmation": "تغییرات ناموفق از بین می رود. آیا مطمئن هستید که می خواهید ادامه دهید؟",
-      "noRecordsEditMessage": "هیچ پرونده ای برای ویرایش عملیات انتخاب نشده است",
-      "noRecordsDeleteMessage": "هیچ سوابق انتخاب شده برای حذف عملیات انتخاب نشده است",
-      "okButtonLabel": "خوب",
+      "noRecordsMessage": "هیچ رکوردی برای نمایش وجود ندارد",
+      "filterBarTooltip": "سلول نوار فیلتر",
+      "invalidFilterMessage": "داده های فیلتر نامعتبر است",
+      "booleanTrueLabel": "درست است",
+      "booleanFalseLabel": "نادرست",
+      "addButtonLabel": "اضافه کنید",
+      "editButtonLabel": "ویرایش کنید",
+      "cancelButtonLabel": "لغو کنید",
+      "updateButtonLabel": "به روز رسانی",
+      "deleteButtonLabel": "حذف کنید",
+      "searchButtonLabel": "جستجو کنید",
+      "unsavedChangesConfirmation": "تغییرات ذخیره نشده از بین خواهند رفت. آیا مطمئن هستید که می خواهید ادامه دهید؟",
+      "noRecordsEditMessage": "هیچ رکوردی برای عملیات ویرایش انتخاب نشده است",
+      "noRecordsDeleteMessage": "هیچ رکوردی برای عملیات حذف انتخاب نشده است",
+      "okButtonLabel": "باشه",
       "confirmDeleteMessage": "آیا مطمئن هستید که می خواهید رکورد را حذف کنید؟"
     },
     "pager": {
-      "currentPageLabel": "{0} از {1} صفحات",
-      "totalItemsLabel": "({0} موارد)",
+      "currentPageLabel": "{0} از {1} صفحه",
+      "totalItemsLabel": "({0} مورد)",
       "totalItemLabel": "({0} مورد)",
       "firstPageTooltip": "به صفحه اول بروید",
-      "lastPageTooltip": "به صفحه آخر بروید",
+      "lastPageTooltip": "برو به صفحه آخر",
       "nextPageTooltip": "به صفحه بعد بروید",
-      "previousPageTooltip": "به صفحه قبلی بروید",
+      "previousPageTooltip": "برو به صفحه قبل",
       "nextPageGroupTooltip": "به گروه صفحه بعدی بروید",
       "previousPageGroupTooltip": "به گروه صفحه قبلی بروید",
-      "paginationStatusMessage": "پیجر پیام خارجی",
+      "pagerStatusMessage": "پیام خارجی پیجر",
       "pageLabel": "صفحه ",
-      "ofLabel": " از ",
+      "pagerOfLabel": " از ",
       "pagesLabel": " صفحات"
     },
     "chart": {
-      "zoom": "بزرگ شدن",
-      "zoomIn": "زوم",
-      "zoomOut": "بزرگنمایی",
-      "reset": "بازپا",
-      "pan": "تابه",
-      "resetZoom": "بزرگنمایی"
+      "zoom": "بزرگنمایی ضربه بزنید؛",
+      "zoomIn": "ZoomIn",
+      "zoomOut": "ZoomOut",
+      "reset": "بازنشانی کنید",
+      "pan": "پان",
+      "resetZoom": "بزرگنمایی را بازنشانی کنید"
     },
     "dialog": {
-      "close": "نزدیک"
+      "close": "بستن"
     },
     "calendar": {
-      "today": "امروز"
+      "today": "امروز",
+      "nextMonth": "ماه آینده",
+      "previousMonth": "ماه قبل",
+      "nextYear": "سال بعد",
+      "previousYear": "سال قبل",
+      "nextDecade": "دهه آینده",
+      "previousDecade": "دهه قبل"
     },
     "datepicker": {
       "today": "امروز",
-      "placeholder": "یک تاریخ را انتخاب کنید"
+      "placeholder": "تاریخ را انتخاب کنید"
     },
     "formValidator": {
-      "required": "این قسمت مورد نیاز است.",
-      "email": "لطفاً یک آدرس ایمیل معتبر وارد کنید.",
+      "required": "این فیلد الزامی است.",
+      "email": "لطفا یک آدرس ایمیل معتبر وارد کنید.",
       "url": "لطفاً یک URL معتبر وارد کنید.",
-      "date": "لطفاً یک تاریخ معتبر وارد کنید.",
-      "dateIso": "لطفاً یک تاریخ معتبر (ISO) وارد کنید.",
+      "date": "لطفا یک تاریخ معتبر وارد کنید.",
+      "dateIso": "لطفا یک تاریخ معتبر (ISO) وارد کنید.",
       "creditCard": "لطفا شماره کارت معتبر را وارد کنید.",
-      "number": "لطفاً یک شماره معتبر وارد کنید.",
-      "digits": "لطفاً فقط رقم وارد کنید.",
-      "maxLength": "لطفاً بیشتر از شخصیت های 0 {وارد نکنید.",
-      "minLength": "لطفاً حداقل {0} نویسه ها را وارد کنید.",
-      "rangeLength": "لطفاً یک مقدار بین شخصیت های {0} و {1} طولانی وارد کنید.",
-      "range": "لطفاً یک مقدار بین {0} و {1} وارد کنید.",
-      "max": "لطفاً یک مقدار کمتر از یا برابر با {0} وارد کنید.",
-      "min": "لطفاً یک مقدار بزرگتر از یا برابر با {0} وارد کنید.",
-      "regex": "لطفاً یک مقدار صحیح وارد کنید.",
-      "tel": "لطفاً یک شماره تلفن معتبر وارد کنید.",
+      "number": "لطفا یک عدد معتبر وارد کنید",
+      "digits": "لطفا فقط اعداد را وارد کنید.",
+      "maxLength": "لطفا بیش از {0} کاراکتر وارد نکنید.",
+      "minLength": "لطفا حداقل {0} کاراکتر وارد کنید.",
+      "rangeLength": "لطفاً مقداری بین {0} تا {1} کاراکتر وارد کنید.",
+      "range": "لطفاً مقداری بین {0} و {1} وارد کنید.",
+      "max": "لطفاً مقداری کمتر یا مساوی با {0} وارد کنید.",
+      "min": "لطفاً مقداری بزرگتر یا مساوی با {0} وارد کنید.",
+      "regex": "لطفا یک مقدار صحیح وارد کنید.",
+      "tel": "لطفا یک شماره تلفن معتبر وارد کنید.",
       "equalTo": "لطفاً دوباره همان مقدار را وارد کنید."
     },
     "numericTextbox": {
-      "increment": "مقدار افزایشی",
-      "decrement": "مقدار کاهش",
+      "increment": "ارزش افزایشی",
+      "decrement": "کاهش ارزش",
       "clear": "پاک کردن"
     },
     "textarea": {
@@ -83,6 +89,69 @@
     },
     "textbox": {
       "clear": "پاک کردن"
+    },
+    "schedule": {
+      "addTitle": "عنوان اضافه کنید",
+      "save": "ذخیره کنید",
+      "edit": "ویرایش کنید",
+      "delete": "حذف کنید",
+      "moreDetails": "جزئیات بیشتر",
+      "close": "بستن",
+      "newEvent": "رویداد جدید",
+      "today": "امروز",
+      "allDay": "تمام روز",
+      "day": "روز",
+      "week": "هفته",
+      "workweek": "هفته کاری",
+      "month": "ماه",
+      "more": "بیشتر",
+      "expandAllDaySection": "بخش تمام روز را گسترش دهید",
+      "collapseAllDaySection": "کوچک کردن بخش تمام روز",
+      "deleteEvent": "حذف رویداد",
+      "confirmDeleteMessage": "آیا مطمئنید که می خواهید این رویداد را حذف کنید؟",
+      "cancel": "لغو کنید",
+      "title": "عنوان",
+      "location": "مکان",
+      "description": "توضیحات",
+      "startDate": "تاریخ شروع",
+      "endDate": "تاریخ پایان",
+      "startTime": "زمان شروع",
+      "endTime": "زمان پایان"
+    },
+    "timepicker": {
+      "placeholder": "زمانی را انتخاب کنید"
+    },
+    "scheduler": {
+      "addTitle": "عنوان اضافه کنید",
+      "save": "ذخیره کنید",
+      "edit": "ویرایش کنید",
+      "delete": "حذف کنید",
+      "moreDetails": "جزئیات بیشتر",
+      "close": "بستن",
+      "newEvent": "رویداد جدید",
+      "today": "امروز",
+      "allDay": "تمام روز",
+      "day": "روز",
+      "week": "هفته",
+      "workweek": "هفته کاری",
+      "month": "ماه",
+      "more": "بیشتر",
+      "expandAllDaySection": "بخش تمام روز را گسترش دهید",
+      "collapseAllDaySection": "کوچک کردن بخش تمام روز",
+      "deleteEvent": "حذف رویداد",
+      "confirmDeleteMessage": "آیا مطمئنید که می خواهید این رویداد را حذف کنید؟",
+      "cancel": "لغو کنید",
+      "title": "عنوان",
+      "location": "مکان",
+      "description": "توضیحات",
+      "startDate": "تاریخ شروع",
+      "endDate": "تاریخ پایان",
+      "startTime": "زمان شروع",
+      "endTime": "زمان پایان"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "هیچ سابقه ای یافت نشد",
+      "errorMessage": "درخواست ناموفق بود"
     }
   }
 }

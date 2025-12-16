@@ -5,84 +5,153 @@
     },
     "grid": {
       "noRecordsMessage": "Không có bản ghi nào để hiển thị",
-      "filterBarTooltip": "\"S Cell Cell",
+      "filterBarTooltip": "\"s ô thanh lọc",
       "invalidFilterMessage": "Dữ liệu bộ lọc không hợp lệ",
-      "booleanTrueLabel": "ĐÚNG VẬY",
-      "booleanFalseLabel": "SAI",
-      "addButtonLabel": "Thêm vào",
-      "editButtonLabel": "Biên tập",
+      "booleanTrueLabel": "đúng",
+      "booleanFalseLabel": "sai",
+      "addButtonLabel": "Thêm",
+      "editButtonLabel": "Chỉnh sửa",
       "cancelButtonLabel": "Hủy bỏ",
-      "updateButtonLabel": "Cập nhật",
-      "deleteButtonLabel": "Xóa bỏ",
+      "updateButtonLabel": "cập nhật",
+      "deleteButtonLabel": "Xóa",
       "searchButtonLabel": "Tìm kiếm",
-      "unsavedChangesConfirmation": "Những thay đổi chưa được lưu sẽ bị mất. Bạn có chắc là bạn muốn tiếp tục?",
-      "noRecordsEditMessage": "Không có bản ghi nào được chọn để chỉnh sửa hoạt động",
-      "noRecordsDeleteMessage": "Không có bản ghi nào được chọn để xóa hoạt động",
-      "okButtonLabel": "ĐƯỢC RỒI",
-      "confirmDeleteMessage": "Bạn có chắc là bạn muốn xóa bản ghi?"
+      "unsavedChangesConfirmation": "Những thay đổi chưa được lưu sẽ bị mất. Bạn có chắc chắn muốn tiếp tục không?",
+      "noRecordsEditMessage": "Không có bản ghi nào được chọn cho thao tác chỉnh sửa",
+      "noRecordsDeleteMessage": "Không có bản ghi nào được chọn cho thao tác xóa",
+      "okButtonLabel": "được rồi",
+      "confirmDeleteMessage": "Bạn có chắc chắn muốn xóa bản ghi không?"
     },
     "pager": {
-      "currentPageLabel": "{0} của các trang {1}",
-      "totalItemsLabel": "({0} các mục)",
+      "currentPageLabel": "{0} trong số {1} trang",
+      "totalItemsLabel": "({0} mục)",
       "totalItemLabel": "({0} mục)",
-      "firstPageTooltip": "Chuyển đến trang đầu tiên",
-      "lastPageTooltip": "Chuyển đến trang cuối cùng",
+      "firstPageTooltip": "Tới trang đầu tiên",
+      "lastPageTooltip": "Tới trang cuối cùng",
       "nextPageTooltip": "Chuyển đến trang tiếp theo",
-      "previousPageTooltip": "Chuyển đến trang trước",
+      "previousPageTooltip": "Đi tới trang trước",
       "nextPageGroupTooltip": "Chuyển đến nhóm trang tiếp theo",
-      "previousPageGroupTooltip": "Chuyển đến nhóm trang trước",
-      "paginationStatusMessage": "Tin nhắn bên ngoài PAGER",
+      "previousPageGroupTooltip": "Đi tới nhóm trang trước",
+      "pagerStatusMessage": "Tin nhắn bên ngoài máy nhắn tin",
       "pageLabel": "Trang ",
-      "ofLabel": " của ",
+      "pagerOfLabel": " của ",
       "pagesLabel": " Trang"
     },
     "chart": {
-      "zoom": "Phóng",
-      "zoomIn": "Zoomin",
-      "zoomOut": "Phóng to",
-      "reset": "Cài lại",
+      "zoom": "Thu phóng",
+      "zoomIn": "Phóng to",
+      "zoomOut": "Thu nhỏ",
+      "reset": "Đặt lại",
       "pan": "Chảo",
-      "resetZoom": "Đặt lại zoom"
+      "resetZoom": "Đặt lại thu phóng"
     },
     "dialog": {
       "close": "Đóng"
     },
     "calendar": {
-      "today": "Hôm nay"
+      "today": "hôm nay",
+      "nextMonth": "Tháng tiếp theo",
+      "previousMonth": "Tháng trước",
+      "nextYear": "Năm tới",
+      "previousYear": "Năm trước",
+      "nextDecade": "Thập kỷ tiếp theo",
+      "previousDecade": "Thập kỷ trước"
     },
     "datepicker": {
-      "today": "Hôm nay",
+      "today": "hôm nay",
       "placeholder": "Chọn một ngày"
     },
     "formValidator": {
-      "required": "Lĩnh vực này là bắt buộc.",
-      "email": "Vui lòng nhập một địa chỉ email hợp lệ.",
-      "url": "Vui lòng nhập URL hợp lệ.",
+      "required": "Trường này là bắt buộc.",
+      "email": "Vui lòng nhập địa chỉ email hợp lệ.",
+      "url": "Vui lòng nhập một URL hợp lệ.",
       "date": "Vui lòng nhập một ngày hợp lệ.",
-      "dateIso": "Vui lòng nhập một ngày hợp lệ (ISO).",
+      "dateIso": "Vui lòng nhập ngày hợp lệ (ISO).",
       "creditCard": "Vui lòng nhập số thẻ hợp lệ.",
       "number": "Vui lòng nhập một số hợp lệ.",
-      "digits": "Vui lòng chỉ nhập các chữ số.",
-      "maxLength": "Vui lòng nhập không nhiều hơn {0} ký tự.",
+      "digits": "Vui lòng chỉ nhập chữ số.",
+      "maxLength": "Vui lòng nhập không quá {0} ký tự.",
       "minLength": "Vui lòng nhập ít nhất {0} ký tự.",
-      "rangeLength": "Vui lòng nhập một giá trị giữa các ký tự {0} và {1}.",
-      "range": "Vui lòng nhập giá trị giữa {0} và {1}.",
+      "rangeLength": "Vui lòng nhập giá trị dài từ {0} đến {1} ký tự.",
+      "range": "Vui lòng nhập giá trị từ {0} đến {1}.",
       "max": "Vui lòng nhập giá trị nhỏ hơn hoặc bằng {0}.",
-      "min": "Vui lòng nhập một giá trị lớn hơn hoặc bằng {0}.",
+      "min": "Vui lòng nhập giá trị lớn hơn hoặc bằng {0}.",
       "regex": "Vui lòng nhập một giá trị chính xác.",
       "tel": "Vui lòng nhập số điện thoại hợp lệ.",
-      "equalTo": "Vui lòng nhập cùng một giá trị."
+      "equalTo": "Vui lòng nhập lại cùng một giá trị."
     },
     "numericTextbox": {
       "increment": "Giá trị gia tăng",
       "decrement": "Giá trị giảm",
-      "clear": "Thông thoáng"
+      "clear": "Xóa"
     },
     "textarea": {
-      "clear": "Thông thoáng"
+      "clear": "Xóa"
     },
     "textbox": {
-      "clear": "Thông thoáng"
+      "clear": "Xóa"
+    },
+    "schedule": {
+      "addTitle": "Thêm tiêu đề",
+      "save": "Lưu",
+      "edit": "Chỉnh sửa",
+      "delete": "Xóa",
+      "moreDetails": "Thêm chi tiết",
+      "close": "Đóng",
+      "newEvent": "Sự kiện mới",
+      "today": "hôm nay",
+      "allDay": "Cả ngày",
+      "day": "ngày",
+      "week": "Tuần",
+      "workweek": "Tuần làm việc",
+      "month": "Tháng",
+      "more": "hơn thế nữa",
+      "expandAllDaySection": "Mở rộng phần cả ngày",
+      "collapseAllDaySection": "Thu gọn phần cả ngày",
+      "deleteEvent": "Xóa sự kiện",
+      "confirmDeleteMessage": "Bạn có chắc chắn muốn xóa sự kiện này?",
+      "cancel": "Hủy bỏ",
+      "title": "Tiêu đề",
+      "location": "Vị trí",
+      "description": "Mô tả",
+      "startDate": "Ngày bắt đầu",
+      "endDate": "Ngày kết thúc",
+      "startTime": "Thời gian bắt đầu",
+      "endTime": "Thời gian kết thúc"
+    },
+    "timepicker": {
+      "placeholder": "Chọn thời gian"
+    },
+    "scheduler": {
+      "addTitle": "Thêm tiêu đề",
+      "save": "Lưu",
+      "edit": "Chỉnh sửa",
+      "delete": "Xóa",
+      "moreDetails": "Thêm chi tiết",
+      "close": "Đóng",
+      "newEvent": "Sự kiện mới",
+      "today": "hôm nay",
+      "allDay": "Cả ngày",
+      "day": "ngày",
+      "week": "Tuần",
+      "workweek": "Tuần làm việc",
+      "month": "Tháng",
+      "more": "hơn thế nữa",
+      "expandAllDaySection": "Mở rộng phần cả ngày",
+      "collapseAllDaySection": "Thu gọn phần cả ngày",
+      "deleteEvent": "Xóa sự kiện",
+      "confirmDeleteMessage": "Bạn có chắc chắn muốn xóa sự kiện này?",
+      "cancel": "Hủy bỏ",
+      "title": "Tiêu đề",
+      "location": "Vị trí",
+      "description": "Mô tả",
+      "startDate": "Ngày bắt đầu",
+      "endDate": "Ngày kết thúc",
+      "startTime": "Thời gian bắt đầu",
+      "endTime": "Thời gian kết thúc"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "Không tìm thấy bản ghi nào",
+      "errorMessage": "Yêu cầu không thành công"
     }
   }
 }

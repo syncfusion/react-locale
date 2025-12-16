@@ -1,88 +1,157 @@
 {
   "ru": {
     "message": {
-      "close": "Закрывать"
+      "close": "Закрыть"
     },
     "grid": {
       "noRecordsMessage": "Нет записей для отображения",
-      "filterBarTooltip": "\"SILTER BAR Cell",
+      "filterBarTooltip": "\"s\" ячейка фильтра",
       "invalidFilterMessage": "Неверные данные фильтра",
-      "booleanTrueLabel": "истинный",
-      "booleanFalseLabel": "ЛОЖЬ",
-      "addButtonLabel": "Добавлять",
+      "booleanTrueLabel": "правда",
+      "booleanFalseLabel": "ложный",
+      "addButtonLabel": "Добавить",
       "editButtonLabel": "Редактировать",
       "cancelButtonLabel": "Отмена",
-      "updateButtonLabel": "Обновлять",
+      "updateButtonLabel": "Обновить",
       "deleteButtonLabel": "Удалить",
       "searchButtonLabel": "Поиск",
-      "unsavedChangesConfirmation": "Неиседлкие изменения будут потеряны. Вы уверены, что хотите продолжить?",
-      "noRecordsEditMessage": "Нет записей, не выбранных для редактирования операции",
-      "noRecordsDeleteMessage": "Нет записей, не выбранных для операции удаления",
-      "okButtonLabel": "ХОРОШО",
+      "unsavedChangesConfirmation": "Несохраненные изменения будут потеряны. Вы уверены, что хотите продолжить?",
+      "noRecordsEditMessage": "Никакие записи не выбраны для операции редактирования",
+      "noRecordsDeleteMessage": "Не выбрано ни одной записи для операции удаления",
+      "okButtonLabel": "ОК",
       "confirmDeleteMessage": "Вы уверены, что хотите удалить запись?"
     },
     "pager": {
-      "currentPageLabel": "{0} {1} страниц",
-      "totalItemsLabel": "({0} элементы)",
+      "currentPageLabel": "{0} из {1} страниц",
+      "totalItemsLabel": "({0} элементов)",
       "totalItemLabel": "({0} элемент)",
       "firstPageTooltip": "Перейти на первую страницу",
       "lastPageTooltip": "Перейти на последнюю страницу",
       "nextPageTooltip": "Перейти на следующую страницу",
       "previousPageTooltip": "Перейти на предыдущую страницу",
-      "nextPageGroupTooltip": "Перейдите в группу следующей страницы",
+      "nextPageGroupTooltip": "Перейти к следующей группе страниц",
       "previousPageGroupTooltip": "Перейти к предыдущей группе страниц",
-      "paginationStatusMessage": "Пейджер Внешнее сообщение",
+      "pagerStatusMessage": "Внешнее сообщение пейджера",
       "pageLabel": "Страница ",
-      "ofLabel": " из ",
+      "pagerOfLabel": " из ",
       "pagesLabel": " Страницы"
     },
     "chart": {
-      "zoom": "Зум",
-      "zoomIn": "Zoomin",
-      "zoomOut": "Увеличение",
-      "reset": "Перезагрузить",
-      "pan": "Кастрюля",
-      "resetZoom": "Сбросить Zoom"
+      "zoom": "Увеличить",
+      "zoomIn": "Увеличение масштаба",
+      "zoomOut": "Уменьшить масштаб",
+      "reset": "Сброс",
+      "pan": "Пан",
+      "resetZoom": "Сбросить масштаб"
     },
     "dialog": {
-      "close": "Закрывать"
+      "close": "Закрыть"
     },
     "calendar": {
-      "today": "Сегодня"
+      "today": "Сегодня",
+      "nextMonth": "В следующем месяце",
+      "previousMonth": "Предыдущий месяц",
+      "nextYear": "В следующем году",
+      "previousYear": "Предыдущий год",
+      "nextDecade": "Следующее десятилетие",
+      "previousDecade": "Предыдущее десятилетие"
     },
     "datepicker": {
       "today": "Сегодня",
       "placeholder": "Выберите дату"
     },
     "formValidator": {
-      "required": "Это поле обязательно к заполнению.",
+      "required": "Это поле является обязательным.",
       "email": "Пожалуйста, введите действительный адрес электронной почты.",
-      "url": "Пожалуйста, введите действительный URL.",
+      "url": "Введите действительный URL-адрес.",
       "date": "Пожалуйста, введите действительную дату.",
       "dateIso": "Пожалуйста, введите действительную дату (ISO).",
       "creditCard": "Пожалуйста, введите действительный номер карты.",
       "number": "Пожалуйста, введите действительный номер.",
-      "digits": "Пожалуйста, введите только цифры.",
-      "maxLength": "Пожалуйста, введите не более {0} символов.",
-      "minLength": "Пожалуйста, введите хотя бы {0} символы.",
-      "rangeLength": "Пожалуйста, введите значение между {0} и {1} символами.",
-      "range": "Пожалуйста, введите значение между {0} и {1}.",
-      "max": "Пожалуйста, введите значение меньше или равное {0}.",
-      "min": "Пожалуйста, введите значение больше или равное {0}.",
+      "digits": "Пожалуйста, вводите только цифры.",
+      "maxLength": "Введите не более {0} символов.",
+      "minLength": "Введите не менее {0} символов.",
+      "rangeLength": "Введите значение длиной от {0} до {1} символов.",
+      "range": "Введите значение от {0} до {1}.",
+      "max": "Введите значение меньше или равное {0}.",
+      "min": "Введите значение, большее или равное {0}.",
       "regex": "Пожалуйста, введите правильное значение.",
       "tel": "Пожалуйста, введите действительный номер телефона.",
       "equalTo": "Пожалуйста, введите то же значение еще раз."
     },
     "numericTextbox": {
-      "increment": "Значение приращения",
-      "decrement": "Значение уменьшения",
-      "clear": "Прозрачный"
+      "increment": "Увеличение значения",
+      "decrement": "Уменьшить значение",
+      "clear": "Очистить"
     },
     "textarea": {
-      "clear": "Прозрачный"
+      "clear": "Очистить"
     },
     "textbox": {
-      "clear": "Прозрачный"
+      "clear": "Очистить"
+    },
+    "schedule": {
+      "addTitle": "Добавить заголовок",
+      "save": "Сохранить",
+      "edit": "Редактировать",
+      "delete": "Удалить",
+      "moreDetails": "Подробнее",
+      "close": "Закрыть",
+      "newEvent": "Новое событие",
+      "today": "Сегодня",
+      "allDay": "Весь день",
+      "day": "День",
+      "week": "неделя",
+      "workweek": "Рабочая неделя",
+      "month": "Месяц",
+      "more": "больше",
+      "expandAllDaySection": "Развернуть раздел «Весь день»",
+      "collapseAllDaySection": "Свернуть раздел «Весь день»",
+      "deleteEvent": "Удалить событие",
+      "confirmDeleteMessage": "Вы уверены, что хотите удалить это мероприятие?",
+      "cancel": "Отмена",
+      "title": "Название",
+      "location": "Расположение",
+      "description": "Описание",
+      "startDate": "Дата начала",
+      "endDate": "Дата окончания",
+      "startTime": "Время начала",
+      "endTime": "Время окончания"
+    },
+    "timepicker": {
+      "placeholder": "Выберите время"
+    },
+    "scheduler": {
+      "addTitle": "Добавить заголовок",
+      "save": "Сохранить",
+      "edit": "Редактировать",
+      "delete": "Удалить",
+      "moreDetails": "Подробнее",
+      "close": "Закрыть",
+      "newEvent": "Новое событие",
+      "today": "Сегодня",
+      "allDay": "Весь день",
+      "day": "День",
+      "week": "неделя",
+      "workweek": "Рабочая неделя",
+      "month": "Месяц",
+      "more": "больше",
+      "expandAllDaySection": "Развернуть раздел «Весь день»",
+      "collapseAllDaySection": "Свернуть раздел «Весь день»",
+      "deleteEvent": "Удалить событие",
+      "confirmDeleteMessage": "Вы уверены, что хотите удалить это мероприятие?",
+      "cancel": "Отмена",
+      "title": "Название",
+      "location": "Расположение",
+      "description": "Описание",
+      "startDate": "Дата начала",
+      "endDate": "Дата окончания",
+      "startTime": "Время начала",
+      "endTime": "Время окончания"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "Записи не найдены",
+      "errorMessage": "Запрос не выполнен"
     }
   }
 }

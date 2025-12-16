@@ -4,18 +4,18 @@
       "close": "Fechar"
     },
     "grid": {
-      "noRecordsMessage": "Sem registros para exibir",
-      "filterBarTooltip": "\"S célula de barra de filtro",
-      "invalidFilterMessage": "Dados de filtro inválido",
-      "booleanTrueLabel": "verdadeiro",
+      "noRecordsMessage": "Não há registros para exibir",
+      "filterBarTooltip": "célula da barra de filtro",
+      "invalidFilterMessage": "Dados de filtro inválidos",
+      "booleanTrueLabel": "verdade",
       "booleanFalseLabel": "falso",
       "addButtonLabel": "Adicionar",
       "editButtonLabel": "Editar",
       "cancelButtonLabel": "Cancelar",
       "updateButtonLabel": "Atualizar",
       "deleteButtonLabel": "Excluir",
-      "searchButtonLabel": "Procurar",
-      "unsavedChangesConfirmation": "Alterações não salvas serão perdidas. Tem certeza de que deseja continuar?",
+      "searchButtonLabel": "Pesquisar",
+      "unsavedChangesConfirmation": "As alterações não salvas serão perdidas. Tem certeza de que deseja continuar?",
       "noRecordsEditMessage": "Nenhum registro selecionado para operação de edição",
       "noRecordsDeleteMessage": "Nenhum registro selecionado para operação de exclusão",
       "okButtonLabel": "OK",
@@ -25,30 +25,36 @@
       "currentPageLabel": "{0} de {1} páginas",
       "totalItemsLabel": "({0} itens)",
       "totalItemLabel": "({0} item)",
-      "firstPageTooltip": "Vá para a primeira página",
-      "lastPageTooltip": "Vá para a última página",
-      "nextPageTooltip": "Vá para a próxima página",
-      "previousPageTooltip": "Vá para a página anterior",
-      "nextPageGroupTooltip": "Vá para o próximo grupo de página",
-      "previousPageGroupTooltip": "Vá para o grupo de página anterior",
-      "paginationStatusMessage": "Mensagem externa do pager",
+      "firstPageTooltip": "Ir para a primeira página",
+      "lastPageTooltip": "Ir para a última página",
+      "nextPageTooltip": "Ir para a próxima página",
+      "previousPageTooltip": "Ir para a página anterior",
+      "nextPageGroupTooltip": "Ir para o próximo grupo de páginas",
+      "previousPageGroupTooltip": "Ir para o grupo de páginas anterior",
+      "pagerStatusMessage": "Mensagem externa do pager",
       "pageLabel": "Página ",
-      "ofLabel": " de ",
+      "pagerOfLabel": " de ",
       "pagesLabel": " Páginas"
     },
     "chart": {
       "zoom": "Zoom",
-      "zoomIn": "Zoomin",
-      "zoomOut": "Zoom",
-      "reset": "Reiniciar",
-      "pan": "Frigideira",
-      "resetZoom": "Redefina o zoom"
+      "zoomIn": "Ampliar",
+      "zoomOut": "Menos zoom",
+      "reset": "Redefinir",
+      "pan": "Panela",
+      "resetZoom": "Redefinir zoom"
     },
     "dialog": {
       "close": "Fechar"
     },
     "calendar": {
-      "today": "Hoje"
+      "today": "Hoje",
+      "nextMonth": "No próximo mês",
+      "previousMonth": "Mês anterior",
+      "nextYear": "No próximo ano",
+      "previousYear": "Ano anterior",
+      "nextDecade": "Próxima década",
+      "previousDecade": "Década anterior"
     },
     "datepicker": {
       "today": "Hoje",
@@ -56,33 +62,96 @@
     },
     "formValidator": {
       "required": "Este campo é obrigatório.",
-      "email": "Por favor, insira um endereço de e -mail válido.",
-      "url": "Por favor, insira um URL válido.",
-      "date": "Por favor, insira uma data válida.",
-      "dateIso": "Por favor, insira uma data válida (ISO).",
-      "creditCard": "Por favor, insira o número do cartão válido.",
-      "number": "Por favor, insira um número válido.",
-      "digits": "Por favor, insira apenas dígitos.",
-      "maxLength": "Por favor, digite mais que {0} caracteres.",
-      "minLength": "Por favor, digite pelo menos {0} caracteres.",
-      "rangeLength": "Por favor, digite um valor entre os caracteres {0} e {1} de comprimento.",
-      "range": "Por favor, insira um valor entre {0} e {1}.",
-      "max": "Por favor, insira um valor menor ou igual a {0}.",
-      "min": "Por favor, insira um valor maior ou igual a {0}.",
-      "regex": "Por favor, insira um valor correto.",
-      "tel": "Por favor, insira um número de telefone válido.",
-      "equalTo": "Por favor, insira o mesmo valor novamente."
+      "email": "Insira um endereço de e-mail válido.",
+      "url": "Insira um URL válido.",
+      "date": "Insira uma data válida.",
+      "dateIso": "Insira uma data válida (ISO).",
+      "creditCard": "Insira um número de cartão válido.",
+      "number": "Por favor insira um número válido.",
+      "digits": "Por favor insira apenas dígitos.",
+      "maxLength": "Insira no máximo {0} caracteres.",
+      "minLength": "Insira pelo menos {0} caracteres.",
+      "rangeLength": "Insira um valor entre {0} e {1} caracteres.",
+      "range": "Insira um valor entre {0} e {1}.",
+      "max": "Insira um valor menor ou igual a {0}.",
+      "min": "Insira um valor maior ou igual a {0}.",
+      "regex": "Insira um valor correto.",
+      "tel": "Insira um número de telefone válido.",
+      "equalTo": "Insira o mesmo valor novamente."
     },
     "numericTextbox": {
-      "increment": "Valor de incremento",
-      "decrement": "Valor decrescente",
-      "clear": "Claro"
+      "increment": "Valor do incremento",
+      "decrement": "Valor de diminuição",
+      "clear": "Limpar"
     },
     "textarea": {
-      "clear": "Claro"
+      "clear": "Limpar"
     },
     "textbox": {
-      "clear": "Claro"
+      "clear": "Limpar"
+    },
+    "schedule": {
+      "addTitle": "Adicionar título",
+      "save": "Salvar",
+      "edit": "Editar",
+      "delete": "Excluir",
+      "moreDetails": "Mais detalhes",
+      "close": "Fechar",
+      "newEvent": "Novo evento",
+      "today": "Hoje",
+      "allDay": "O dia todo",
+      "day": "Dia",
+      "week": "Semana",
+      "workweek": "Semana de Trabalho",
+      "month": "Mês",
+      "more": "mais",
+      "expandAllDaySection": "Expandir a seção do dia inteiro",
+      "collapseAllDaySection": "Recolher seção do dia inteiro",
+      "deleteEvent": "Excluir evento",
+      "confirmDeleteMessage": "Tem certeza de que deseja excluir este evento?",
+      "cancel": "Cancelar",
+      "title": "Título",
+      "location": "Localização",
+      "description": "Descrição",
+      "startDate": "Data de início",
+      "endDate": "Data de término",
+      "startTime": "Hora de início",
+      "endTime": "Hora de término"
+    },
+    "timepicker": {
+      "placeholder": "Escolha um horário"
+    },
+    "scheduler": {
+      "addTitle": "Adicionar título",
+      "save": "Salvar",
+      "edit": "Editar",
+      "delete": "Excluir",
+      "moreDetails": "Mais detalhes",
+      "close": "Fechar",
+      "newEvent": "Novo evento",
+      "today": "Hoje",
+      "allDay": "O dia todo",
+      "day": "Dia",
+      "week": "Semana",
+      "workweek": "Semana de Trabalho",
+      "month": "Mês",
+      "more": "mais",
+      "expandAllDaySection": "Expandir a seção do dia inteiro",
+      "collapseAllDaySection": "Recolher seção do dia inteiro",
+      "deleteEvent": "Excluir evento",
+      "confirmDeleteMessage": "Tem certeza de que deseja excluir este evento?",
+      "cancel": "Cancelar",
+      "title": "Título",
+      "location": "Localização",
+      "description": "Descrição",
+      "startDate": "Data de início",
+      "endDate": "Data de término",
+      "startTime": "Hora de início",
+      "endTime": "Hora de término"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "Nenhum registro encontrado",
+      "errorMessage": "Falha na solicitação"
     }
   }
 }

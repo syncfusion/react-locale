@@ -31,9 +31,9 @@
       "previousPageTooltip": "Go to previous page",
       "nextPageGroupTooltip": "Go to next page group",
       "previousPageGroupTooltip": "Go to previous page group",
-      "paginationStatusMessage": "Pager external message",
+      "pagerStatusMessage": "Pager external message",
       "pageLabel": "Page ",
-      "ofLabel": " of ",
+      "pagerOfLabel": " of ",
       "pagesLabel": " Pages"
     },
     "chart": {
@@ -48,7 +48,13 @@
       "close": "Close"
     },
     "calendar": {
-      "today": "Today"
+      "today": "Today",
+      "nextMonth": "Next month",
+      "previousMonth": "Previous month",
+      "nextYear": "Next year",
+      "previousYear": "Previous year",
+      "nextDecade": "Next decade",
+      "previousDecade": "Previous decade"
     },
     "datepicker": {
       "today": "Today",
@@ -83,6 +89,69 @@
     },
     "textbox": {
       "clear": "Clear"
+    },
+    "schedule": {
+      "addTitle": "Add title",
+      "save": "Save",
+      "edit": "Edit",
+      "delete": "Delete",
+      "moreDetails": "More details",
+      "close": "Close",
+      "newEvent": "New event",
+      "today": "Today",
+      "allDay": "All day",
+      "day": "Day",
+      "week": "Week",
+      "workweek": "WorkWeek",
+      "month": "Month",
+      "more": "more",
+      "expandAllDaySection": "Expand all-day section",
+      "collapseAllDaySection": "Collapse all-day section",
+      "deleteEvent": "Delete Event",
+      "confirmDeleteMessage": "Are you sure you want to delete this event?",
+      "cancel": "Cancel",
+      "title": "Title",
+      "location": "Location",
+      "description": "Description",
+      "startDate": "Start date",
+      "endDate": "End date",
+      "startTime": "Start time",
+      "endTime": "End time"
+    },
+    "timepicker": {
+      "placeholder": "Choose a time"
+    },
+    "scheduler": {
+      "addTitle": "Add title",
+      "save": "Save",
+      "edit": "Edit",
+      "delete": "Delete",
+      "moreDetails": "More details",
+      "close": "Close",
+      "newEvent": "New event",
+      "today": "Today",
+      "allDay": "All day",
+      "day": "Day",
+      "week": "Week",
+      "workweek": "WorkWeek",
+      "month": "Month",
+      "more": "more",
+      "expandAllDaySection": "Expand all-day section",
+      "collapseAllDaySection": "Collapse all-day section",
+      "deleteEvent": "Delete Event",
+      "confirmDeleteMessage": "Are you sure you want to delete this event?",
+      "cancel": "Cancel",
+      "title": "Title",
+      "location": "Location",
+      "description": "Description",
+      "startDate": "Start date",
+      "endDate": "End date",
+      "startTime": "Start time",
+      "endTime": "End time"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "No Records Found",
+      "errorMessage": "Request Failed"
     }
   }
 }

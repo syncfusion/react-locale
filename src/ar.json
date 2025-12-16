@@ -1,81 +1,87 @@
 {
   "ar": {
     "message": {
-      "close": "يغلق"
+      "close": "إغلاق"
     },
     "grid": {
       "noRecordsMessage": "لا توجد سجلات لعرضها",
-      "filterBarTooltip": "\"خلية شريط المرشح S",
+      "filterBarTooltip": "خلية شريط التصفية",
       "invalidFilterMessage": "بيانات التصفية غير صالحة",
-      "booleanTrueLabel": "حقيقي",
-      "booleanFalseLabel": "خطأ شنيع",
-      "addButtonLabel": "يضيف",
-      "editButtonLabel": "يحرر",
-      "cancelButtonLabel": "يلغي",
+      "booleanTrueLabel": "صحيح",
+      "booleanFalseLabel": "كاذبة",
+      "addButtonLabel": "أضف",
+      "editButtonLabel": "تحرير",
+      "cancelButtonLabel": "إلغاء",
       "updateButtonLabel": "تحديث",
-      "deleteButtonLabel": "يمسح",
-      "searchButtonLabel": "يبحث",
-      "unsavedChangesConfirmation": "سيتم فقد التغييرات غير المحفوظة. هل أنت متأكد أنك تريد المتابعة؟",
-      "noRecordsEditMessage": "لم يتم تحديد سجلات لتحرير التشغيل",
-      "noRecordsDeleteMessage": "لا توجد سجلات محددة لحذف التشغيل",
-      "okButtonLabel": "نعم",
+      "deleteButtonLabel": "حذف",
+      "searchButtonLabel": "بحث",
+      "unsavedChangesConfirmation": "سيتم فقدان التغييرات غير المحفوظة. هل أنت متأكد أنك تريد الاستمرار؟",
+      "noRecordsEditMessage": "لم يتم تحديد أي سجلات لعملية التحرير",
+      "noRecordsDeleteMessage": "لم يتم تحديد أي سجلات لعملية الحذف",
+      "okButtonLabel": "حسنًا",
       "confirmDeleteMessage": "هل أنت متأكد أنك تريد حذف السجل؟"
     },
     "pager": {
-      "currentPageLabel": "{0} من صفحات {1}",
-      "totalItemsLabel": "({0} العناصر)",
-      "totalItemLabel": "({0} العنصر)",
+      "currentPageLabel": "{0} من {1} صفحة",
+      "totalItemsLabel": "({0} عنصر)",
+      "totalItemLabel": "({0} عنصر)",
       "firstPageTooltip": "انتقل إلى الصفحة الأولى",
       "lastPageTooltip": "انتقل إلى الصفحة الأخيرة",
       "nextPageTooltip": "انتقل إلى الصفحة التالية",
       "previousPageTooltip": "انتقل إلى الصفحة السابقة",
-      "nextPageGroupTooltip": "انتقل إلى مجموعة الصفحة التالية",
-      "previousPageGroupTooltip": "انتقل إلى مجموعة الصفحة السابقة",
-      "paginationStatusMessage": "رسالة ناشئة خارجية",
-      "pageLabel": "صفحة ",
-      "ofLabel": " ل ",
+      "nextPageGroupTooltip": "انتقل إلى مجموعة الصفحات التالية",
+      "previousPageGroupTooltip": "انتقل إلى مجموعة الصفحات السابقة",
+      "pagerStatusMessage": "بيجر رسالة خارجية",
+      "pageLabel": "الصفحة ",
+      "pagerOfLabel": " من ",
       "pagesLabel": " الصفحات"
     },
     "chart": {
       "zoom": "تكبير",
-      "zoomIn": "Zoomin",
-      "zoomOut": "Zoomout",
-      "reset": "إعادة ضبط",
-      "pan": "مِقلاة",
+      "zoomIn": "تكبير",
+      "zoomOut": "تصغير",
+      "reset": "إعادة تعيين",
+      "pan": "عموم",
       "resetZoom": "إعادة ضبط التكبير"
     },
     "dialog": {
-      "close": "يغلق"
+      "close": "إغلاق"
     },
     "calendar": {
-      "today": "اليوم"
+      "today": "اليوم",
+      "nextMonth": "الشهر القادم",
+      "previousMonth": "الشهر السابق",
+      "nextYear": "العام القادم",
+      "previousYear": "العام السابق",
+      "nextDecade": "العقد القادم",
+      "previousDecade": "العقد السابق"
     },
     "datepicker": {
       "today": "اليوم",
       "placeholder": "اختر تاريخًا"
     },
     "formValidator": {
-      "required": "هذه الخانة مطلوبه.",
-      "email": "يرجى إدخال عنوان بريد إلكتروني صالح.",
+      "required": "هذا الحقل مطلوب.",
+      "email": "الرجاء إدخال عنوان بريد إلكتروني صالح.",
       "url": "الرجاء إدخال عنوان URL صالح.",
       "date": "الرجاء إدخال تاريخ صالح.",
       "dateIso": "الرجاء إدخال تاريخ صالح (ISO).",
-      "creditCard": "الرجاء إدخال رقم بطاقة صالحة.",
+      "creditCard": "الرجاء إدخال رقم بطاقة صالح.",
       "number": "الرجاء إدخال رقم صالح.",
-      "digits": "الرجاء إدخال الأرقام فقط.",
-      "maxLength": "الرجاء إدخال أكثر من أحرف {0}.",
-      "minLength": "الرجاء إدخال أحرف {0} على الأقل.",
-      "rangeLength": "الرجاء إدخال قيمة بين أحرف {0} و {1} طويلة.",
-      "range": "الرجاء إدخال قيمة بين {0} و {1}.",
+      "digits": "الرجاء إدخال أرقام فقط.",
+      "maxLength": "الرجاء إدخال ما لا يزيد عن {0} حرفًا.",
+      "minLength": "الرجاء إدخال {0} حرفًا على الأقل.",
+      "rangeLength": "الرجاء إدخال قيمة يتراوح طولها بين {0} و{1} حرفًا.",
+      "range": "الرجاء إدخال قيمة بين {0} و{1}.",
       "max": "الرجاء إدخال قيمة أقل من أو تساوي {0}.",
       "min": "الرجاء إدخال قيمة أكبر من أو تساوي {0}.",
-      "regex": "الرجاء إدخال القيمة الصحيحة.",
+      "regex": "الرجاء إدخال قيمة صحيحة.",
       "tel": "الرجاء إدخال رقم هاتف صالح.",
       "equalTo": "الرجاء إدخال نفس القيمة مرة أخرى."
     },
     "numericTextbox": {
-      "increment": "قيمة الزيادة",
-      "decrement": "انخفاض قيمة",
+      "increment": "زيادة القيمة",
+      "decrement": "إنقاص القيمة",
       "clear": "واضح"
     },
     "textarea": {
@@ -83,6 +89,69 @@
     },
     "textbox": {
       "clear": "واضح"
+    },
+    "schedule": {
+      "addTitle": "أضف عنوانًا",
+      "save": "حفظ",
+      "edit": "تحرير",
+      "delete": "حذف",
+      "moreDetails": "مزيد من التفاصيل",
+      "close": "إغلاق",
+      "newEvent": "حدث جديد",
+      "today": "اليوم",
+      "allDay": "طوال اليوم",
+      "day": "يوم",
+      "week": "الأسبوع",
+      "workweek": "أسبوع العمل",
+      "month": "شهر",
+      "more": "المزيد",
+      "expandAllDaySection": "قم بتوسيع قسم اليوم كله",
+      "collapseAllDaySection": "طي قسم اليوم كله",
+      "deleteEvent": "حذف الحدث",
+      "confirmDeleteMessage": "هل أنت متأكد أنك تريد حذف هذا الحدث؟",
+      "cancel": "إلغاء",
+      "title": "العنوان",
+      "location": "الموقع",
+      "description": "الوصف",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء",
+      "startTime": "وقت البدء",
+      "endTime": "وقت الانتهاء"
+    },
+    "timepicker": {
+      "placeholder": "اختر وقتًا"
+    },
+    "scheduler": {
+      "addTitle": "أضف عنوانًا",
+      "save": "حفظ",
+      "edit": "تحرير",
+      "delete": "حذف",
+      "moreDetails": "مزيد من التفاصيل",
+      "close": "إغلاق",
+      "newEvent": "حدث جديد",
+      "today": "اليوم",
+      "allDay": "طوال اليوم",
+      "day": "يوم",
+      "week": "الأسبوع",
+      "workweek": "أسبوع العمل",
+      "month": "شهر",
+      "more": "المزيد",
+      "expandAllDaySection": "قم بتوسيع قسم اليوم كله",
+      "collapseAllDaySection": "طي قسم اليوم كله",
+      "deleteEvent": "حذف الحدث",
+      "confirmDeleteMessage": "هل أنت متأكد أنك تريد حذف هذا الحدث؟",
+      "cancel": "إلغاء",
+      "title": "العنوان",
+      "location": "الموقع",
+      "description": "الوصف",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء",
+      "startTime": "وقت البدء",
+      "endTime": "وقت الانتهاء"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "لم يتم العثور على سجلات",
+      "errorMessage": "فشل الطلب"
     }
   }
 }

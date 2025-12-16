@@ -1,72 +1,78 @@
 {
   "fi": {
     "message": {
-      "close": "Lähellä"
+      "close": "Sulje"
     },
     "grid": {
-      "noRecordsMessage": "Ei tietueita näytettäviä",
-      "filterBarTooltip": "\"Suodatin Bar Cell",
-      "invalidFilterMessage": "Virheellinen suodatintiedot",
+      "noRecordsMessage": "Ei näytettäviä tietueita",
+      "filterBarTooltip": "\"s suodatinpalkin kenno",
+      "invalidFilterMessage": "Virheelliset suodatintiedot",
       "booleanTrueLabel": "totta",
-      "booleanFalseLabel": "väärennetty",
-      "addButtonLabel": "Lisätä",
-      "editButtonLabel": "Muokata",
-      "cancelButtonLabel": "Peruuttaa",
-      "updateButtonLabel": "Päivittää",
-      "deleteButtonLabel": "Poistaa",
-      "searchButtonLabel": "Haku",
-      "unsavedChangesConfirmation": "Tapaamattomat muutokset menetetään. Oletko varma, että haluat jatkaa?",
-      "noRecordsEditMessage": "Muokkausoperaatiolle ei ole valittu tietueita",
-      "noRecordsDeleteMessage": "Ei tietueita, jotka on valittu poistooperaatiolle",
-      "okButtonLabel": "Hyvä",
+      "booleanFalseLabel": "väärä",
+      "addButtonLabel": "Lisää",
+      "editButtonLabel": "Muokkaa",
+      "cancelButtonLabel": "Peruuta",
+      "updateButtonLabel": "Päivitä",
+      "deleteButtonLabel": "Poista",
+      "searchButtonLabel": "Etsi",
+      "unsavedChangesConfirmation": "Tallentamattomat muutokset menetetään. Haluatko varmasti jatkaa?",
+      "noRecordsEditMessage": "Muokkaustoimintoon ei ole valittu tietueita",
+      "noRecordsDeleteMessage": "Poistotoimintoon ei ole valittu tietueita",
+      "okButtonLabel": "OK",
       "confirmDeleteMessage": "Haluatko varmasti poistaa tietueen?"
     },
     "pager": {
-      "currentPageLabel": "{0} {1} sivuista",
-      "totalItemsLabel": "({0} kohteet)",
+      "currentPageLabel": "{0}/{1} sivua",
+      "totalItemsLabel": "({0} kohdetta)",
       "totalItemLabel": "({0} kohde)",
       "firstPageTooltip": "Siirry ensimmäiselle sivulle",
       "lastPageTooltip": "Siirry viimeiselle sivulle",
       "nextPageTooltip": "Siirry seuraavalle sivulle",
       "previousPageTooltip": "Siirry edelliselle sivulle",
       "nextPageGroupTooltip": "Siirry seuraavaan sivuryhmään",
-      "previousPageGroupTooltip": "Siirry edellisen sivuryhmään",
-      "paginationStatusMessage": "Pagerin ulkoinen viesti",
+      "previousPageGroupTooltip": "Siirry edelliseen sivuryhmään",
+      "pagerStatusMessage": "Hakulaitteen ulkoinen viesti",
       "pageLabel": "Sivu ",
-      "ofLabel": " - ",
+      "pagerOfLabel": " / ",
       "pagesLabel": " Sivut"
     },
     "chart": {
-      "zoom": "Zoomata",
-      "zoomIn": "Zoomin",
-      "zoomOut": "Zoomout",
-      "reset": "Nollata",
-      "pan": "Panoroida",
-      "resetZoom": "Nollaa Zoom"
+      "zoom": "Zoomaa",
+      "zoomIn": "ZoomIn",
+      "zoomOut": "Loitonna",
+      "reset": "Nollaa",
+      "pan": "Pan",
+      "resetZoom": "Palauta zoomaus"
     },
     "dialog": {
-      "close": "Lähellä"
+      "close": "Sulje"
     },
     "calendar": {
-      "today": "Tänään"
+      "today": "Tänään",
+      "nextMonth": "Ensi kuussa",
+      "previousMonth": "Edellinen kuukausi",
+      "nextYear": "Ensi vuonna",
+      "previousYear": "Edellinen vuosi",
+      "nextDecade": "Seuraava vuosikymmen",
+      "previousDecade": "Edellinen vuosikymmen"
     },
     "datepicker": {
       "today": "Tänään",
       "placeholder": "Valitse päivämäärä"
     },
     "formValidator": {
-      "required": "Tämä kenttä vaaditaan.",
+      "required": "Tämä kenttä on pakollinen.",
       "email": "Anna kelvollinen sähköpostiosoite.",
-      "url": "Anna kelvollinen URL -osoite.",
+      "url": "Anna kelvollinen URL-osoite.",
       "date": "Anna kelvollinen päivämäärä.",
-      "dateIso": "Anna voimassa oleva päivämäärä (ISO).",
-      "creditCard": "Anna kelvollinen korttinumero.",
+      "dateIso": "Anna kelvollinen päivämäärä (ISO).",
+      "creditCard": "Anna kelvollinen kortin numero.",
       "number": "Anna kelvollinen numero.",
-      "digits": "Anna vain numerot.",
-      "maxLength": "Anna vain {0} merkit.",
-      "minLength": "Anna vähintään {0} merkit.",
-      "rangeLength": "Anna arvo {0} ja {1} merkin välillä pitkä.",
-      "range": "Anna arvo välillä {0} ja {1}.",
+      "digits": "Anna vain numeroita.",
+      "maxLength": "Anna enintään {0} merkkiä.",
+      "minLength": "Anna vähintään {0} merkkiä.",
+      "rangeLength": "Anna arvo välillä {0} - {1} merkkiä pitkä.",
+      "range": "Anna arvo väliltä {0} - {1}.",
       "max": "Anna arvo, joka on pienempi tai yhtä suuri kuin {0}.",
       "min": "Anna arvo, joka on suurempi tai yhtä suuri kuin {0}.",
       "regex": "Anna oikea arvo.",
@@ -74,8 +80,8 @@
       "equalTo": "Anna sama arvo uudelleen."
     },
     "numericTextbox": {
-      "increment": "Lisäarvo",
-      "decrement": "Vähennysarvo",
+      "increment": "Lisää arvoa",
+      "decrement": "Vähennä arvoa",
       "clear": "Selkeä"
     },
     "textarea": {
@@ -83,6 +89,69 @@
     },
     "textbox": {
       "clear": "Selkeä"
+    },
+    "schedule": {
+      "addTitle": "Lisää otsikko",
+      "save": "Tallenna",
+      "edit": "Muokkaa",
+      "delete": "Poista",
+      "moreDetails": "Lisätietoja",
+      "close": "Sulje",
+      "newEvent": "Uusi tapahtuma",
+      "today": "Tänään",
+      "allDay": "Koko päivän",
+      "day": "päivä",
+      "week": "Viikko",
+      "workweek": "Työviikko",
+      "month": "Kuukausi",
+      "more": "lisää",
+      "expandAllDaySection": "Laajenna koko päivän osio",
+      "collapseAllDaySection": "Tiivistä koko päivän osio",
+      "deleteEvent": "Poista tapahtuma",
+      "confirmDeleteMessage": "Haluatko varmasti poistaa tämän tapahtuman?",
+      "cancel": "Peruuta",
+      "title": "Otsikko",
+      "location": "Sijainti",
+      "description": "Kuvaus",
+      "startDate": "Aloituspäivämäärä",
+      "endDate": "Päättymispäivä",
+      "startTime": "Aloitusaika",
+      "endTime": "Päättymisaika"
+    },
+    "timepicker": {
+      "placeholder": "Valitse aika"
+    },
+    "scheduler": {
+      "addTitle": "Lisää otsikko",
+      "save": "Tallenna",
+      "edit": "Muokkaa",
+      "delete": "Poista",
+      "moreDetails": "Lisätietoja",
+      "close": "Sulje",
+      "newEvent": "Uusi tapahtuma",
+      "today": "Tänään",
+      "allDay": "Koko päivän",
+      "day": "päivä",
+      "week": "Viikko",
+      "workweek": "Työviikko",
+      "month": "Kuukausi",
+      "more": "lisää",
+      "expandAllDaySection": "Laajenna koko päivän osio",
+      "collapseAllDaySection": "Tiivistä koko päivän osio",
+      "deleteEvent": "Poista tapahtuma",
+      "confirmDeleteMessage": "Haluatko varmasti poistaa tämän tapahtuman?",
+      "cancel": "Peruuta",
+      "title": "Otsikko",
+      "location": "Sijainti",
+      "description": "Kuvaus",
+      "startDate": "Aloituspäivämäärä",
+      "endDate": "Päättymispäivä",
+      "startTime": "Aloitusaika",
+      "endTime": "Päättymisaika"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "Tietueita ei löytynyt",
+      "errorMessage": "Pyyntö epäonnistui"
     }
   }
 }

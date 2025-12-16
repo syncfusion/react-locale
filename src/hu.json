@@ -1,81 +1,87 @@
 {
   "hu": {
     "message": {
-      "close": "Közeli"
+      "close": "Bezárás"
     },
     "grid": {
-      "noRecordsMessage": "Nincsenek rekordok megjelenítésére",
-      "filterBarTooltip": "\"S szűrőrudakcella",
+      "noRecordsMessage": "Nincs megjeleníthető rekord",
+      "filterBarTooltip": "\"s szűrősáv cellája",
       "invalidFilterMessage": "Érvénytelen szűrőadatok",
       "booleanTrueLabel": "igaz",
       "booleanFalseLabel": "hamis",
-      "addButtonLabel": "Hozzáad",
-      "editButtonLabel": "Szerkeszt",
-      "cancelButtonLabel": "Töröl",
-      "updateButtonLabel": "Frissít",
-      "deleteButtonLabel": "Töröl",
+      "addButtonLabel": "Hozzáadás",
+      "editButtonLabel": "Szerkesztés",
+      "cancelButtonLabel": "Mégsem",
+      "updateButtonLabel": "Frissítés",
+      "deleteButtonLabel": "Törölje",
       "searchButtonLabel": "Keresés",
-      "unsavedChangesConfirmation": "A nem mentett változások elvesznek. Biztos, hogy folytatni akarja?",
-      "noRecordsEditMessage": "A szerkesztési művelethez nincs kiválasztott rekord",
-      "noRecordsDeleteMessage": "A törléshez nincs kiválasztott rekord",
-      "okButtonLabel": "RENDBEN",
-      "confirmDeleteMessage": "Biztos benne, hogy törölni akarja a rekordot?"
+      "unsavedChangesConfirmation": "A nem mentett módosítások elvesznek. Biztosan folytatja?",
+      "noRecordsEditMessage": "Nincsenek kiválasztott rekordok a szerkesztési művelethez",
+      "noRecordsDeleteMessage": "Nincsenek kiválasztott rekordok a törlési művelethez",
+      "okButtonLabel": "OK",
+      "confirmDeleteMessage": "Biztosan törli a rekordot?"
     },
     "pager": {
-      "currentPageLabel": "{0} {1} oldalak",
-      "totalItemsLabel": "({0} tételek)",
-      "totalItemLabel": "({0} tétel)",
-      "firstPageTooltip": "Lépjen az első oldalra",
-      "lastPageTooltip": "Lépjen az utolsó oldalra",
-      "nextPageTooltip": "Lépjen a következő oldalra",
-      "previousPageTooltip": "Lépjen az előző oldalra",
-      "nextPageGroupTooltip": "Lépjen a következő oldali csoportra",
-      "previousPageGroupTooltip": "Lépjen az előző oldalcsoportba",
-      "paginationStatusMessage": "Személyhívó külső üzenet",
-      "pageLabel": "Oldal ",
-      "ofLabel": " -y -az ",
+      "currentPageLabel": "{0}/{1} oldal",
+      "totalItemsLabel": "({0} elem)",
+      "totalItemLabel": "({0} elem)",
+      "firstPageTooltip": "Ugrás az első oldalra",
+      "lastPageTooltip": "Ugrás az utolsó oldalra",
+      "nextPageTooltip": "Ugrás a következő oldalra",
+      "previousPageTooltip": "Ugrás az előző oldalra",
+      "nextPageGroupTooltip": "Ugrás a következő oldalcsoportra",
+      "previousPageGroupTooltip": "Ugrás az előző oldalcsoportra",
+      "pagerStatusMessage": "Pager külső üzenet",
+      "pageLabel": "oldal ",
+      "pagerOfLabel": " a ",
       "pagesLabel": " Oldalak"
     },
     "chart": {
-      "zoom": "Zoomolás",
-      "zoomIn": "Zoomin",
-      "zoomOut": "Zoomout",
-      "reset": "Visszaállít",
-      "pan": "Pán",
-      "resetZoom": "Visszaállítja a zoomot"
+      "zoom": "Zoom",
+      "zoomIn": "Nagyítás",
+      "zoomOut": "Kicsinyítés",
+      "reset": "Reset",
+      "pan": "Pan",
+      "resetZoom": "Állítsa vissza a nagyítást"
     },
     "dialog": {
-      "close": "Közeli"
+      "close": "Bezárás"
     },
     "calendar": {
-      "today": "Ma"
+      "today": "Ma",
+      "nextMonth": "Következő hónapban",
+      "previousMonth": "Előző hónap",
+      "nextYear": "Jövőre",
+      "previousYear": "Előző év",
+      "nextDecade": "Következő évtized",
+      "previousDecade": "Előző évtized"
     },
     "datepicker": {
       "today": "Ma",
       "placeholder": "Válasszon egy dátumot"
     },
     "formValidator": {
-      "required": "Ez a mező szükséges.",
-      "email": "Kérjük, írjon be egy érvényes e -mail címet.",
-      "url": "Kérjük, írjon be egy érvényes URL -t.",
-      "date": "Kérjük, adjon meg egy érvényes dátumot.",
-      "dateIso": "Kérjük, írjon be egy érvényes dátumot (ISO).",
-      "creditCard": "Kérjük, írja be az érvényes kártya számát.",
-      "number": "Kérjük, írjon be egy érvényes számot.",
+      "required": "Ezt a mezőt kötelező kitölteni.",
+      "email": "Kérjük, adjon meg egy érvényes e-mail címet.",
+      "url": "Adjon meg egy érvényes URL-t.",
+      "date": "Adjon meg egy érvényes dátumot.",
+      "dateIso": "Adjon meg egy érvényes dátumot (ISO).",
+      "creditCard": "Kérjük, adjon meg érvényes kártyaszámot.",
+      "number": "Kérjük, adjon meg egy érvényes számot.",
       "digits": "Kérjük, csak számjegyeket írjon be.",
-      "maxLength": "Kérjük, írjon be legfeljebb {0} karaktereket.",
-      "minLength": "Kérjük, írjon be legalább {0} karaktereket.",
-      "rangeLength": "Kérjük, írjon be egy értéket a {0} és a {1} karakterek között.",
-      "range": "Kérjük, írjon be egy értéket a {0} és a {1} között.",
-      "max": "Kérjük, írjon be egy {0} -nál kisebb vagy egyenlő értéket.",
-      "min": "Kérjük, írjon be egy {0} -nál nagyobb vagy egyenlő értéket.",
+      "maxLength": "Kérjük, legfeljebb {0} karaktert írjon be.",
+      "minLength": "Kérjük, adjon meg legalább {0} karaktert.",
+      "rangeLength": "Kérjük, adjon meg egy {0} és {1} karakter közötti értéket.",
+      "range": "Kérjük, adjon meg egy {0} és {1} közötti értéket.",
+      "max": "Kérjük, adjon meg egy {0}-nál kisebb vagy azzal egyenlő értéket.",
+      "min": "Kérjük, adjon meg egy olyan értéket, amely nagyobb vagy egyenlő, mint {0}.",
       "regex": "Kérjük, adjon meg egy helyes értéket.",
       "tel": "Kérjük, adjon meg egy érvényes telefonszámot.",
       "equalTo": "Kérjük, adja meg újra ugyanazt az értéket."
     },
     "numericTextbox": {
-      "increment": "Növekedés értéke",
-      "decrement": "Csökkentési érték",
+      "increment": "Növelje az értéket",
+      "decrement": "Értékcsökkentés",
       "clear": "Világos"
     },
     "textarea": {
@@ -83,6 +89,69 @@
     },
     "textbox": {
       "clear": "Világos"
+    },
+    "schedule": {
+      "addTitle": "Cím hozzáadása",
+      "save": "Mentés",
+      "edit": "Szerkesztés",
+      "delete": "Törölje",
+      "moreDetails": "További részletek",
+      "close": "Bezárás",
+      "newEvent": "Új esemény",
+      "today": "Ma",
+      "allDay": "Egész nap",
+      "day": "nap",
+      "week": "hét",
+      "workweek": "Munkahét",
+      "month": "hónap",
+      "more": "több",
+      "expandAllDaySection": "Az egész napos szakasz kibontása",
+      "collapseAllDaySection": "Az egész napos szakasz összecsukása",
+      "deleteEvent": "Esemény törlése",
+      "confirmDeleteMessage": "Biztosan törli ezt az eseményt?",
+      "cancel": "Mégsem",
+      "title": "Cím",
+      "location": "Helyszín",
+      "description": "Leírás",
+      "startDate": "Kezdés dátuma",
+      "endDate": "Befejezés dátuma",
+      "startTime": "Kezdési idő",
+      "endTime": "Vége"
+    },
+    "timepicker": {
+      "placeholder": "Válasszon időpontot"
+    },
+    "scheduler": {
+      "addTitle": "Cím hozzáadása",
+      "save": "Mentés",
+      "edit": "Szerkesztés",
+      "delete": "Törölje",
+      "moreDetails": "További részletek",
+      "close": "Bezárás",
+      "newEvent": "Új esemény",
+      "today": "Ma",
+      "allDay": "Egész nap",
+      "day": "nap",
+      "week": "hét",
+      "workweek": "Munkahét",
+      "month": "hónap",
+      "more": "több",
+      "expandAllDaySection": "Az egész napos szakasz kibontása",
+      "collapseAllDaySection": "Az egész napos szakasz összecsukása",
+      "deleteEvent": "Esemény törlése",
+      "confirmDeleteMessage": "Biztosan törli ezt az eseményt?",
+      "cancel": "Mégsem",
+      "title": "Cím",
+      "location": "Helyszín",
+      "description": "Leírás",
+      "startDate": "Kezdés dátuma",
+      "endDate": "Befejezés dátuma",
+      "startTime": "Kezdési idő",
+      "endTime": "Vége"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "Nem található rekord",
+      "errorMessage": "Sikertelen kérés"
     }
   }
 }

@@ -1,88 +1,157 @@
 {
   "id": {
     "message": {
-      "close": "Menutup"
+      "close": "Tutup"
     },
     "grid": {
       "noRecordsMessage": "Tidak ada catatan untuk ditampilkan",
-      "filterBarTooltip": "\"Sel batang filter S",
+      "filterBarTooltip": "sel bilah filter",
       "invalidFilterMessage": "Data filter tidak valid",
-      "booleanTrueLabel": "BENAR",
-      "booleanFalseLabel": "PALSU",
-      "addButtonLabel": "Menambahkan",
-      "editButtonLabel": "Edit",
-      "cancelButtonLabel": "Membatalkan",
-      "updateButtonLabel": "Memperbarui",
-      "deleteButtonLabel": "Menghapus",
-      "searchButtonLabel": "Mencari",
+      "booleanTrueLabel": "benar",
+      "booleanFalseLabel": "salah",
+      "addButtonLabel": "Tambahkan",
+      "editButtonLabel": "Sunting",
+      "cancelButtonLabel": "Batalkan",
+      "updateButtonLabel": "Pembaruan",
+      "deleteButtonLabel": "Hapus",
+      "searchButtonLabel": "Cari",
       "unsavedChangesConfirmation": "Perubahan yang belum disimpan akan hilang. Apakah Anda yakin ingin melanjutkan?",
-      "noRecordsEditMessage": "Tidak ada catatan yang dipilih untuk operasi edit",
-      "noRecordsDeleteMessage": "Tidak ada catatan yang dipilih untuk dihapus operasi",
-      "okButtonLabel": "OKE",
-      "confirmDeleteMessage": "Anda yakin ingin menghapus catatan?"
+      "noRecordsEditMessage": "Tidak ada rekaman yang dipilih untuk operasi edit",
+      "noRecordsDeleteMessage": "Tidak ada catatan yang dipilih untuk operasi penghapusan",
+      "okButtonLabel": "Oke",
+      "confirmDeleteMessage": "Apakah Anda yakin ingin menghapus rekaman tersebut?"
     },
     "pager": {
       "currentPageLabel": "{0} dari {1} halaman",
       "totalItemsLabel": "({0} item)",
-      "totalItemLabel": "({0} item)",
+      "totalItemLabel": "({0} barang)",
       "firstPageTooltip": "Pergi ke halaman pertama",
       "lastPageTooltip": "Pergi ke halaman terakhir",
-      "nextPageTooltip": "Pergi ke halaman berikutnya",
-      "previousPageTooltip": "Pergi ke halaman sebelumnya",
-      "nextPageGroupTooltip": "Pergi ke grup halaman berikutnya",
-      "previousPageGroupTooltip": "Pergi ke grup halaman sebelumnya",
-      "paginationStatusMessage": "Pesan Eksternal Pager",
+      "nextPageTooltip": "Buka halaman berikutnya",
+      "previousPageTooltip": "Buka halaman sebelumnya",
+      "nextPageGroupTooltip": "Buka grup halaman berikutnya",
+      "previousPageGroupTooltip": "Buka grup halaman sebelumnya",
+      "pagerStatusMessage": "Pesan eksternal pager",
       "pageLabel": "Halaman ",
-      "ofLabel": " dari ",
+      "pagerOfLabel": " dari ",
       "pagesLabel": " Halaman"
     },
     "chart": {
-      "zoom": "Zoom",
-      "zoomIn": "Zoomin",
-      "zoomOut": "Zoomout",
-      "reset": "Mengatur ulang",
-      "pan": "Panci",
-      "resetZoom": "Reset zoom"
+      "zoom": "Perbesar",
+      "zoomIn": "Perbesar",
+      "zoomOut": "Perkecil",
+      "reset": "Setel ulang",
+      "pan": "Pan",
+      "resetZoom": "Setel Ulang Zoom"
     },
     "dialog": {
-      "close": "Menutup"
+      "close": "Tutup"
     },
     "calendar": {
-      "today": "Hari ini"
+      "today": "Hari ini",
+      "nextMonth": "Bulan depan",
+      "previousMonth": "Bulan sebelumnya",
+      "nextYear": "Tahun depan",
+      "previousYear": "Tahun sebelumnya",
+      "nextDecade": "Dekade berikutnya",
+      "previousDecade": "Dekade sebelumnya"
     },
     "datepicker": {
       "today": "Hari ini",
       "placeholder": "Pilih tanggal"
     },
     "formValidator": {
-      "required": "Bidang ini diperlukan.",
-      "email": "Harap masukkan alamat email yang valid.",
-      "url": "Harap masukkan URL yang valid.",
-      "date": "Harap masukkan tanggal yang valid.",
-      "dateIso": "Harap masukkan tanggal yang valid (ISO).",
-      "creditCard": "Harap masukkan nomor kartu yang valid.",
-      "number": "Harap masukkan nomor yang valid.",
-      "digits": "Harap masukkan hanya digit.",
-      "maxLength": "Harap masukkan tidak lebih dari {0} karakter.",
-      "minLength": "Harap masukkan setidaknya {0} karakter.",
-      "rangeLength": "Harap masukkan nilai antara {0} dan {1} karakter.",
-      "range": "Harap masukkan nilai antara {0} dan {1}.",
-      "max": "Harap masukkan nilai kurang dari atau sama dengan {0}.",
-      "min": "Harap masukkan nilai yang lebih besar dari atau sama dengan {0}.",
-      "regex": "Harap masukkan nilai yang benar.",
-      "tel": "Harap masukkan nomor telepon yang valid.",
-      "equalTo": "Harap masukkan nilai yang sama lagi."
+      "required": "Bidang ini wajib diisi.",
+      "email": "Silakan masukkan alamat email yang valid.",
+      "url": "Silakan masukkan URL yang valid.",
+      "date": "Silakan masukkan tanggal yang valid.",
+      "dateIso": "Silakan masukkan tanggal yang valid (ISO).",
+      "creditCard": "Silakan masukkan nomor kartu yang valid.",
+      "number": "Silakan masukkan nomor yang valid.",
+      "digits": "Harap masukkan angka saja.",
+      "maxLength": "Harap masukkan maksimal {0} karakter.",
+      "minLength": "Silakan masukkan setidaknya {0} karakter.",
+      "rangeLength": "Silakan masukkan nilai antara {0} dan {1} karakter.",
+      "range": "Silakan masukkan nilai antara {0} dan {1}.",
+      "max": "Silakan masukkan nilai yang kurang dari atau sama dengan {0}.",
+      "min": "Silakan masukkan nilai yang lebih besar atau sama dengan {0}.",
+      "regex": "Silakan masukkan nilai yang benar.",
+      "tel": "Silakan masukkan nomor telepon yang valid.",
+      "equalTo": "Silakan masukkan nilai yang sama lagi."
     },
     "numericTextbox": {
       "increment": "Nilai kenaikan",
       "decrement": "Nilai penurunan",
-      "clear": "Jernih"
+      "clear": "Jelas"
     },
     "textarea": {
-      "clear": "Jernih"
+      "clear": "Jelas"
     },
     "textbox": {
-      "clear": "Jernih"
+      "clear": "Jelas"
+    },
+    "schedule": {
+      "addTitle": "Tambahkan judul",
+      "save": "Simpan",
+      "edit": "Sunting",
+      "delete": "Hapus",
+      "moreDetails": "Lebih detailnya",
+      "close": "Tutup",
+      "newEvent": "Acara baru",
+      "today": "Hari ini",
+      "allDay": "Sepanjang hari",
+      "day": "Hari",
+      "week": "Minggu",
+      "workweek": "Minggu Kerja",
+      "month": "Bulan",
+      "more": "lebih",
+      "expandAllDaySection": "Perluas bagian sepanjang hari",
+      "collapseAllDaySection": "Ciutkan bagian sepanjang hari",
+      "deleteEvent": "Hapus Acara",
+      "confirmDeleteMessage": "Apakah Anda yakin ingin menghapus acara ini?",
+      "cancel": "Batalkan",
+      "title": "Judul",
+      "location": "Lokasi",
+      "description": "Deskripsi",
+      "startDate": "Tanggal mulai",
+      "endDate": "Tanggal akhir",
+      "startTime": "Waktu mulai",
+      "endTime": "Waktu berakhir"
+    },
+    "timepicker": {
+      "placeholder": "Pilih waktu"
+    },
+    "scheduler": {
+      "addTitle": "Tambahkan judul",
+      "save": "Simpan",
+      "edit": "Sunting",
+      "delete": "Hapus",
+      "moreDetails": "Lebih detailnya",
+      "close": "Tutup",
+      "newEvent": "Acara baru",
+      "today": "Hari ini",
+      "allDay": "Sepanjang hari",
+      "day": "Hari",
+      "week": "Minggu",
+      "workweek": "Minggu Kerja",
+      "month": "Bulan",
+      "more": "lebih",
+      "expandAllDaySection": "Perluas bagian sepanjang hari",
+      "collapseAllDaySection": "Ciutkan bagian sepanjang hari",
+      "deleteEvent": "Hapus Acara",
+      "confirmDeleteMessage": "Apakah Anda yakin ingin menghapus acara ini?",
+      "cancel": "Batalkan",
+      "title": "Judul",
+      "location": "Lokasi",
+      "description": "Deskripsi",
+      "startDate": "Tanggal mulai",
+      "endDate": "Tanggal akhir",
+      "startTime": "Waktu mulai",
+      "endTime": "Waktu berakhir"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "Tidak Ada Catatan yang Ditemukan",
+      "errorMessage": "Permintaan Gagal"
     }
   }
 }

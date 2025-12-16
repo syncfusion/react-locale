@@ -1,88 +1,157 @@
 {
   "ne-NP": {
     "message": {
-      "close": "घनिष्ट"
+      "close": "बन्द गर्नुहोस्"
     },
     "grid": {
       "noRecordsMessage": "प्रदर्शन गर्न कुनै रेकर्ड छैन",
       "filterBarTooltip": "\"s फिल्टर बार सेल",
-      "invalidFilterMessage": "अवैध फिल्टर डेटा",
-      "booleanTrueLabel": "इमान्दार",
-      "booleanFalseLabel": "मिथ्या",
-      "addButtonLabel": "थप्नु",
-      "editButtonLabel": "सम्पादन गर्नु",
-      "cancelButtonLabel": "रद्द गर्नु",
-      "updateButtonLabel": "अद्यावधिक गर्नुहोस्",
-      "deleteButtonLabel": "मेटाउन",
-      "searchButtonLabel": "खोजी",
-      "unsavedChangesConfirmation": "मुक्ति नपाएका परिवर्तनहरू हराउनेछन्। के तपाईं जारी राख्न चाहनुहुन्छ?",
-      "noRecordsEditMessage": "सम्पादन अपरेशनका लागि चयन गरिएको कुनै रेकर्डहरू चयन गरिएको छैन",
-      "noRecordsDeleteMessage": "संशोधनको लागि चयन गरिएको कुनै रेकर्डहरू चयन गरिएको छैन",
-      "okButtonLabel": "ठिक छ",
-      "confirmDeleteMessage": "के तपाईं पक्का रेकर्ड मेटाउन चाहानुहुन्छ?"
+      "invalidFilterMessage": "अमान्य फिल्टर डेटा",
+      "booleanTrueLabel": "सत्य",
+      "booleanFalseLabel": "गलत",
+      "addButtonLabel": "थप्नुहोस्",
+      "editButtonLabel": "सम्पादन गर्नुहोस्",
+      "cancelButtonLabel": "रद्द गर्नुहोस्",
+      "updateButtonLabel": "अपडेट गर्नुहोस्",
+      "deleteButtonLabel": "मेट्नुहोस्",
+      "searchButtonLabel": "खोज्नुहोस्",
+      "unsavedChangesConfirmation": "सुरक्षित नगरिएका परिवर्तनहरू हराउनेछन्। के तपाइँ जारी राख्न निश्चित हुनुहुन्छ?",
+      "noRecordsEditMessage": "सम्पादन कार्यका लागि कुनै रेकर्ड चयन गरिएको छैन",
+      "noRecordsDeleteMessage": "मेटाउने कार्यका लागि कुनै रेकर्ड चयन गरिएको छैन",
+      "okButtonLabel": "ठीक छ",
+      "confirmDeleteMessage": "के तपाइँ रेकर्ड मेटाउन निश्चित हुनुहुन्छ?"
     },
     "pager": {
-      "currentPageLabel": "{0} {1} पृष्ठहरू",
-      "totalItemsLabel": "({0} आईटमहरू)",
+      "currentPageLabel": "{1} पृष्ठहरू मध्ये {0}",
+      "totalItemsLabel": "({0} वस्तुहरू)",
       "totalItemLabel": "({0} वस्तु)",
       "firstPageTooltip": "पहिलो पृष्ठमा जानुहोस्",
-      "lastPageTooltip": "पछिल्लो पृष्ठमा जानुहोस्",
+      "lastPageTooltip": "अन्तिम पृष्ठमा जानुहोस्",
       "nextPageTooltip": "अर्को पृष्ठमा जानुहोस्",
       "previousPageTooltip": "अघिल्लो पृष्ठमा जानुहोस्",
       "nextPageGroupTooltip": "अर्को पृष्ठ समूहमा जानुहोस्",
       "previousPageGroupTooltip": "अघिल्लो पृष्ठ समूहमा जानुहोस्",
-      "paginationStatusMessage": "PASAR बाह्य सन्देश",
+      "pagerStatusMessage": "पेजर बाह्य सन्देश",
       "pageLabel": "पृष्ठ ",
-      "ofLabel": " को ",
-      "pagesLabel": " पृष्ठहरु"
+      "pagerOfLabel": " को ",
+      "pagesLabel": " पृष्ठहरू"
     },
     "chart": {
       "zoom": "जुम",
-      "zoomIn": "जॉमिन",
-      "zoomOut": "Zoomout",
+      "zoomIn": "ZoomIn",
+      "zoomOut": "जुमआउट",
       "reset": "रिसेट गर्नुहोस्",
-      "pan": "तावा",
+      "pan": "प्यान",
       "resetZoom": "जुम रिसेट गर्नुहोस्"
     },
     "dialog": {
-      "close": "घनिष्ट"
+      "close": "बन्द गर्नुहोस्"
     },
     "calendar": {
-      "today": "आज"
+      "today": "आज",
+      "nextMonth": "अर्को महिना",
+      "previousMonth": "अघिल्लो महिना",
+      "nextYear": "अर्को वर्ष",
+      "previousYear": "अघिल्लो वर्ष",
+      "nextDecade": "अर्को दशक",
+      "previousDecade": "अघिल्लो दशक"
     },
     "datepicker": {
       "today": "आज",
-      "placeholder": "मिति छनौट गर्नुहोस्"
+      "placeholder": "मिति छान्नुहोस्"
     },
     "formValidator": {
       "required": "यो क्षेत्र आवश्यक छ।",
-      "email": "कृपया मान्य ईमेल ठेगाना प्रविष्ट गर्नुहोस्।",
-      "url": "कृपया एक मान्य URL प्रविष्ट गर्नुहोस्।",
-      "date": "कृपया एक वैध मिति प्रविष्ट गर्नुहोस्।",
-      "dateIso": "कृपया एक वैध मिति प्रविष्ट गर्नुहोस् (ISO)।",
+      "email": "कृपया मान्य इमेल ठेगाना प्रविष्ट गर्नुहोस्।",
+      "url": "कृपया मान्य URL प्रविष्ट गर्नुहोस्।",
+      "date": "कृपया मान्य मिति प्रविष्ट गर्नुहोस्।",
+      "dateIso": "कृपया मान्य मिति (ISO) प्रविष्ट गर्नुहोस्।",
       "creditCard": "कृपया मान्य कार्ड नम्बर प्रविष्ट गर्नुहोस्।",
-      "number": "कृपया एक मान्य संख्या प्रविष्ट गर्नुहोस्।",
-      "digits": "कृपया केवल अंक प्रविष्ट गर्नुहोस्।",
-      "maxLength": "कृपया {0 0} वर्णहरू भन्दा बढि प्रविष्ट गर्नुहोस्।",
-      "minLength": "कृपया कम्तिमा {0} वर्ण प्रविष्ट गर्नुहोस्।",
-      "rangeLength": "कृपया = 0} र {1 {1} वर्णहरू बीचको मान प्रविष्ट गर्नुहोस्।",
-      "range": "कृपया {0 0} र {1} बीचको मान प्रविष्ट गर्नुहोस्।",
-      "max": "कृपया = 0 0 को बराबर वा बराबर मान प्रविष्ट गर्नुहोस्।",
-      "min": "कृपया {0 0 0 को बराबर वा बराबर मान प्रविष्ट गर्नुहोस्।",
-      "regex": "कृपया सहि मान प्रविष्ट गर्नुहोस्।",
-      "tel": "कृपया एक मान्य फोन नम्बर प्रविष्ट गर्नुहोस्।",
-      "equalTo": "कृपया फेरि समान मान प्रविष्ट गर्नुहोस्।"
+      "number": "कृपया मान्य नम्बर प्रविष्ट गर्नुहोस्।",
+      "digits": "कृपया अंकहरू मात्र प्रविष्ट गर्नुहोस्।",
+      "maxLength": "कृपया {0} वर्णहरू भन्दा बढी प्रविष्ट नगर्नुहोस्।",
+      "minLength": "कृपया कम्तिमा {0} वर्णहरू प्रविष्ट गर्नुहोस्।",
+      "rangeLength": "कृपया {0} र {1} वर्णहरू बीचको मान प्रविष्ट गर्नुहोस्।",
+      "range": "कृपया {0} र {1} बीचको मान प्रविष्ट गर्नुहोस्।",
+      "max": "कृपया {0} भन्दा कम वा बराबर मान प्रविष्ट गर्नुहोस्।",
+      "min": "कृपया {0} भन्दा ठूलो वा बराबर मान प्रविष्ट गर्नुहोस्।",
+      "regex": "कृपया सही मान प्रविष्ट गर्नुहोस्।",
+      "tel": "कृपया मान्य फोन नम्बर प्रविष्ट गर्नुहोस्।",
+      "equalTo": "कृपया उही मान फेरि प्रविष्ट गर्नुहोस्।"
     },
     "numericTextbox": {
-      "increment": "वृद्धि मान",
-      "decrement": "Derrece मान",
-      "clear": "स्पष्ट"
+      "increment": "वृद्धि मूल्य",
+      "decrement": "घट्ने मूल्य",
+      "clear": "खाली गर्नुहोस्"
     },
     "textarea": {
-      "clear": "स्पष्ट"
+      "clear": "खाली गर्नुहोस्"
     },
     "textbox": {
-      "clear": "स्पष्ट"
+      "clear": "खाली गर्नुहोस्"
+    },
+    "schedule": {
+      "addTitle": "शीर्षक थप्नुहोस्",
+      "save": "बचत गर्नुहोस्",
+      "edit": "सम्पादन गर्नुहोस्",
+      "delete": "मेट्नुहोस्",
+      "moreDetails": "थप विवरण",
+      "close": "बन्द गर्नुहोस्",
+      "newEvent": "नयाँ घटना",
+      "today": "आज",
+      "allDay": "दिनभर",
+      "day": "दिन",
+      "week": "हप्ता",
+      "workweek": "कार्य सप्ताह",
+      "month": "महिना",
+      "more": "थप",
+      "expandAllDaySection": "दिनभरी खण्ड विस्तार गर्नुहोस्",
+      "collapseAllDaySection": "दिनभरी खण्ड संक्षिप्त गर्नुहोस्",
+      "deleteEvent": "घटना मेटाउनुहोस्",
+      "confirmDeleteMessage": "के तपाइँ यो घटना मेटाउन निश्चित हुनुहुन्छ?",
+      "cancel": "रद्द गर्नुहोस्",
+      "title": "शीर्षक",
+      "location": "स्थान",
+      "description": "विवरण",
+      "startDate": "सुरु मिति",
+      "endDate": "अन्त्य मिति",
+      "startTime": "सुरु समय",
+      "endTime": "अन्त्य समय"
+    },
+    "timepicker": {
+      "placeholder": "समय छान्नुहोस्"
+    },
+    "scheduler": {
+      "addTitle": "शीर्षक थप्नुहोस्",
+      "save": "बचत गर्नुहोस्",
+      "edit": "सम्पादन गर्नुहोस्",
+      "delete": "मेट्नुहोस्",
+      "moreDetails": "थप विवरण",
+      "close": "बन्द गर्नुहोस्",
+      "newEvent": "नयाँ घटना",
+      "today": "आज",
+      "allDay": "दिनभर",
+      "day": "दिन",
+      "week": "हप्ता",
+      "workweek": "कार्य सप्ताह",
+      "month": "महिना",
+      "more": "थप",
+      "expandAllDaySection": "दिनभरी खण्ड विस्तार गर्नुहोस्",
+      "collapseAllDaySection": "दिनभरी खण्ड संक्षिप्त गर्नुहोस्",
+      "deleteEvent": "घटना मेटाउनुहोस्",
+      "confirmDeleteMessage": "के तपाइँ यो घटना मेटाउन निश्चित हुनुहुन्छ?",
+      "cancel": "रद्द गर्नुहोस्",
+      "title": "शीर्षक",
+      "location": "स्थान",
+      "description": "विवरण",
+      "startDate": "सुरु मिति",
+      "endDate": "अन्त्य मिति",
+      "startTime": "सुरु समय",
+      "endTime": "अन्त्य समय"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "कुनै रेकर्ड फेला परेन",
+      "errorMessage": "अनुरोध असफल भयो"
     }
   }
 }

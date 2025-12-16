@@ -31,9 +31,9 @@
       "previousPageTooltip": "Pergi ke halaman sebelumnya",
       "nextPageGroupTooltip": "Pergi ke Kumpulan Halaman Seterusnya",
       "previousPageGroupTooltip": "Pergi ke kumpulan halaman sebelumnya",
-      "paginationStatusMessage": "Mesej luaran pager",
+      "pagerStatusMessage": "Mesej luaran pager",
       "pageLabel": "Halaman ",
-      "ofLabel": " dari ",
+      "pagerOfLabel": " dari ",
       "pagesLabel": " Halaman"
     },
     "chart": {
@@ -48,7 +48,13 @@
       "close": "Tutup"
     },
     "calendar": {
-      "today": "Hari ini"
+      "today": "Hari ini",
+      "nextMonth": "Bulan depan",
+      "previousMonth": "Bulan sebelumnya",
+      "nextYear": "Tahun depan",
+      "previousYear": "Tahun sebelumnya",
+      "nextDecade": "Dekad seterusnya",
+      "previousDecade": "Dekad sebelumnya"
     },
     "datepicker": {
       "today": "Hari ini",
@@ -83,6 +89,69 @@
     },
     "textbox": {
       "clear": "Jelas"
+    },
+    "schedule": {
+      "addTitle": "Tambah tajuk",
+      "save": "Simpan",
+      "edit": "Edit",
+      "delete": "Padam",
+      "moreDetails": "Maklumat lanjut",
+      "close": "Tutup",
+      "newEvent": "Acara Baru",
+      "today": "Hari ini",
+      "allDay": "Sepanjang hari",
+      "day": "Hari",
+      "week": "Minggu",
+      "workweek": "Kerja minggu",
+      "month": "Bulan",
+      "more": "lebih",
+      "expandAllDaySection": "Kembangkan bahagian sepanjang hari",
+      "collapseAllDaySection": "Runtuh seksyen sepanjang hari",
+      "deleteEvent": "Padam acara",
+      "confirmDeleteMessage": "Adakah anda pasti mahu memadamkan acara ini?",
+      "cancel": "Batalkan",
+      "title": "Tajuk",
+      "location": "Lokasi",
+      "description": "Penerangan",
+      "startDate": "Tarikh Mula",
+      "endDate": "Tarikh akhir",
+      "startTime": "Masa Mula",
+      "endTime": "Masa Akhir"
+    },
+    "timepicker": {
+      "placeholder": "Pilih masa"
+    },
+    "scheduler": {
+      "addTitle": "Tambah tajuk",
+      "save": "Simpan",
+      "edit": "Edit",
+      "delete": "Padam",
+      "moreDetails": "Maklumat lanjut",
+      "close": "Tutup",
+      "newEvent": "Acara Baru",
+      "today": "Hari ini",
+      "allDay": "Sepanjang hari",
+      "day": "Hari",
+      "week": "Minggu",
+      "workweek": "Kerja minggu",
+      "month": "Bulan",
+      "more": "lebih",
+      "expandAllDaySection": "Kembangkan bahagian sepanjang hari",
+      "collapseAllDaySection": "Runtuh seksyen sepanjang hari",
+      "deleteEvent": "Padam acara",
+      "confirmDeleteMessage": "Adakah anda pasti mahu memadamkan acara ini?",
+      "cancel": "Batalkan",
+      "title": "Tajuk",
+      "location": "Lokasi",
+      "description": "Penerangan",
+      "startDate": "Tarikh Mula",
+      "endDate": "Tarikh akhir",
+      "startTime": "Masa Mula",
+      "endTime": "Masa Akhir"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "Tiada rekod dijumpai",
+      "errorMessage": "Permintaan gagal"
     }
   }
 }

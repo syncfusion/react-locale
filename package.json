@@ -1,20 +1,20 @@
 {
-	"name": "@syncfusion/react-locale",
-	"version": "31.2.12",
-	"description": "localized text for all React Component in various languages",
-	"author": "Syncfusion Inc.",
-	"license": "SEE LICENSE IN license",
-	"keywords": [
-		"react",
-		"syncfusion",
-		"react-base",
-		"react-locale",
-		"locale",
-		"l10n"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/syncfusion/react-locale.git"
-	},
-	"homepage": "https://github.com/syncfusion/react-locale.git"
+  "name": "@syncfusion/react-locale",
+  "version": "32.1.19",
+  "description": "Syncfusion React Locale provides localized text for React components in various languages",
+  "author": "Syncfusion Inc.",
+  "license": "SEE LICENSE IN license",
+  "keywords": [
+    "react",
+    "syncfusion",
+    "react-base",
+    "react-locale",
+    "locale",
+    "l10n"
+  ],
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/syncfusion/react-locale.git"
+  },
+  "homepage": "https://github.com/syncfusion/react-locale.git"
 }

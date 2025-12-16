@@ -2,6 +2,14 @@
 
 The `@syncfusion/react-locale` package provides locale translations for Syncfusion's Essential® Studio React components, enabling seamless localization across multiple languages and regions.
 
+## Setup
+
+To install the `@syncfusion/react-locale` package, run the following command:
+
+```sh
+npm install @syncfusion/react-locale
+```
+
 ## Supported Languages
 
 The following languages and cultures are currently supported:
@@ -42,13 +50,6 @@ The following languages and cultures are currently supported:
 | vi     | Vietnamese - Vietnam           |
 | zh       | Chinese - China                |
 
-## Installation
-
-To install the `@syncfusion/react-locale` package, run the following command:
-
-```sh
-npm install @syncfusion/react-locale
-```
 
 ## Usage
 
@@ -77,7 +78,7 @@ import {  NumericTextBox } from "@syncfusion/react-inputs";
 ```
 > This ensures that all child components respect the specified locale.
 
-Refer to the [Localization Documentation](https://react.syncfusion.com/common-features/localization) for detailed usage instructions and examples.
+Refer to the [Localization Documentation](https://react.syncfusion.com/react-ui/common-features/localization) for detailed usage instructions and examples.
 
 ## Support
 

@@ -4,9 +4,9 @@
       "close": "ปิด"
     },
     "grid": {
-      "noRecordsMessage": "ไม่มีระเบียนที่จะแสดง",
-      "filterBarTooltip": "\"เซลล์บาร์ตัวกรอง",
-      "invalidFilterMessage": "ข้อมูลตัวกรองที่ไม่ถูกต้อง",
+      "noRecordsMessage": "ไม่มีบันทึกที่จะแสดง",
+      "filterBarTooltip": "เซลล์แถบตัวกรองของ",
+      "invalidFilterMessage": "ข้อมูลตัวกรองไม่ถูกต้อง",
       "booleanTrueLabel": "จริง",
       "booleanFalseLabel": "เท็จ",
       "addButtonLabel": "เพิ่ม",
@@ -15,66 +15,72 @@
       "updateButtonLabel": "อัปเดต",
       "deleteButtonLabel": "ลบ",
       "searchButtonLabel": "ค้นหา",
-      "unsavedChangesConfirmation": "การเปลี่ยนแปลงที่ไม่ได้บันทึกจะหายไป แน่ใจหรือว่าต้องการดำเนินการต่อ?",
-      "noRecordsEditMessage": "ไม่มีการเลือกบันทึกสำหรับการดำเนินการแก้ไข",
-      "noRecordsDeleteMessage": "ไม่มีการเลือกระเบียนสำหรับการดำเนินการลบ",
+      "unsavedChangesConfirmation": "การเปลี่ยนแปลงที่ไม่ได้บันทึกจะสูญหาย คุณแน่ใจหรือไม่ว่าต้องการดำเนินการต่อ?",
+      "noRecordsEditMessage": "ไม่มีบันทึกที่เลือกสำหรับการดำเนินการแก้ไข",
+      "noRecordsDeleteMessage": "ไม่มีบันทึกที่เลือกสำหรับการดำเนินการลบ",
       "okButtonLabel": "ตกลง",
-      "confirmDeleteMessage": "แน่ใจหรือว่าต้องการลบบันทึก?"
+      "confirmDeleteMessage": "คุณแน่ใจหรือไม่ว่าต้องการลบบันทึก?"
     },
     "pager": {
-      "currentPageLabel": "{0} ของหน้า {1}",
+      "currentPageLabel": "{0} จาก {1} หน้า",
       "totalItemsLabel": "({0} รายการ)",
       "totalItemLabel": "({0} รายการ)",
       "firstPageTooltip": "ไปที่หน้าแรก",
       "lastPageTooltip": "ไปที่หน้าสุดท้าย",
       "nextPageTooltip": "ไปที่หน้าถัดไป",
       "previousPageTooltip": "ไปที่หน้าก่อนหน้า",
-      "nextPageGroupTooltip": "ไปที่กลุ่มหน้าถัดไป",
-      "previousPageGroupTooltip": "ไปที่กลุ่มหน้าก่อนหน้า",
-      "paginationStatusMessage": "ข้อความภายนอกเพจเจอร์",
-      "pageLabel": "หน้าหนังสือ ",
-      "ofLabel": " ของ ",
+      "nextPageGroupTooltip": "ไปที่กลุ่มเพจถัดไป",
+      "previousPageGroupTooltip": "ไปที่กลุ่มเพจก่อนหน้า",
+      "pagerStatusMessage": "ข้อความเพจเจอร์ภายนอก",
+      "pageLabel": "หน้า ",
+      "pagerOfLabel": " ของ ",
       "pagesLabel": " หน้า"
     },
     "chart": {
       "zoom": "ซูม",
-      "zoomIn": "ซูม",
-      "zoomOut": "ซูม",
+      "zoomIn": "ซูมเข้า",
+      "zoomOut": "ซูมออก",
       "reset": "รีเซ็ต",
-      "pan": "กระทะ",
-      "resetZoom": "รีเซ็ตซูม"
+      "pan": "แพน",
+      "resetZoom": "รีเซ็ตการซูม"
     },
     "dialog": {
       "close": "ปิด"
     },
     "calendar": {
-      "today": "วันนี้"
+      "today": "วันนี้",
+      "nextMonth": "เดือนหน้า",
+      "previousMonth": "เดือนที่แล้ว",
+      "nextYear": "ปีหน้า",
+      "previousYear": "ปีที่แล้ว",
+      "nextDecade": "ทศวรรษหน้า",
+      "previousDecade": "ทศวรรษที่ผ่านมา"
     },
     "datepicker": {
       "today": "วันนี้",
       "placeholder": "เลือกวันที่"
     },
     "formValidator": {
-      "required": "ต้องการฟิลด์นี้",
-      "email": "โปรดป้อนที่อยู่อีเมลที่ถูกต้อง",
+      "required": "ต้องระบุข้อมูลในช่องนี้",
+      "email": "กรุณากรอกที่อยู่อีเมลที่ถูกต้อง",
       "url": "โปรดป้อน URL ที่ถูกต้อง",
       "date": "กรุณากรอกวันที่ที่ถูกต้อง",
       "dateIso": "โปรดป้อนวันที่ที่ถูกต้อง (ISO)",
       "creditCard": "กรุณากรอกหมายเลขบัตรที่ถูกต้อง",
-      "number": "กรุณากรอกหมายเลขที่ถูกต้อง",
-      "digits": "โปรดป้อนตัวเลขเท่านั้น",
-      "maxLength": "โปรดป้อนอักขระไม่เกิน {0}",
-      "minLength": "โปรดป้อนอักขระอย่างน้อย {0}",
-      "rangeLength": "โปรดป้อนค่าระหว่าง {0} และ {1} อักขระยาว",
-      "range": "โปรดป้อนค่าระหว่าง {0} และ {1}",
+      "number": "กรุณากรอกตัวเลขที่ถูกต้อง",
+      "digits": "กรุณากรอกเฉพาะตัวเลขเท่านั้น",
+      "maxLength": "โปรดป้อนอักขระไม่เกิน {0} ตัว",
+      "minLength": "กรุณากรอกอย่างน้อย {0} ตัวอักษร",
+      "rangeLength": "โปรดป้อนค่าระหว่างอักขระ {0} ถึง {1} ตัว",
+      "range": "โปรดป้อนค่าระหว่าง {0} ถึง {1}",
       "max": "โปรดป้อนค่าน้อยกว่าหรือเท่ากับ {0}",
       "min": "โปรดป้อนค่าที่มากกว่าหรือเท่ากับ {0}",
       "regex": "กรุณากรอกค่าที่ถูกต้อง",
       "tel": "กรุณากรอกหมายเลขโทรศัพท์ที่ถูกต้อง",
-      "equalTo": "กรุณากรอกค่าเดียวกันอีกครั้ง"
+      "equalTo": "กรุณากรอกค่าเดิมอีกครั้ง"
     },
     "numericTextbox": {
-      "increment": "ค่าที่เพิ่มขึ้น",
+      "increment": "เพิ่มมูลค่า",
       "decrement": "ค่าลดลง",
       "clear": "ชัดเจน"
     },
@@ -83,6 +89,69 @@
     },
     "textbox": {
       "clear": "ชัดเจน"
+    },
+    "schedule": {
+      "addTitle": "เพิ่มชื่อ",
+      "save": "บันทึก",
+      "edit": "แก้ไข",
+      "delete": "ลบ",
+      "moreDetails": "รายละเอียดเพิ่มเติม",
+      "close": "ปิด",
+      "newEvent": "กิจกรรมใหม่",
+      "today": "วันนี้",
+      "allDay": "ทั้งวัน",
+      "day": "วัน",
+      "week": "สัปดาห์",
+      "workweek": "สัปดาห์การทำงาน",
+      "month": "เดือน",
+      "more": "มากขึ้น",
+      "expandAllDaySection": "ขยายส่วนทั้งวัน",
+      "collapseAllDaySection": "ยุบส่วนทั้งวัน",
+      "deleteEvent": "ลบกิจกรรม",
+      "confirmDeleteMessage": "คุณแน่ใจหรือไม่ว่าต้องการลบกิจกรรมนี้",
+      "cancel": "ยกเลิก",
+      "title": "ชื่อเรื่อง",
+      "location": "ที่ตั้ง",
+      "description": "คำอธิบาย",
+      "startDate": "วันที่เริ่มต้น",
+      "endDate": "วันที่สิ้นสุด",
+      "startTime": "เวลาเริ่มต้น",
+      "endTime": "เวลาสิ้นสุด"
+    },
+    "timepicker": {
+      "placeholder": "เลือกเวลา"
+    },
+    "scheduler": {
+      "addTitle": "เพิ่มชื่อ",
+      "save": "บันทึก",
+      "edit": "แก้ไข",
+      "delete": "ลบ",
+      "moreDetails": "รายละเอียดเพิ่มเติม",
+      "close": "ปิด",
+      "newEvent": "กิจกรรมใหม่",
+      "today": "วันนี้",
+      "allDay": "ทั้งวัน",
+      "day": "วัน",
+      "week": "สัปดาห์",
+      "workweek": "สัปดาห์การทำงาน",
+      "month": "เดือน",
+      "more": "มากขึ้น",
+      "expandAllDaySection": "ขยายส่วนทั้งวัน",
+      "collapseAllDaySection": "ยุบส่วนทั้งวัน",
+      "deleteEvent": "ลบกิจกรรม",
+      "confirmDeleteMessage": "คุณแน่ใจหรือไม่ว่าต้องการลบกิจกรรมนี้",
+      "cancel": "ยกเลิก",
+      "title": "ชื่อเรื่อง",
+      "location": "ที่ตั้ง",
+      "description": "คำอธิบาย",
+      "startDate": "วันที่เริ่มต้น",
+      "endDate": "วันที่สิ้นสุด",
+      "startTime": "เวลาเริ่มต้น",
+      "endTime": "เวลาสิ้นสุด"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "ไม่พบบันทึก",
+      "errorMessage": "คำขอล้มเหลว"
     }
   }
 }

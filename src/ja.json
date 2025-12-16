@@ -1,81 +1,87 @@
 {
   "ja": {
     "message": {
-      "close": "近い"
+      "close": "閉じる"
     },
     "grid": {
-      "noRecordsMessage": "表示するレコードはありません",
-      "filterBarTooltip": "「Sフィルターバーセル",
+      "noRecordsMessage": "表示するレコードがありません",
+      "filterBarTooltip": "「sフィルターバーセル」",
       "invalidFilterMessage": "無効なフィルターデータ",
-      "booleanTrueLabel": "真実",
-      "booleanFalseLabel": "間違い",
+      "booleanTrueLabel": "本当の",
+      "booleanFalseLabel": "偽",
       "addButtonLabel": "追加",
       "editButtonLabel": "編集",
       "cancelButtonLabel": "キャンセル",
       "updateButtonLabel": "アップデート",
-      "deleteButtonLabel": "消去",
+      "deleteButtonLabel": "削除",
       "searchButtonLabel": "検索",
-      "unsavedChangesConfirmation": "未保存の変更は失われます。続けたいですか？",
-      "noRecordsEditMessage": "編集操作のために選択されたレコードはありません",
-      "noRecordsDeleteMessage": "削除操作用に選択されたレコードはありません",
-      "okButtonLabel": "わかりました",
-      "confirmDeleteMessage": "レコードを削除したいですか？"
+      "unsavedChangesConfirmation": "保存されていない変更は失われます。続行してもよろしいですか?",
+      "noRecordsEditMessage": "編集操作用にレコードが選択されていません",
+      "noRecordsDeleteMessage": "削除操作対象のレコードが選択されていません",
+      "okButtonLabel": "OK",
+      "confirmDeleteMessage": "レコードを削除してもよろしいですか?"
     },
     "pager": {
-      "currentPageLabel": "{1}ページの{0}",
-      "totalItemsLabel": "（{0}アイテム）",
-      "totalItemLabel": "（{0}アイテム）",
-      "firstPageTooltip": "最初のページに移動します",
-      "lastPageTooltip": "最後のページに移動します",
-      "nextPageTooltip": "次のページに移動します",
-      "previousPageTooltip": "前のページに移動します",
-      "nextPageGroupTooltip": "次のページグループに移動します",
-      "previousPageGroupTooltip": "前のページグループに移動します",
-      "paginationStatusMessage": "ページャー外部メッセージ",
+      "currentPageLabel": "{1} ページ中 {0}",
+      "totalItemsLabel": "({0} 個のアイテム)",
+      "totalItemLabel": "({0} 項目)",
+      "firstPageTooltip": "最初のページに移動",
+      "lastPageTooltip": "最後のページに移動",
+      "nextPageTooltip": "次のページへ",
+      "previousPageTooltip": "前のページに戻る",
+      "nextPageGroupTooltip": "次のページグループに移動",
+      "previousPageGroupTooltip": "前のページグループに移動",
+      "pagerStatusMessage": "ポケベルの外部メッセージ",
       "pageLabel": "ページ ",
-      "ofLabel": " の ",
+      "pagerOfLabel": " の ",
       "pagesLabel": " ページ"
     },
     "chart": {
       "zoom": "ズーム",
-      "zoomIn": "Zoomin",
+      "zoomIn": "ズームイン",
       "zoomOut": "ズームアウト",
       "reset": "リセット",
-      "pan": "鍋",
-      "resetZoom": "ズームをリセットします"
+      "pan": "パン",
+      "resetZoom": "ズームをリセット"
     },
     "dialog": {
-      "close": "近い"
+      "close": "閉じる"
     },
     "calendar": {
-      "today": "今日"
+      "today": "今日",
+      "nextMonth": "来月",
+      "previousMonth": "前月",
+      "nextYear": "来年",
+      "previousYear": "前年",
+      "nextDecade": "次の10年",
+      "previousDecade": "過去10年間"
     },
     "datepicker": {
       "today": "今日",
       "placeholder": "日付を選択してください"
     },
     "formValidator": {
-      "required": "この項目は必須です。",
-      "email": "有効なメールアドレスを入力してください。",
-      "url": "有効なURLを入力してください。",
+      "required": "このフィールドは必須です。",
+      "email": "有効な電子メール アドレスを入力してください。",
+      "url": "有効な URL を入力してください。",
       "date": "有効な日付を入力してください。",
-      "dateIso": "有効な日付（ISO）を入力してください。",
+      "dateIso": "有効な日付 (ISO) を入力してください。",
       "creditCard": "有効なカード番号を入力してください。",
       "number": "有効な番号を入力してください。",
       "digits": "数字のみを入力してください。",
-      "maxLength": "{0}文字以下を入力してください。",
-      "minLength": "少なくとも{0}文字を入力してください。",
-      "rangeLength": "{0}と{1}文字の長さの間に値を入力してください。",
-      "range": "{0}と{1}の間に値を入力してください。",
-      "max": "{0}以下の値を入力してください。",
-      "min": "{0}以上の値を入力してください。",
+      "maxLength": "{0} 文字以内で入力してください。",
+      "minLength": "少なくとも {0} 文字を入力してください。",
+      "rangeLength": "{0} 文字から {1} 文字までの値を入力してください。",
+      "range": "{0} から {1} までの値を入力してください。",
+      "max": "{0} 以下の値を入力してください。",
+      "min": "{0} 以上の値を入力してください。",
       "regex": "正しい値を入力してください。",
       "tel": "有効な電話番号を入力してください。",
-      "equalTo": "もう一度同じ値を入力してください。"
+      "equalTo": "同じ値を再度入力してください。"
     },
     "numericTextbox": {
-      "increment": "増分値",
-      "decrement": "減少値",
+      "increment": "インクリメント値",
+      "decrement": "値を減らす",
       "clear": "クリア"
     },
     "textarea": {
@@ -83,6 +89,69 @@
     },
     "textbox": {
       "clear": "クリア"
+    },
+    "schedule": {
+      "addTitle": "タイトルを追加",
+      "save": "保存",
+      "edit": "編集",
+      "delete": "削除",
+      "moreDetails": "さらに詳しく",
+      "close": "閉じる",
+      "newEvent": "新しいイベント",
+      "today": "今日",
+      "allDay": "一日中",
+      "day": "日",
+      "week": "週",
+      "workweek": "勤務週間",
+      "month": "月",
+      "more": "もっと見る",
+      "expandAllDaySection": "終日セクションを拡大する",
+      "collapseAllDaySection": "終日セクションを折りたたむ",
+      "deleteEvent": "イベントの削除",
+      "confirmDeleteMessage": "このイベントを削除してもよろしいですか?",
+      "cancel": "キャンセル",
+      "title": "タイトル",
+      "location": "場所",
+      "description": "説明",
+      "startDate": "開始日",
+      "endDate": "終了日",
+      "startTime": "開始時間",
+      "endTime": "終了時刻"
+    },
+    "timepicker": {
+      "placeholder": "時間を選択してください"
+    },
+    "scheduler": {
+      "addTitle": "タイトルを追加",
+      "save": "保存",
+      "edit": "編集",
+      "delete": "削除",
+      "moreDetails": "さらに詳しく",
+      "close": "閉じる",
+      "newEvent": "新しいイベント",
+      "today": "今日",
+      "allDay": "一日中",
+      "day": "日",
+      "week": "週",
+      "workweek": "勤務週間",
+      "month": "月",
+      "more": "もっと見る",
+      "expandAllDaySection": "終日セクションを拡大する",
+      "collapseAllDaySection": "終日セクションを折りたたむ",
+      "deleteEvent": "イベントの削除",
+      "confirmDeleteMessage": "このイベントを削除してもよろしいですか?",
+      "cancel": "キャンセル",
+      "title": "タイトル",
+      "location": "場所",
+      "description": "説明",
+      "startDate": "開始日",
+      "endDate": "終了日",
+      "startTime": "開始時間",
+      "endTime": "終了時刻"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "レコードが見つかりませんでした",
+      "errorMessage": "リクエストが失敗しました"
     }
   }
 }

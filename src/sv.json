@@ -1,81 +1,87 @@
 {
   "sv": {
     "message": {
-      "close": "Nära"
+      "close": "Stäng"
     },
     "grid": {
       "noRecordsMessage": "Inga poster att visa",
-      "filterBarTooltip": "\"S filterstångcell",
+      "filterBarTooltip": "\"s filterfältscell",
       "invalidFilterMessage": "Ogiltig filterdata",
-      "booleanTrueLabel": "sann",
-      "booleanFalseLabel": "falsk",
-      "addButtonLabel": "Tillägga",
+      "booleanTrueLabel": "sant",
+      "booleanFalseLabel": "falskt",
+      "addButtonLabel": "Lägg till",
       "editButtonLabel": "Redigera",
-      "cancelButtonLabel": "Avboka",
-      "updateButtonLabel": "Uppdatera",
-      "deleteButtonLabel": "Radera",
-      "searchButtonLabel": "Söka",
-      "unsavedChangesConfirmation": "Osparade förändringar kommer att gå förlorade. Är du säker på att du vill fortsätta?",
-      "noRecordsEditMessage": "Inga poster valt för redigeringsoperation",
-      "noRecordsDeleteMessage": "Inga poster valt för radering",
+      "cancelButtonLabel": "Avbryt",
+      "updateButtonLabel": "Uppdatering",
+      "deleteButtonLabel": "Ta bort",
+      "searchButtonLabel": "Sök",
+      "unsavedChangesConfirmation": "Osparade ändringar kommer att gå förlorade. Är du säker på att du vill fortsätta?",
+      "noRecordsEditMessage": "Inga poster har valts för redigering",
+      "noRecordsDeleteMessage": "Inga poster har valts för raderingsåtgärd",
       "okButtonLabel": "OK",
-      "confirmDeleteMessage": "Är du säker på att du vill ta bort posten?"
+      "confirmDeleteMessage": "Är du säker på att du vill radera posten?"
     },
     "pager": {
       "currentPageLabel": "{0} av {1} sidor",
-      "totalItemsLabel": "({0} artiklar)",
-      "totalItemLabel": "({0} artikel)",
+      "totalItemsLabel": "({0} objekt)",
+      "totalItemLabel": "({0} objekt)",
       "firstPageTooltip": "Gå till första sidan",
       "lastPageTooltip": "Gå till sista sidan",
       "nextPageTooltip": "Gå till nästa sida",
       "previousPageTooltip": "Gå till föregående sida",
-      "nextPageGroupTooltip": "Gå till gruppen för nästa sida",
+      "nextPageGroupTooltip": "Gå till nästa sidgrupp",
       "previousPageGroupTooltip": "Gå till föregående sidgrupp",
-      "paginationStatusMessage": "Papper externt meddelande",
+      "pagerStatusMessage": "Personsökarens externa meddelande",
       "pageLabel": "Sida ",
-      "ofLabel": " av ",
+      "pagerOfLabel": " av ",
       "pagesLabel": " Sidor"
     },
     "chart": {
-      "zoom": "Zoom",
-      "zoomIn": "Zoomin",
-      "zoomOut": "Zoomout",
-      "reset": "Återställa",
+      "zoom": "Zooma",
+      "zoomIn": "Zooma in",
+      "zoomOut": "Zooma ut",
+      "reset": "Återställ",
       "pan": "Panorera",
       "resetZoom": "Återställ zoom"
     },
     "dialog": {
-      "close": "Nära"
+      "close": "Stäng"
     },
     "calendar": {
-      "today": "I dag"
+      "today": "Idag",
+      "nextMonth": "Nästa månad",
+      "previousMonth": "Föregående månad",
+      "nextYear": "Nästa år",
+      "previousYear": "Föregående år",
+      "nextDecade": "Nästa decennium",
+      "previousDecade": "Tidigare decennium"
     },
     "datepicker": {
-      "today": "I dag",
+      "today": "Idag",
       "placeholder": "Välj ett datum"
     },
     "formValidator": {
-      "required": "Detta fält krävs.",
-      "email": "Ange en giltig e -postadress.",
+      "required": "Detta fält är obligatoriskt.",
+      "email": "Ange en giltig e-postadress.",
       "url": "Ange en giltig URL.",
       "date": "Ange ett giltigt datum.",
       "dateIso": "Ange ett giltigt datum (ISO).",
-      "creditCard": "Ange giltigt kortnummer.",
+      "creditCard": "Ange ett giltigt kortnummer.",
       "number": "Ange ett giltigt nummer.",
       "digits": "Ange endast siffror.",
-      "maxLength": "Ange inte mer än {0} tecken.",
+      "maxLength": "Ange högst {0} tecken.",
       "minLength": "Ange minst {0} tecken.",
       "rangeLength": "Ange ett värde mellan {0} och {1} tecken långt.",
       "range": "Ange ett värde mellan {0} och {1}.",
       "max": "Ange ett värde som är mindre än eller lika med {0}.",
-      "min": "Ange ett värde större än eller lika med {0}.",
-      "regex": "Ange ett korrekt värde.",
+      "min": "Ange ett värde som är större än eller lika med {0}.",
+      "regex": "Vänligen ange ett korrekt värde.",
       "tel": "Ange ett giltigt telefonnummer.",
       "equalTo": "Ange samma värde igen."
     },
     "numericTextbox": {
-      "increment": "Ökningsvärde",
-      "decrement": "Minskningsvärde",
+      "increment": "Öka värdet",
+      "decrement": "Minska värdet",
       "clear": "Rensa"
     },
     "textarea": {
@@ -83,6 +89,69 @@
     },
     "textbox": {
       "clear": "Rensa"
+    },
+    "schedule": {
+      "addTitle": "Lägg till titel",
+      "save": "Spara",
+      "edit": "Redigera",
+      "delete": "Ta bort",
+      "moreDetails": "Mer information",
+      "close": "Stäng",
+      "newEvent": "Nytt evenemang",
+      "today": "Idag",
+      "allDay": "Hela dagen",
+      "day": "dag",
+      "week": "Vecka",
+      "workweek": "Arbetsvecka",
+      "month": "Månad",
+      "more": "mer",
+      "expandAllDaySection": "Utöka heldagssektionen",
+      "collapseAllDaySection": "Komprimera avsnittet hela dagen",
+      "deleteEvent": "Ta bort händelse",
+      "confirmDeleteMessage": "Är du säker på att du vill ta bort den här händelsen?",
+      "cancel": "Avbryt",
+      "title": "Titel",
+      "location": "Plats",
+      "description": "Beskrivning",
+      "startDate": "Startdatum",
+      "endDate": "Slutdatum",
+      "startTime": "Starttid",
+      "endTime": "Sluttid"
+    },
+    "timepicker": {
+      "placeholder": "Välj en tid"
+    },
+    "scheduler": {
+      "addTitle": "Lägg till titel",
+      "save": "Spara",
+      "edit": "Redigera",
+      "delete": "Ta bort",
+      "moreDetails": "Mer information",
+      "close": "Stäng",
+      "newEvent": "Nytt evenemang",
+      "today": "Idag",
+      "allDay": "Hela dagen",
+      "day": "dag",
+      "week": "Vecka",
+      "workweek": "Arbetsvecka",
+      "month": "Månad",
+      "more": "mer",
+      "expandAllDaySection": "Utöka heldagssektionen",
+      "collapseAllDaySection": "Komprimera avsnittet hela dagen",
+      "deleteEvent": "Ta bort händelse",
+      "confirmDeleteMessage": "Är du säker på att du vill ta bort den här händelsen?",
+      "cancel": "Avbryt",
+      "title": "Titel",
+      "location": "Plats",
+      "description": "Beskrivning",
+      "startDate": "Startdatum",
+      "endDate": "Slutdatum",
+      "startTime": "Starttid",
+      "endTime": "Sluttid"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "Inga uppgifter hittades",
+      "errorMessage": "Begäran misslyckades"
     }
   }
 }

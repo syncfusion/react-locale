@@ -1,88 +1,157 @@
 {
   "is": {
     "message": {
-      "close": "Lokaðu"
+      "close": "Loka"
     },
     "grid": {
       "noRecordsMessage": "Engar skrár til að sýna",
-      "filterBarTooltip": "„S Filter Bar Cell",
+      "filterBarTooltip": "\"s síustikuhólfi",
       "invalidFilterMessage": "Ógild síugögn",
       "booleanTrueLabel": "satt",
-      "booleanFalseLabel": "Ósatt",
+      "booleanFalseLabel": "ósatt",
       "addButtonLabel": "Bæta við",
-      "editButtonLabel": "EDIT",
+      "editButtonLabel": "Breyta",
       "cancelButtonLabel": "Hætta við",
-      "updateButtonLabel": "UPDATE",
+      "updateButtonLabel": "Uppfærsla",
       "deleteButtonLabel": "Eyða",
-      "searchButtonLabel": "Leitaðu",
-      "unsavedChangesConfirmation": "Óvissaðar breytingar tapast. Ertu viss um að þú viljir halda áfram?",
-      "noRecordsEditMessage": "Engar skrár valdar til að breyta aðgerð",
-      "noRecordsDeleteMessage": "Engar skrár valdar til að eyða rekstri",
-      "okButtonLabel": "OK",
-      "confirmDeleteMessage": "Ertu viss um að þú viljir eyða plötunni?"
+      "searchButtonLabel": "Leita",
+      "unsavedChangesConfirmation": "Óvistaðar breytingar munu glatast. Ertu viss um að þú viljir halda áfram?",
+      "noRecordsEditMessage": "Engar skrár valdar fyrir breytingaaðgerð",
+      "noRecordsDeleteMessage": "Engar skrár valdar fyrir eyðingaraðgerð",
+      "okButtonLabel": "Allt í lagi",
+      "confirmDeleteMessage": "Ertu viss um að þú viljir eyða færslunni?"
     },
     "pager": {
       "currentPageLabel": "{0} af {1} síðum",
-      "totalItemsLabel": "({0} hlutir)",
-      "totalItemLabel": "({0} hlutur)",
+      "totalItemsLabel": "({0} atriði)",
+      "totalItemLabel": "({0} atriði)",
       "firstPageTooltip": "Farðu á fyrstu síðu",
       "lastPageTooltip": "Farðu á síðustu síðu",
       "nextPageTooltip": "Farðu á næstu síðu",
       "previousPageTooltip": "Farðu á fyrri síðu",
-      "nextPageGroupTooltip": "Farðu í Next Page Group",
-      "previousPageGroupTooltip": "Farðu í fyrri blaðsíðuhóp",
-      "paginationStatusMessage": "Ytri skilaboð um símleiðis",
-      "pageLabel": "Síða ",
-      "ofLabel": " af ",
+      "nextPageGroupTooltip": "Farðu í næsta síðuhóp",
+      "previousPageGroupTooltip": "Farðu í fyrri síðuhóp",
+      "pagerStatusMessage": "Símboði ytri skilaboð",
+      "pageLabel": "Bls ",
+      "pagerOfLabel": " af ",
       "pagesLabel": " Síður"
     },
     "chart": {
       "zoom": "Aðdráttur",
-      "zoomIn": "Zoomin",
-      "zoomOut": "Zoomout",
+      "zoomIn": "Aðdráttur",
+      "zoomOut": "Aðdráttur út",
       "reset": "Endurstilla",
-      "pan": "Pönnu",
-      "resetZoom": "Endurstilla aðdrátt"
+      "pan": "Pan",
+      "resetZoom": "Endurstilla Zoom"
     },
     "dialog": {
-      "close": "Lokaðu"
+      "close": "Loka"
     },
     "calendar": {
-      "today": "Í dag"
+      "today": "Í dag",
+      "nextMonth": "Næsta mánuð",
+      "previousMonth": "Fyrri mánuður",
+      "nextYear": "Á næsta ári",
+      "previousYear": "Fyrra ár",
+      "nextDecade": "Næsta áratug",
+      "previousDecade": "Fyrri áratug"
     },
     "datepicker": {
       "today": "Í dag",
       "placeholder": "Veldu dagsetningu"
     },
     "formValidator": {
-      "required": "Þessa reit er krafist.",
+      "required": "Þessi reitur er nauðsynlegur.",
       "email": "Vinsamlegast sláðu inn gilt netfang.",
-      "url": "Vinsamlegast sláðu inn gilda slóð.",
-      "date": "Vinsamlegast sláðu inn gilda dagsetningu.",
-      "dateIso": "Vinsamlegast sláðu inn gilda dagsetningu (ISO).",
-      "creditCard": "Vinsamlegast sláðu inn gilt kortanúmer.",
+      "url": "Vinsamlega sláðu inn gilda vefslóð.",
+      "date": "Vinsamlega sláðu inn gilda dagsetningu.",
+      "dateIso": "Vinsamlega sláðu inn gilda dagsetningu (ISO).",
+      "creditCard": "Vinsamlega sláðu inn gilt kortanúmer.",
       "number": "Vinsamlegast sláðu inn gilt númer.",
-      "digits": "Vinsamlegast sláðu aðeins inn tölur.",
-      "maxLength": "Vinsamlegast sláðu ekki meira en {0} stafi.",
+      "digits": "Vinsamlegast sláðu aðeins inn tölustafi.",
+      "maxLength": "Vinsamlega sláðu inn ekki fleiri en {0} stafi.",
       "minLength": "Vinsamlegast sláðu inn að minnsta kosti {0} stafi.",
-      "rangeLength": "Vinsamlegast sláðu inn gildi milli {0} og {1} stafi.",
-      "range": "Vinsamlegast sláðu inn gildi milli {0} og {1}.",
-      "max": "Vinsamlegast sláðu inn gildi minna en eða jafnt og {0}.",
-      "min": "Vinsamlegast sláðu inn gildi sem er meira en eða jafnt og {0}.",
-      "regex": "Vinsamlegast sláðu inn rétt gildi.",
+      "rangeLength": "Vinsamlega sláðu inn gildi á milli {0} og {1} stafa langt.",
+      "range": "Vinsamlega sláðu inn gildi á milli {0} og {1}.",
+      "max": "Vinsamlega sláðu inn gildi sem er minna en eða jafnt og {0}.",
+      "min": "Vinsamlega sláðu inn gildi sem er stærra en eða jafnt og {0}.",
+      "regex": "Vinsamlega sláðu inn rétt gildi.",
       "tel": "Vinsamlegast sláðu inn gilt símanúmer.",
-      "equalTo": "Vinsamlegast sláðu inn sama gildi aftur."
+      "equalTo": "Vinsamlega sláðu inn sama gildi aftur."
     },
     "numericTextbox": {
-      "increment": "Hækkunargildi",
-      "decrement": "Lækkunargildi",
-      "clear": "Tær"
+      "increment": "Auka verðmæti",
+      "decrement": "Lækka gildi",
+      "clear": "Hreinsa"
     },
     "textarea": {
-      "clear": "Tær"
+      "clear": "Hreinsa"
     },
     "textbox": {
-      "clear": "Tær"
+      "clear": "Hreinsa"
+    },
+    "schedule": {
+      "addTitle": "Bæta við titli",
+      "save": "Vista",
+      "edit": "Breyta",
+      "delete": "Eyða",
+      "moreDetails": "Nánari upplýsingar",
+      "close": "Loka",
+      "newEvent": "Nýr viðburður",
+      "today": "Í dag",
+      "allDay": "Allan daginn",
+      "day": "Dagur",
+      "week": "Vika",
+      "workweek": "Vinnuvika",
+      "month": "Mánuður",
+      "more": "meira",
+      "expandAllDaySection": "Stækkaðu hlutann allan daginn",
+      "collapseAllDaySection": "Draga saman allan daginn hluta",
+      "deleteEvent": "Eyða atburði",
+      "confirmDeleteMessage": "Ertu viss um að þú viljir eyða þessum viðburði?",
+      "cancel": "Hætta við",
+      "title": "Titill",
+      "location": "Staðsetning",
+      "description": "Lýsing",
+      "startDate": "Upphafsdagur",
+      "endDate": "Lokadagur",
+      "startTime": "Upphafstími",
+      "endTime": "Lokatími"
+    },
+    "timepicker": {
+      "placeholder": "Veldu tíma"
+    },
+    "scheduler": {
+      "addTitle": "Bæta við titli",
+      "save": "Vista",
+      "edit": "Breyta",
+      "delete": "Eyða",
+      "moreDetails": "Nánari upplýsingar",
+      "close": "Loka",
+      "newEvent": "Nýr viðburður",
+      "today": "Í dag",
+      "allDay": "Allan daginn",
+      "day": "Dagur",
+      "week": "Vika",
+      "workweek": "Vinnuvika",
+      "month": "Mánuður",
+      "more": "meira",
+      "expandAllDaySection": "Stækkaðu hlutann allan daginn",
+      "collapseAllDaySection": "Draga saman allan daginn hluta",
+      "deleteEvent": "Eyða atburði",
+      "confirmDeleteMessage": "Ertu viss um að þú viljir eyða þessum viðburði?",
+      "cancel": "Hætta við",
+      "title": "Titill",
+      "location": "Staðsetning",
+      "description": "Lýsing",
+      "startDate": "Upphafsdagur",
+      "endDate": "Lokadagur",
+      "startTime": "Upphafstími",
+      "endTime": "Lokatími"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "Engar skrár fundust",
+      "errorMessage": "Beiðni mistókst"
     }
   }
 }

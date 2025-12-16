@@ -1,88 +1,157 @@
 {
   "hr": {
     "message": {
-      "close": "Zatvoriti"
+      "close": "Zatvori"
     },
     "grid": {
       "noRecordsMessage": "Nema zapisa za prikaz",
-      "filterBarTooltip": "\"S filter bar ćelija",
+      "filterBarTooltip": "\"ova ćelija filtarske trake",
       "invalidFilterMessage": "Nevažeći podaci filtra",
-      "booleanTrueLabel": "pravi",
-      "booleanFalseLabel": "lažan",
-      "addButtonLabel": "Dodati",
-      "editButtonLabel": "Urediti",
-      "cancelButtonLabel": "Otkazati",
-      "updateButtonLabel": "Ažurirati",
-      "deleteButtonLabel": "Izbrisati",
-      "searchButtonLabel": "Pretraživanje",
-      "unsavedChangesConfirmation": "Izgubit će se nespremne promjene. Jeste li sigurni da želite nastaviti?",
-      "noRecordsEditMessage": "Nema zapisa odabranih za operaciju uređivanja",
-      "noRecordsDeleteMessage": "Nema zapisa odabranih za Operaciju brisanja",
-      "okButtonLabel": "U REDU",
+      "booleanTrueLabel": "istina",
+      "booleanFalseLabel": "lažno",
+      "addButtonLabel": "Dodaj",
+      "editButtonLabel": "Uredi",
+      "cancelButtonLabel": "Odustani",
+      "updateButtonLabel": "Ažuriranje",
+      "deleteButtonLabel": "Izbriši",
+      "searchButtonLabel": "Traži",
+      "unsavedChangesConfirmation": "Nespremljene promjene bit će izgubljene. Jeste li sigurni da želite nastaviti?",
+      "noRecordsEditMessage": "Nema odabranih zapisa za operaciju uređivanja",
+      "noRecordsDeleteMessage": "Nema odabranih zapisa za operaciju brisanja",
+      "okButtonLabel": "OK",
       "confirmDeleteMessage": "Jeste li sigurni da želite izbrisati zapis?"
     },
     "pager": {
       "currentPageLabel": "{0} od {1} stranica",
       "totalItemsLabel": "({0} stavke)",
       "totalItemLabel": "({0} stavka)",
-      "firstPageTooltip": "Idite na prvu stranicu",
-      "lastPageTooltip": "Idite na posljednju stranicu",
-      "nextPageTooltip": "Idite na sljedeću stranicu",
-      "previousPageTooltip": "Idite na prethodnu stranicu",
-      "nextPageGroupTooltip": "Idite na grupu sljedeće stranice",
-      "previousPageGroupTooltip": "Idite na grupu prethodne stranice",
-      "paginationStatusMessage": "Pojavljivačka vanjska poruka",
+      "firstPageTooltip": "Idi na prvu stranicu",
+      "lastPageTooltip": "Idi na posljednju stranicu",
+      "nextPageTooltip": "Idi na sljedeću stranicu",
+      "previousPageTooltip": "Idi na prethodnu stranicu",
+      "nextPageGroupTooltip": "Idi na sljedeću grupu stranica",
+      "previousPageGroupTooltip": "Idi na prethodnu grupu stranica",
+      "pagerStatusMessage": "Vanjska poruka dojavljivača",
       "pageLabel": "Stranica ",
-      "ofLabel": " od ",
+      "pagerOfLabel": " od ",
       "pagesLabel": " Stranice"
     },
     "chart": {
-      "zoom": "Zum",
-      "zoomIn": "Zumin",
-      "zoomOut": "Zumiranje",
-      "reset": "Resetirati",
-      "pan": "Tava",
-      "resetZoom": "Resetiranje zumiranja"
+      "zoom": "Zoom",
+      "zoomIn": "ZoomIn",
+      "zoomOut": "Smanji",
+      "reset": "Resetiraj",
+      "pan": "Pan",
+      "resetZoom": "Resetiraj zumiranje"
     },
     "dialog": {
-      "close": "Zatvoriti"
+      "close": "Zatvori"
     },
     "calendar": {
-      "today": "Danas"
+      "today": "Danas",
+      "nextMonth": "Sljedeći mjesec",
+      "previousMonth": "Prethodni mjesec",
+      "nextYear": "Sljedeće godine",
+      "previousYear": "Prethodna godina",
+      "nextDecade": "Sljedeće desetljeće",
+      "previousDecade": "Prethodno desetljeće"
     },
     "datepicker": {
       "today": "Danas",
       "placeholder": "Odaberite datum"
     },
     "formValidator": {
-      "required": "Ovo je polje potrebno.",
-      "email": "Unesite valjanu adresu e -pošte.",
-      "url": "Unesite valjani URL.",
-      "date": "Unesite valjani datum.",
-      "dateIso": "Unesite valjani datum (ISO).",
-      "creditCard": "Unesite valjani broj kartice.",
-      "number": "Unesite valjani broj.",
-      "digits": "Unesite samo znamenke.",
-      "maxLength": "Unesite ne više od {0} znakova.",
-      "minLength": "Unesite najmanje {0} znakove.",
-      "rangeLength": "Unesite vrijednost između {0} i {1} duge znakove.",
+      "required": "Ovo polje je obavezno.",
+      "email": "Molimo unesite valjanu adresu e-pošte.",
+      "url": "Unesite važeći URL.",
+      "date": "Unesite važeći datum.",
+      "dateIso": "Unesite važeći datum (ISO).",
+      "creditCard": "Unesite važeći broj kartice.",
+      "number": "Unesite važeći broj.",
+      "digits": "Molimo unesite samo znamenke.",
+      "maxLength": "Unesite najviše {0} znakova.",
+      "minLength": "Unesite najmanje {0} znakova.",
+      "rangeLength": "Unesite vrijednost između {0} i {1} znakova.",
       "range": "Unesite vrijednost između {0} i {1}.",
-      "max": "Unesite vrijednost manju od ili jednaka {0}.",
-      "min": "Unesite vrijednost veću od ili jednaka {0}.",
-      "regex": "Unesite ispravnu vrijednost.",
-      "tel": "Unesite valjani telefonski broj.",
-      "equalTo": "Unesite istu vrijednost ponovo."
+      "max": "Unesite vrijednost manju ili jednaku {0}.",
+      "min": "Unesite vrijednost veću ili jednaku {0}.",
+      "regex": "Unesite točnu vrijednost.",
+      "tel": "Unesite važeći broj telefona.",
+      "equalTo": "Ponovno unesite istu vrijednost."
     },
     "numericTextbox": {
-      "increment": "Vrijednost povećanja",
-      "decrement": "Vrijednost smanjenja",
-      "clear": "Jasan"
+      "increment": "Povećaj vrijednost",
+      "decrement": "Smanjenje vrijednosti",
+      "clear": "čisto"
     },
     "textarea": {
-      "clear": "Jasan"
+      "clear": "čisto"
     },
     "textbox": {
-      "clear": "Jasan"
+      "clear": "čisto"
+    },
+    "schedule": {
+      "addTitle": "Dodaj naslov",
+      "save": "spremiti",
+      "edit": "Uredi",
+      "delete": "Izbriši",
+      "moreDetails": "Više detalja",
+      "close": "Zatvori",
+      "newEvent": "Novi događaj",
+      "today": "Danas",
+      "allDay": "Cijeli dan",
+      "day": "dan",
+      "week": "tjedan",
+      "workweek": "Radni tjedan",
+      "month": "mjesec",
+      "more": "više",
+      "expandAllDaySection": "Proširi cjelodnevni odjeljak",
+      "collapseAllDaySection": "Sažmi cjelodnevni odjeljak",
+      "deleteEvent": "Izbriši događaj",
+      "confirmDeleteMessage": "Jeste li sigurni da želite izbrisati ovaj događaj?",
+      "cancel": "Odustani",
+      "title": "Naslov",
+      "location": "Lokacija",
+      "description": "Opis",
+      "startDate": "Datum početka",
+      "endDate": "Datum završetka",
+      "startTime": "Vrijeme početka",
+      "endTime": "Vrijeme završetka"
+    },
+    "timepicker": {
+      "placeholder": "Odaberite vrijeme"
+    },
+    "scheduler": {
+      "addTitle": "Dodaj naslov",
+      "save": "spremiti",
+      "edit": "Uredi",
+      "delete": "Izbriši",
+      "moreDetails": "Više detalja",
+      "close": "Zatvori",
+      "newEvent": "Novi događaj",
+      "today": "Danas",
+      "allDay": "Cijeli dan",
+      "day": "dan",
+      "week": "tjedan",
+      "workweek": "Radni tjedan",
+      "month": "mjesec",
+      "more": "više",
+      "expandAllDaySection": "Proširi cjelodnevni odjeljak",
+      "collapseAllDaySection": "Sažmi cjelodnevni odjeljak",
+      "deleteEvent": "Izbriši događaj",
+      "confirmDeleteMessage": "Jeste li sigurni da želite izbrisati ovaj događaj?",
+      "cancel": "Odustani",
+      "title": "Naslov",
+      "location": "Lokacija",
+      "description": "Opis",
+      "startDate": "Datum početka",
+      "endDate": "Datum završetka",
+      "startTime": "Vrijeme početka",
+      "endTime": "Vrijeme završetka"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "Nema pronađenih zapisa",
+      "errorMessage": "Zahtjev nije uspio"
     }
   }
 }

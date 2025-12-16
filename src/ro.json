@@ -1,72 +1,78 @@
 {
   "ro": {
     "message": {
-      "close": "Aproape"
+      "close": "Închide"
     },
     "grid": {
       "noRecordsMessage": "Nu există înregistrări de afișat",
-      "filterBarTooltip": "\"S celula de bară de filtrare",
+      "filterBarTooltip": "Celula cu bară de filtru",
       "invalidFilterMessage": "Date de filtrare nevalide",
       "booleanTrueLabel": "adevărat",
       "booleanFalseLabel": "fals",
-      "addButtonLabel": "Adăuga",
-      "editButtonLabel": "Edita",
-      "cancelButtonLabel": "Anula",
+      "addButtonLabel": "Adăugați",
+      "editButtonLabel": "Editați",
+      "cancelButtonLabel": "Anulează",
       "updateButtonLabel": "Actualizare",
-      "deleteButtonLabel": "Şterge",
-      "searchButtonLabel": "Căutare",
-      "unsavedChangesConfirmation": "Modificările nevăzute vor fi pierdute. Ești sigur că vrei să continui?",
-      "noRecordsEditMessage": "Nu există înregistrări selectate pentru operația de editare",
-      "noRecordsDeleteMessage": "Nu există înregistrări selectate pentru ștergerea funcționării",
-      "okButtonLabel": "Bine",
-      "confirmDeleteMessage": "Ești sigur că vrei să ștergi înregistrarea?"
+      "deleteButtonLabel": "Ștergeți",
+      "searchButtonLabel": "Caută",
+      "unsavedChangesConfirmation": "Modificările nesalvate se vor pierde. Ești sigur că vrei să continui?",
+      "noRecordsEditMessage": "Nu au fost selectate înregistrări pentru operația de editare",
+      "noRecordsDeleteMessage": "Nu au fost selectate înregistrări pentru operația de ștergere",
+      "okButtonLabel": "OK",
+      "confirmDeleteMessage": "Sigur doriți să ștergeți înregistrarea?"
     },
     "pager": {
-      "currentPageLabel": "{0} din paginile {1}",
-      "totalItemsLabel": "({0} elemente)",
-      "totalItemLabel": "({0} element)",
+      "currentPageLabel": "{0} din {1} pagini",
+      "totalItemsLabel": "({0} articole)",
+      "totalItemLabel": "({0} articol)",
       "firstPageTooltip": "Accesați prima pagină",
-      "lastPageTooltip": "Accesați ultima pagină",
-      "nextPageTooltip": "Accesați pagina următoare",
-      "previousPageTooltip": "Accesați pagina anterioară",
+      "lastPageTooltip": "Mergeți la ultima pagină",
+      "nextPageTooltip": "Mergeți la pagina următoare",
+      "previousPageTooltip": "Mergeți la pagina anterioară",
       "nextPageGroupTooltip": "Accesați grupul de pagini următoare",
-      "previousPageGroupTooltip": "Accesați grupul de pagini anterioare",
-      "paginationStatusMessage": "Mesaj extern pager",
-      "pageLabel": "Pagină ",
-      "ofLabel": " de ",
+      "previousPageGroupTooltip": "Accesați grupul de pagini anterior",
+      "pagerStatusMessage": "Mesaj extern paginator",
+      "pageLabel": "Pagina ",
+      "pagerOfLabel": " de ",
       "pagesLabel": " Pagini"
     },
     "chart": {
       "zoom": "Zoom",
-      "zoomIn": "Zoomin",
-      "zoomOut": "Zoomout",
-      "reset": "Resetează",
+      "zoomIn": "Zoom In",
+      "zoomOut": "Zoom Out",
+      "reset": "Resetați",
       "pan": "Pan",
-      "resetZoom": "Resetați zoom -ul"
+      "resetZoom": "Resetați zoomul"
     },
     "dialog": {
-      "close": "Aproape"
+      "close": "Închide"
     },
     "calendar": {
-      "today": "Astăzi"
+      "today": "Astăzi",
+      "nextMonth": "Luna viitoare",
+      "previousMonth": "Luna anterioară",
+      "nextYear": "Anul viitor",
+      "previousYear": "Anul precedent",
+      "nextDecade": "Următorul deceniu",
+      "previousDecade": "Deceniul precedent"
     },
     "datepicker": {
       "today": "Astăzi",
       "placeholder": "Alegeți o dată"
     },
     "formValidator": {
-      "required": "Acest câmp este necesar.",
-      "email": "Vă rugăm să introduceți o adresă de email validă.",
+      "required": "Acest câmp este obligatoriu.",
+      "email": "Vă rugăm să introduceți o adresă de e-mail validă.",
       "url": "Vă rugăm să introduceți o adresă URL validă.",
       "date": "Vă rugăm să introduceți o dată validă.",
       "dateIso": "Vă rugăm să introduceți o dată validă (ISO).",
-      "creditCard": "Vă rugăm să introduceți numărul cardului valid.",
+      "creditCard": "Vă rugăm să introduceți un număr valid de card.",
       "number": "Vă rugăm să introduceți un număr valid.",
-      "digits": "Vă rugăm să introduceți doar cifre.",
-      "maxLength": "Vă rugăm să introduceți nu mai mult decât {0} caractere.",
-      "minLength": "Vă rugăm să introduceți cel puțin {0} caractere.",
-      "rangeLength": "Vă rugăm să introduceți o valoare între caracterele {0} și {1}.",
-      "range": "Vă rugăm să introduceți o valoare între {0} și {1}.",
+      "digits": "Vă rugăm să introduceți numai cifre.",
+      "maxLength": "Vă rugăm să introduceți cel mult {0} caractere.",
+      "minLength": "Introduceți cel puțin {0} caractere.",
+      "rangeLength": "Introduceți o valoare între {0} și {1} caractere.",
+      "range": "Introduceți o valoare între {0} și {1}.",
       "max": "Vă rugăm să introduceți o valoare mai mică sau egală cu {0}.",
       "min": "Vă rugăm să introduceți o valoare mai mare sau egală cu {0}.",
       "regex": "Vă rugăm să introduceți o valoare corectă.",
@@ -74,8 +80,8 @@
       "equalTo": "Vă rugăm să introduceți din nou aceeași valoare."
     },
     "numericTextbox": {
-      "increment": "Valoarea incrementului",
-      "decrement": "Valoarea de scădere",
+      "increment": "Creșteți valoarea",
+      "decrement": "Scăderea valorii",
       "clear": "Clar"
     },
     "textarea": {
@@ -83,6 +89,69 @@
     },
     "textbox": {
       "clear": "Clar"
+    },
+    "schedule": {
+      "addTitle": "Adăugați titlu",
+      "save": "Salvați",
+      "edit": "Editați",
+      "delete": "Ștergeți",
+      "moreDetails": "Mai multe detalii",
+      "close": "Închide",
+      "newEvent": "Eveniment nou",
+      "today": "Astăzi",
+      "allDay": "Toată ziua",
+      "day": "Ziua",
+      "week": "Săptămâna",
+      "workweek": "Săptămâna de lucru",
+      "month": "luna",
+      "more": "mai mult",
+      "expandAllDaySection": "Extindeți secțiunea pentru toată ziua",
+      "collapseAllDaySection": "Restrângeți secțiunea de toată ziua",
+      "deleteEvent": "Șterge evenimentul",
+      "confirmDeleteMessage": "Sigur doriți să ștergeți acest eveniment?",
+      "cancel": "Anulează",
+      "title": "Titlu",
+      "location": "Locație",
+      "description": "Descriere",
+      "startDate": "Data de începere",
+      "endDate": "Data de încheiere",
+      "startTime": "Ora de începere",
+      "endTime": "Ora de sfârșit"
+    },
+    "timepicker": {
+      "placeholder": "Alegeți o oră"
+    },
+    "scheduler": {
+      "addTitle": "Adăugați titlu",
+      "save": "Salvați",
+      "edit": "Editați",
+      "delete": "Ștergeți",
+      "moreDetails": "Mai multe detalii",
+      "close": "Închide",
+      "newEvent": "Eveniment nou",
+      "today": "Astăzi",
+      "allDay": "Toată ziua",
+      "day": "Ziua",
+      "week": "Săptămâna",
+      "workweek": "Săptămâna de lucru",
+      "month": "luna",
+      "more": "mai mult",
+      "expandAllDaySection": "Extindeți secțiunea pentru toată ziua",
+      "collapseAllDaySection": "Restrângeți secțiunea de toată ziua",
+      "deleteEvent": "Șterge evenimentul",
+      "confirmDeleteMessage": "Sigur doriți să ștergeți acest eveniment?",
+      "cancel": "Anulează",
+      "title": "Titlu",
+      "location": "Locație",
+      "description": "Descriere",
+      "startDate": "Data de începere",
+      "endDate": "Data de încheiere",
+      "startTime": "Ora de începere",
+      "endTime": "Ora de sfârșit"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "Nu au fost găsite înregistrări",
+      "errorMessage": "Solicitarea a eșuat"
     }
   }
 }

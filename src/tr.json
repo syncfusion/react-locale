@@ -1,88 +1,157 @@
 {
   "tr": {
     "message": {
-      "close": "Kapalı"
+      "close": "Kapat"
     },
     "grid": {
       "noRecordsMessage": "Görüntülenecek kayıt yok",
-      "filterBarTooltip": "\"s filtre çubuğu hücresi",
+      "filterBarTooltip": "filtre çubuğu hücresi",
       "invalidFilterMessage": "Geçersiz filtre verileri",
-      "booleanTrueLabel": "gerçek",
-      "booleanFalseLabel": "YANLIŞ",
-      "addButtonLabel": "Eklemek",
-      "editButtonLabel": "Düzenlemek",
-      "cancelButtonLabel": "İptal etmek",
+      "booleanTrueLabel": "doğru",
+      "booleanFalseLabel": "yanlış",
+      "addButtonLabel": "Ekle",
+      "editButtonLabel": "Düzenle",
+      "cancelButtonLabel": "İptal",
       "updateButtonLabel": "Güncelleme",
-      "deleteButtonLabel": "Silmek",
-      "searchButtonLabel": "Aramak",
-      "unsavedChangesConfirmation": "Kaydetilmemiş değişiklikler kaybolacak. Devam etmek istediğinden emin misin?",
-      "noRecordsEditMessage": "Düzenleme işlemi için kayıt seçilmedi",
-      "noRecordsDeleteMessage": "Sil işlemi için kayıt seçilmedi",
-      "okButtonLabel": "TAMAM",
+      "deleteButtonLabel": "Sil",
+      "searchButtonLabel": "Ara",
+      "unsavedChangesConfirmation": "Kaydedilmemiş değişiklikler kaybolacaktır. Devam etmek istediğinizden emin misiniz?",
+      "noRecordsEditMessage": "Düzenleme işlemi için hiçbir kayıt seçilmedi",
+      "noRecordsDeleteMessage": "Silme işlemi için kayıt seçilmedi",
+      "okButtonLabel": "tamam",
       "confirmDeleteMessage": "Kaydı silmek istediğinizden emin misiniz?"
     },
     "pager": {
-      "currentPageLabel": "{0} {1} sayfa",
-      "totalItemsLabel": "({0} öğeler)",
+      "currentPageLabel": "{0} / {1} sayfa",
+      "totalItemsLabel": "({0} öğe)",
       "totalItemLabel": "({0} öğe)",
-      "firstPageTooltip": "İlk Sayfaya Git",
-      "lastPageTooltip": "Son Sayfaya Git",
-      "nextPageTooltip": "Sonraki Sayfaya Git",
+      "firstPageTooltip": "İlk sayfaya git",
+      "lastPageTooltip": "Son sayfaya git",
+      "nextPageTooltip": "Sonraki sayfaya git",
       "previousPageTooltip": "Önceki sayfaya git",
-      "nextPageGroupTooltip": "Sonraki Sayfa Grubuna Git",
+      "nextPageGroupTooltip": "Sonraki sayfa grubuna git",
       "previousPageGroupTooltip": "Önceki sayfa grubuna git",
-      "paginationStatusMessage": "Çevrenin harici mesajı",
+      "pagerStatusMessage": "Çağrı cihazının harici mesajı",
       "pageLabel": "Sayfa ",
-      "ofLabel": " ile ilgili ",
-      "pagesLabel": " Sayfa"
+      "pagerOfLabel": " arasında ",
+      "pagesLabel": " Sayfalar"
     },
     "chart": {
-      "zoom": "Zum",
-      "zoomIn": "Zoomin",
-      "zoomOut": "Zoomout",
-      "reset": "Sıfırlamak",
+      "zoom": "Yakınlaştır",
+      "zoomIn": "Yakınlaştır",
+      "zoomOut": "Uzaklaştır",
+      "reset": "Sıfırla",
       "pan": "Tava",
-      "resetZoom": "Zoom'u sıfırla"
+      "resetZoom": "Yakınlaştırmayı Sıfırla"
     },
     "dialog": {
-      "close": "Kapalı"
+      "close": "Kapat"
     },
     "calendar": {
-      "today": "Bugün"
+      "today": "Bugün",
+      "nextMonth": "Gelecek ay",
+      "previousMonth": "Önceki ay",
+      "nextYear": "Gelecek yıl",
+      "previousYear": "Önceki yıl",
+      "nextDecade": "Gelecek on yıl",
+      "previousDecade": "Önceki on yıl"
     },
     "datepicker": {
       "today": "Bugün",
-      "placeholder": "Bir Tarih Seçin"
+      "placeholder": "Bir tarih seçin"
     },
     "formValidator": {
       "required": "Bu alan gereklidir.",
-      "email": "Geçerli bir e.",
+      "email": "Lütfen geçerli bir e-posta adresi girin.",
       "url": "Lütfen geçerli bir URL girin.",
       "date": "Lütfen geçerli bir tarih girin.",
       "dateIso": "Lütfen geçerli bir tarih (ISO) girin.",
-      "creditCard": "Lütfen geçerli kart numarasını girin.",
+      "creditCard": "Lütfen geçerli kart numarasını giriniz.",
       "number": "Lütfen geçerli bir numara girin.",
-      "digits": "Lütfen yalnızca rakamları girin.",
-      "maxLength": "Lütfen {0} karakterlerinden fazla girmeyin.",
-      "minLength": "Lütfen en az {0} karakterleri girin.",
-      "rangeLength": "Lütfen {0} ve {1} karakterleri arasında bir değer girin.",
-      "range": "Lütfen {0} ve {1} arasında bir değer girin.",
-      "max": "Lütfen {0} 'dan daha az veya eşit bir değer girin.",
-      "min": "Lütfen {0} 'dan büyük veya eşit bir değer girin.",
+      "digits": "Lütfen sadece rakam giriniz.",
+      "maxLength": "Lütfen en fazla {0} karakter girin.",
+      "minLength": "Lütfen en az {0} karakter girin.",
+      "rangeLength": "Lütfen {0} ile {1} karakter uzunluğunda bir değer girin.",
+      "range": "Lütfen {0} ile {1} arasında bir değer girin.",
+      "max": "Lütfen {0}'dan küçük veya ona eşit bir değer girin.",
+      "min": "Lütfen {0}'dan büyük veya ona eşit bir değer girin.",
       "regex": "Lütfen doğru bir değer girin.",
       "tel": "Lütfen geçerli bir telefon numarası girin.",
       "equalTo": "Lütfen aynı değeri tekrar girin."
     },
     "numericTextbox": {
-      "increment": "Artış değeri",
-      "decrement": "Azaltma değeri",
-      "clear": "Temizlemek"
+      "increment": "Değeri artır",
+      "decrement": "Değeri azalt",
+      "clear": "Temizle"
     },
     "textarea": {
-      "clear": "Temizlemek"
+      "clear": "Temizle"
     },
     "textbox": {
-      "clear": "Temizlemek"
+      "clear": "Temizle"
+    },
+    "schedule": {
+      "addTitle": "Başlık ekle",
+      "save": "Kaydet",
+      "edit": "Düzenle",
+      "delete": "Sil",
+      "moreDetails": "Daha fazla ayrıntı",
+      "close": "Kapat",
+      "newEvent": "Yeni etkinlik",
+      "today": "Bugün",
+      "allDay": "Bütün gün",
+      "day": "Gün",
+      "week": "Hafta",
+      "workweek": "Çalışma Haftası",
+      "month": "Ay",
+      "more": "daha fazla",
+      "expandAllDaySection": "Tüm gün bölümünü genişlet",
+      "collapseAllDaySection": "Tüm gün bölümünü daralt",
+      "deleteEvent": "Etkinliği Sil",
+      "confirmDeleteMessage": "Bu etkinliği silmek istediğinizden emin misiniz?",
+      "cancel": "İptal",
+      "title": "Başlık",
+      "location": "Konum",
+      "description": "Açıklama",
+      "startDate": "Başlangıç tarihi",
+      "endDate": "Bitiş tarihi",
+      "startTime": "Başlangıç zamanı",
+      "endTime": "Bitiş zamanı"
+    },
+    "timepicker": {
+      "placeholder": "Bir zaman seçin"
+    },
+    "scheduler": {
+      "addTitle": "Başlık ekle",
+      "save": "Kaydet",
+      "edit": "Düzenle",
+      "delete": "Sil",
+      "moreDetails": "Daha fazla ayrıntı",
+      "close": "Kapat",
+      "newEvent": "Yeni etkinlik",
+      "today": "Bugün",
+      "allDay": "Bütün gün",
+      "day": "Gün",
+      "week": "Hafta",
+      "workweek": "Çalışma Haftası",
+      "month": "Ay",
+      "more": "daha fazla",
+      "expandAllDaySection": "Tüm gün bölümünü genişlet",
+      "collapseAllDaySection": "Tüm gün bölümünü daralt",
+      "deleteEvent": "Etkinliği Sil",
+      "confirmDeleteMessage": "Bu etkinliği silmek istediğinizden emin misiniz?",
+      "cancel": "İptal",
+      "title": "Başlık",
+      "location": "Konum",
+      "description": "Açıklama",
+      "startDate": "Başlangıç tarihi",
+      "endDate": "Bitiş tarihi",
+      "startTime": "Başlangıç zamanı",
+      "endTime": "Bitiş zamanı"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "Kayıt Bulunamadı",
+      "errorMessage": "İstek Başarısız Oldu"
     }
   }
 }

@@ -1,88 +1,157 @@
 {
   "sk": {
     "message": {
-      "close": "Zatvoriť"
+      "close": "Zavrieť"
     },
     "grid": {
       "noRecordsMessage": "Žiadne záznamy na zobrazenie",
-      "filterBarTooltip": "„s filtračnou stĺpickou bunkou",
-      "invalidFilterMessage": "Neplatné filtračné údaje",
-      "booleanTrueLabel": "pravdivý",
-      "booleanFalseLabel": "nepravdivý",
+      "filterBarTooltip": "s filtrom",
+      "invalidFilterMessage": "Neplatné údaje filtra",
+      "booleanTrueLabel": "pravda",
+      "booleanFalseLabel": "falošný",
       "addButtonLabel": "Pridať",
       "editButtonLabel": "Upraviť",
       "cancelButtonLabel": "Zrušiť",
-      "updateButtonLabel": "Aktualizácia",
-      "deleteButtonLabel": "Vymazať",
-      "searchButtonLabel": "Prehliadka",
-      "unsavedChangesConfirmation": "Stratia nespasené zmeny. Ste si istý, že chcete pokračovať?",
-      "noRecordsEditMessage": "Žiadne záznamy vybrané na úpravu operácie",
-      "noRecordsDeleteMessage": "Žiadne záznamy vybrané na odstránenie operácie",
-      "okButtonLabel": "V poriadku",
-      "confirmDeleteMessage": "Ste si istí, že chcete záznam vymazať?"
+      "updateButtonLabel": "Aktualizovať",
+      "deleteButtonLabel": "Odstrániť",
+      "searchButtonLabel": "Hľadať",
+      "unsavedChangesConfirmation": "Neuložené zmeny sa stratia. Naozaj chcete pokračovať?",
+      "noRecordsEditMessage": "Na operáciu úpravy neboli vybraté žiadne záznamy",
+      "noRecordsDeleteMessage": "Na operáciu odstránenia nie sú vybraté žiadne záznamy",
+      "okButtonLabel": "OK",
+      "confirmDeleteMessage": "Naozaj chcete odstrániť záznam?"
     },
     "pager": {
-      "currentPageLabel": "{0} stránok {1}",
-      "totalItemsLabel": "({0} položky)",
+      "currentPageLabel": "{0} z {1} stránok",
+      "totalItemsLabel": "(počet položiek: {0})",
       "totalItemLabel": "({0} položka)",
       "firstPageTooltip": "Prejdite na prvú stránku",
-      "lastPageTooltip": "Prejdite na poslednú stránku",
+      "lastPageTooltip": "Prejdite na poslednú stranu",
       "nextPageTooltip": "Prejdite na ďalšiu stránku",
-      "previousPageTooltip": "Prejdite na predchádzajúcu stránku",
-      "nextPageGroupTooltip": "Prejdite do ďalšej skupiny stránok",
-      "previousPageGroupTooltip": "Prejdite do predchádzajúcej skupiny stránok",
-      "paginationStatusMessage": "Pager externá správa",
-      "pageLabel": "Strana ",
-      "ofLabel": " z ",
+      "previousPageTooltip": "Prejsť na predchádzajúcu stránku",
+      "nextPageGroupTooltip": "Prejsť na ďalšiu skupinu stránok",
+      "previousPageGroupTooltip": "Prejsť na predchádzajúcu skupinu stránok",
+      "pagerStatusMessage": "Externá správa Pager",
+      "pageLabel": "Stránka ",
+      "pagerOfLabel": " z ",
       "pagesLabel": " Stránky"
     },
     "chart": {
-      "zoom": "Priblíženie",
-      "zoomIn": "Priblíženie",
-      "zoomOut": "Priblíženie",
-      "reset": "Vynulovanie",
+      "zoom": "Zoom",
+      "zoomIn": "Priblížiť",
+      "zoomOut": "Oddialiť",
+      "reset": "Resetovať",
       "pan": "Panvica",
-      "resetZoom": "Resetovať"
+      "resetZoom": "Obnoviť priblíženie"
     },
     "dialog": {
-      "close": "Zatvoriť"
+      "close": "Zavrieť"
     },
     "calendar": {
-      "today": "Dnes"
+      "today": "Dnes",
+      "nextMonth": "Budúci mesiac",
+      "previousMonth": "Predchádzajúci mesiac",
+      "nextYear": "Budúci rok",
+      "previousYear": "Predchádzajúci rok",
+      "nextDecade": "Ďalšie desaťročie",
+      "previousDecade": "Predchádzajúca dekáda"
     },
     "datepicker": {
       "today": "Dnes",
       "placeholder": "Vyberte dátum"
     },
     "formValidator": {
-      "required": "Toto pole je potrebné.",
-      "email": "Zadajte platnú e -mailovú adresu.",
-      "url": "Zadajte platnú adresu URL.",
+      "required": "Toto pole je povinné.",
+      "email": "Zadajte platnú e-mailovú adresu.",
+      "url": "Zadajte platnú webovú adresu.",
       "date": "Zadajte platný dátum.",
       "dateIso": "Zadajte platný dátum (ISO).",
       "creditCard": "Zadajte platné číslo karty.",
       "number": "Zadajte platné číslo.",
       "digits": "Zadajte iba číslice.",
-      "maxLength": "Zadajte nie viac ako {0} znaky.",
-      "minLength": "Zadajte aspoň {0} znaky.",
-      "rangeLength": "Zadajte hodnotu medzi {0} a {1} znakmi dlhými.",
+      "maxLength": "Zadajte maximálne {0} znakov.",
+      "minLength": "Zadajte aspoň {0} znakov.",
+      "rangeLength": "Zadajte hodnotu medzi {0} a {1} znakov.",
       "range": "Zadajte hodnotu medzi {0} a {1}.",
       "max": "Zadajte hodnotu menšiu alebo rovnú {0}.",
       "min": "Zadajte hodnotu väčšiu alebo rovnú {0}.",
       "regex": "Zadajte správnu hodnotu.",
       "tel": "Zadajte platné telefónne číslo.",
-      "equalTo": "Zadajte znova rovnakú hodnotu."
+      "equalTo": "Zadajte rovnakú hodnotu znova."
     },
     "numericTextbox": {
-      "increment": "Prírastková hodnota",
-      "decrement": "Hodnota",
-      "clear": "Vyčistiť"
+      "increment": "Zvýšiť hodnotu",
+      "decrement": "Znížiť hodnotu",
+      "clear": "Jasné"
     },
     "textarea": {
-      "clear": "Vyčistiť"
+      "clear": "Jasné"
     },
     "textbox": {
-      "clear": "Vyčistiť"
+      "clear": "Jasné"
+    },
+    "schedule": {
+      "addTitle": "Pridajte názov",
+      "save": "Uložiť",
+      "edit": "Upraviť",
+      "delete": "Odstrániť",
+      "moreDetails": "Viac podrobností",
+      "close": "Zavrieť",
+      "newEvent": "Nová udalosť",
+      "today": "Dnes",
+      "allDay": "Celý deň",
+      "day": "deň",
+      "week": "týždeň",
+      "workweek": "WorkWeek",
+      "month": "mesiac",
+      "more": "viac",
+      "expandAllDaySection": "Rozbaliť celodennú sekciu",
+      "collapseAllDaySection": "Zbaliť celodennú sekciu",
+      "deleteEvent": "Odstrániť udalosť",
+      "confirmDeleteMessage": "Naozaj chcete odstrániť túto udalosť?",
+      "cancel": "Zrušiť",
+      "title": "Názov",
+      "location": "Poloha",
+      "description": "Popis",
+      "startDate": "Dátum začiatku",
+      "endDate": "Dátum ukončenia",
+      "startTime": "Čas začiatku",
+      "endTime": "Čas ukončenia"
+    },
+    "timepicker": {
+      "placeholder": "Vyberte si čas"
+    },
+    "scheduler": {
+      "addTitle": "Pridajte názov",
+      "save": "Uložiť",
+      "edit": "Upraviť",
+      "delete": "Odstrániť",
+      "moreDetails": "Viac podrobností",
+      "close": "Zavrieť",
+      "newEvent": "Nová udalosť",
+      "today": "Dnes",
+      "allDay": "Celý deň",
+      "day": "deň",
+      "week": "týždeň",
+      "workweek": "WorkWeek",
+      "month": "mesiac",
+      "more": "viac",
+      "expandAllDaySection": "Rozbaliť celodennú sekciu",
+      "collapseAllDaySection": "Zbaliť celodennú sekciu",
+      "deleteEvent": "Odstrániť udalosť",
+      "confirmDeleteMessage": "Naozaj chcete odstrániť túto udalosť?",
+      "cancel": "Zrušiť",
+      "title": "Názov",
+      "location": "Poloha",
+      "description": "Popis",
+      "startDate": "Dátum začiatku",
+      "endDate": "Dátum ukončenia",
+      "startTime": "Čas začiatku",
+      "endTime": "Čas ukončenia"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "Nenašli sa žiadne záznamy",
+      "errorMessage": "Žiadosť zlyhala"
     }
   }
 }

@@ -1,88 +1,157 @@
 {
   "ko": {
     "message": {
-      "close": "닫다"
+      "close": "닫기"
     },
     "grid": {
-      "noRecordsMessage": "표시 할 기록이 없습니다",
-      "filterBarTooltip": "\"필터 바 셀",
+      "noRecordsMessage": "표시할 기록이 없습니다.",
+      "filterBarTooltip": "\"의 필터 막대 셀",
       "invalidFilterMessage": "잘못된 필터 데이터",
-      "booleanTrueLabel": "진실",
+      "booleanTrueLabel": "사실",
       "booleanFalseLabel": "거짓",
-      "addButtonLabel": "추가하다",
-      "editButtonLabel": "편집하다",
+      "addButtonLabel": "추가",
+      "editButtonLabel": "편집",
       "cancelButtonLabel": "취소",
       "updateButtonLabel": "업데이트",
       "deleteButtonLabel": "삭제",
-      "searchButtonLabel": "찾다",
-      "unsavedChangesConfirmation": "구축되지 않은 변경 사항이 손실됩니다. 계속하고 싶습니까?",
-      "noRecordsEditMessage": "편집 작업을 위해 선택된 레코드가 없습니다",
-      "noRecordsDeleteMessage": "삭제 작업을 위해 선택된 레코드가 없습니다",
-      "okButtonLabel": "좋아요",
-      "confirmDeleteMessage": "레코드를 삭제 하시겠습니까?"
+      "searchButtonLabel": "검색",
+      "unsavedChangesConfirmation": "저장되지 않은 변경사항은 손실됩니다. 계속하시겠습니까?",
+      "noRecordsEditMessage": "편집 작업을 위해 선택한 레코드가 없습니다.",
+      "noRecordsDeleteMessage": "삭제 작업을 위해 선택한 레코드가 없습니다.",
+      "okButtonLabel": "알았어",
+      "confirmDeleteMessage": "정말로 레코드를 삭제하시겠습니까?"
     },
     "pager": {
-      "currentPageLabel": "{1} 페이지의 {0}",
-      "totalItemsLabel": "({0} 항목)",
-      "totalItemLabel": "({0} 항목)",
-      "firstPageTooltip": "첫 페이지로 이동하십시오",
-      "lastPageTooltip": "마지막 페이지로 이동하십시오",
-      "nextPageTooltip": "다음 페이지로 이동하십시오",
-      "previousPageTooltip": "이전 페이지로 이동하십시오",
-      "nextPageGroupTooltip": "다음 페이지 그룹으로 이동하십시오",
-      "previousPageGroupTooltip": "이전 페이지 그룹으로 이동하십시오",
-      "paginationStatusMessage": "호출기 외부 메시지",
+      "currentPageLabel": "{1}페이지 중 {0}페이지",
+      "totalItemsLabel": "({0}개 항목)",
+      "totalItemLabel": "({0}개 항목)",
+      "firstPageTooltip": "첫 페이지로 이동",
+      "lastPageTooltip": "마지막 페이지로 이동",
+      "nextPageTooltip": "다음 페이지로 이동",
+      "previousPageTooltip": "이전 페이지로 이동",
+      "nextPageGroupTooltip": "다음 페이지 그룹으로 이동",
+      "previousPageGroupTooltip": "이전 페이지 그룹으로 이동",
+      "pagerStatusMessage": "호출기 외부 메시지",
       "pageLabel": "페이지 ",
-      "ofLabel": " ~의 ",
+      "pagerOfLabel": " 의 ",
       "pagesLabel": " 페이지"
     },
     "chart": {
       "zoom": "줌",
-      "zoomIn": "줌",
-      "zoomOut": "줌 아웃",
-      "reset": "다시 놓기",
+      "zoomIn": "확대",
+      "zoomOut": "축소",
+      "reset": "재설정",
       "pan": "팬",
       "resetZoom": "줌 재설정"
     },
     "dialog": {
-      "close": "닫다"
+      "close": "닫기"
     },
     "calendar": {
-      "today": "오늘"
+      "today": "오늘",
+      "nextMonth": "다음 달",
+      "previousMonth": "지난달",
+      "nextYear": "내년",
+      "previousYear": "전년도",
+      "nextDecade": "다음 10년",
+      "previousDecade": "지난 10년"
     },
     "datepicker": {
       "today": "오늘",
-      "placeholder": "날짜를 선택하십시오"
+      "placeholder": "날짜를 선택하세요"
     },
     "formValidator": {
-      "required": "이 필드가 필요합니다.",
-      "email": "유효한 이메일 주소를 입력하십시오.",
-      "url": "유효한 URL을 입력하십시오.",
-      "date": "유효한 날짜를 입력하십시오.",
-      "dateIso": "유효한 날짜 (ISO)를 입력하십시오.",
-      "creditCard": "유효한 카드 번호를 입력하십시오.",
-      "number": "유효한 번호를 입력하십시오.",
-      "digits": "숫자 만 입력하십시오.",
-      "maxLength": "{0} 문자 이상을 입력하십시오.",
-      "minLength": "최소 {0} 문자를 입력하십시오.",
-      "rangeLength": "{0}과 {1} 문자 사이의 값을 입력하십시오.",
-      "range": "{0}과 {1} 사이의 값을 입력하십시오.",
-      "max": "{0}보다 작은 값을 입력하십시오.",
-      "min": "{0}보다 큰 값을 입력하십시오.",
-      "regex": "올바른 값을 입력하십시오.",
-      "tel": "유효한 전화 번호를 입력하십시오.",
-      "equalTo": "다시 같은 값을 입력하십시오."
+      "required": "이 필드는 필수입니다.",
+      "email": "유효한 이메일 주소를 입력하세요.",
+      "url": "유효한 URL을 입력하세요.",
+      "date": "유효한 날짜를 입력하세요.",
+      "dateIso": "유효한 날짜(ISO)를 입력하세요.",
+      "creditCard": "유효한 카드번호를 입력해주세요.",
+      "number": "유효한 숫자를 입력하세요.",
+      "digits": "숫자만 입력해주세요.",
+      "maxLength": "{0}자 이하로 입력하세요.",
+      "minLength": "{0}자 이상 입력하세요.",
+      "rangeLength": "{0}자에서 {1}자 사이의 값을 입력하세요.",
+      "range": "{0}에서 {1} 사이의 값을 입력하세요.",
+      "max": "{0} 이하의 값을 입력하세요.",
+      "min": "{0} 이상의 값을 입력하십시오.",
+      "regex": "올바른 값을 입력하세요.",
+      "tel": "유효한 전화번호를 입력하세요.",
+      "equalTo": "동일한 값을 다시 입력해 주세요."
     },
     "numericTextbox": {
-      "increment": "증분 값",
-      "decrement": "감소 값",
-      "clear": "분명한"
+      "increment": "증분값",
+      "decrement": "감소값",
+      "clear": "지우기"
     },
     "textarea": {
-      "clear": "분명한"
+      "clear": "지우기"
     },
     "textbox": {
-      "clear": "분명한"
+      "clear": "지우기"
+    },
+    "schedule": {
+      "addTitle": "제목 추가",
+      "save": "저장",
+      "edit": "편집",
+      "delete": "삭제",
+      "moreDetails": "자세한 내용",
+      "close": "닫기",
+      "newEvent": "새로운 이벤트",
+      "today": "오늘",
+      "allDay": "하루 종일",
+      "day": "일",
+      "week": "주",
+      "workweek": "근무 주간",
+      "month": "월",
+      "more": "더",
+      "expandAllDaySection": "종일 섹션 펼치기",
+      "collapseAllDaySection": "종일 섹션 접기",
+      "deleteEvent": "이벤트 삭제",
+      "confirmDeleteMessage": "이 일정을 삭제하시겠습니까?",
+      "cancel": "취소",
+      "title": "제목",
+      "location": "위치",
+      "description": "설명",
+      "startDate": "시작일",
+      "endDate": "종료일",
+      "startTime": "시작 시간",
+      "endTime": "종료 시간"
+    },
+    "timepicker": {
+      "placeholder": "시간을 선택하세요"
+    },
+    "scheduler": {
+      "addTitle": "제목 추가",
+      "save": "저장",
+      "edit": "편집",
+      "delete": "삭제",
+      "moreDetails": "자세한 내용",
+      "close": "닫기",
+      "newEvent": "새로운 이벤트",
+      "today": "오늘",
+      "allDay": "하루 종일",
+      "day": "일",
+      "week": "주",
+      "workweek": "근무 주간",
+      "month": "월",
+      "more": "더",
+      "expandAllDaySection": "종일 섹션 펼치기",
+      "collapseAllDaySection": "종일 섹션 접기",
+      "deleteEvent": "이벤트 삭제",
+      "confirmDeleteMessage": "이 일정을 삭제하시겠습니까?",
+      "cancel": "취소",
+      "title": "제목",
+      "location": "위치",
+      "description": "설명",
+      "startDate": "시작일",
+      "endDate": "종료일",
+      "startTime": "시작 시간",
+      "endTime": "종료 시간"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "기록을 찾을 수 없습니다",
+      "errorMessage": "요청 실패"
     }
   }
 }

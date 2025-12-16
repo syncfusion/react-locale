@@ -1,24 +1,24 @@
 {
   "it": {
     "message": {
-      "close": "Vicino"
+      "close": "Chiudi"
     },
     "grid": {
       "noRecordsMessage": "Nessun record da visualizzare",
-      "filterBarTooltip": "\"S cella della barra del filtro",
-      "invalidFilterMessage": "Dati di filtro non validi",
-      "booleanTrueLabel": "VERO",
+      "filterBarTooltip": "\"s cella della barra del filtro",
+      "invalidFilterMessage": "Dati filtro non validi",
+      "booleanTrueLabel": "vero",
       "booleanFalseLabel": "falso",
-      "addButtonLabel": "Aggiungere",
-      "editButtonLabel": "Modificare",
-      "cancelButtonLabel": "Cancellare",
-      "updateButtonLabel": "Aggiornamento",
-      "deleteButtonLabel": "Eliminare",
-      "searchButtonLabel": "Ricerca",
-      "unsavedChangesConfirmation": "I cambiamenti non salvati andranno persi. Sei sicuro di voler continuare?",
+      "addButtonLabel": "Aggiungi",
+      "editButtonLabel": "Modifica",
+      "cancelButtonLabel": "Annulla",
+      "updateButtonLabel": "Aggiorna",
+      "deleteButtonLabel": "Elimina",
+      "searchButtonLabel": "Cerca",
+      "unsavedChangesConfirmation": "Le modifiche non salvate andranno perse. Sei sicuro di voler continuare?",
       "noRecordsEditMessage": "Nessun record selezionato per l'operazione di modifica",
-      "noRecordsDeleteMessage": "Nessun record selezionato per l'operazione Elimina",
-      "okButtonLabel": "OK",
+      "noRecordsDeleteMessage": "Nessun record selezionato per l'operazione di eliminazione",
+      "okButtonLabel": "Va bene",
       "confirmDeleteMessage": "Sei sicuro di voler eliminare il record?"
     },
     "pager": {
@@ -29,26 +29,32 @@
       "lastPageTooltip": "Vai all'ultima pagina",
       "nextPageTooltip": "Vai alla pagina successiva",
       "previousPageTooltip": "Vai alla pagina precedente",
-      "nextPageGroupTooltip": "Vai al gruppo di pagina successiva",
-      "previousPageGroupTooltip": "Vai al gruppo di pagina precedente",
-      "paginationStatusMessage": "Messaggio esterno del cercapersone",
+      "nextPageGroupTooltip": "Vai al gruppo di pagine successivo",
+      "previousPageGroupTooltip": "Vai al gruppo di pagine precedente",
+      "pagerStatusMessage": "Messaggio esterno cercapersone",
       "pageLabel": "Pagina ",
-      "ofLabel": " Di ",
+      "pagerOfLabel": " di ",
       "pagesLabel": " Pagine"
     },
     "chart": {
       "zoom": "Zoom",
-      "zoomIn": "Zoomin",
-      "zoomOut": "Zoomout",
-      "reset": "Reset",
-      "pan": "Padella",
-      "resetZoom": "Ripristina lo zoom"
+      "zoomIn": "Zoom avanti",
+      "zoomOut": "Zoom indietro",
+      "reset": "Ripristina",
+      "pan": "Pan",
+      "resetZoom": "Reimposta lo zoom"
     },
     "dialog": {
-      "close": "Vicino"
+      "close": "Chiudi"
     },
     "calendar": {
-      "today": "Oggi"
+      "today": "Oggi",
+      "nextMonth": "Il mese prossimo",
+      "previousMonth": "Mese precedente",
+      "nextYear": "L'anno prossimo",
+      "previousYear": "L'anno precedente",
+      "nextDecade": "Il prossimo decennio",
+      "previousDecade": "Decennio precedente"
     },
     "datepicker": {
       "today": "Oggi",
@@ -56,26 +62,26 @@
     },
     "formValidator": {
       "required": "Questo campo è obbligatorio.",
-      "email": "Si prega di inserire un indirizzo email valido.",
+      "email": "Inserisci un indirizzo email valido.",
       "url": "Inserisci un URL valido.",
-      "date": "Si prega di inserire una data valida.",
+      "date": "Inserisci una data valida.",
       "dateIso": "Inserisci una data valida (ISO).",
-      "creditCard": "Immettere il numero della carta valido.",
-      "number": "Immettere un numero valido.",
+      "creditCard": "Inserisci un numero di carta valido.",
+      "number": "Inserisci un numero valido.",
       "digits": "Inserisci solo cifre.",
-      "maxLength": "Si prega di inserire non più di {0} caratteri.",
+      "maxLength": "Inserisci non più di {0} caratteri.",
       "minLength": "Inserisci almeno {0} caratteri.",
-      "rangeLength": "Inserisci un valore tra {0} e {1} lunghi caratteri.",
-      "range": "Inserisci un valore tra {0} e {1}.",
+      "rangeLength": "Inserisci un valore compreso tra {0} e {1} caratteri.",
+      "range": "Inserisci un valore compreso tra {0} e {1}.",
       "max": "Inserisci un valore inferiore o uguale a {0}.",
       "min": "Inserisci un valore maggiore o uguale a {0}.",
-      "regex": "Immettere un valore corretto.",
-      "tel": "Immettere un numero di telefono valido.",
-      "equalTo": "Si prega di inserire di nuovo lo stesso valore."
+      "regex": "Inserisci un valore corretto.",
+      "tel": "Inserisci un numero di telefono valido.",
+      "equalTo": "Inserisci nuovamente lo stesso valore."
     },
     "numericTextbox": {
-      "increment": "Valore di incremento",
-      "decrement": "Valore di decremento",
+      "increment": "Incremento valore",
+      "decrement": "Diminuire il valore",
       "clear": "Chiaro"
     },
     "textarea": {
@@ -83,6 +89,69 @@
     },
     "textbox": {
       "clear": "Chiaro"
+    },
+    "schedule": {
+      "addTitle": "Aggiungi titolo",
+      "save": "Salva",
+      "edit": "Modifica",
+      "delete": "Elimina",
+      "moreDetails": "Maggiori dettagli",
+      "close": "Chiudi",
+      "newEvent": "Nuovo evento",
+      "today": "Oggi",
+      "allDay": "Tutto il giorno",
+      "day": "Giorno",
+      "week": "Settimana",
+      "workweek": "Settimana lavorativa",
+      "month": "Mese",
+      "more": "di più",
+      "expandAllDaySection": "Espandi la sezione per tutto il giorno",
+      "collapseAllDaySection": "Comprimi la sezione dedicata all'intera giornata",
+      "deleteEvent": "Elimina evento",
+      "confirmDeleteMessage": "Sei sicuro di voler eliminare questo evento?",
+      "cancel": "Annulla",
+      "title": "Titolo",
+      "location": "Posizione",
+      "description": "Descrizione",
+      "startDate": "Data di inizio",
+      "endDate": "Data di fine",
+      "startTime": "Ora di inizio",
+      "endTime": "Ora di fine"
+    },
+    "timepicker": {
+      "placeholder": "Scegli un orario"
+    },
+    "scheduler": {
+      "addTitle": "Aggiungi titolo",
+      "save": "Salva",
+      "edit": "Modifica",
+      "delete": "Elimina",
+      "moreDetails": "Maggiori dettagli",
+      "close": "Chiudi",
+      "newEvent": "Nuovo evento",
+      "today": "Oggi",
+      "allDay": "Tutto il giorno",
+      "day": "Giorno",
+      "week": "Settimana",
+      "workweek": "Settimana lavorativa",
+      "month": "Mese",
+      "more": "di più",
+      "expandAllDaySection": "Espandi la sezione per tutto il giorno",
+      "collapseAllDaySection": "Comprimi la sezione dedicata all'intera giornata",
+      "deleteEvent": "Elimina evento",
+      "confirmDeleteMessage": "Sei sicuro di voler eliminare questo evento?",
+      "cancel": "Annulla",
+      "title": "Titolo",
+      "location": "Posizione",
+      "description": "Descrizione",
+      "startDate": "Data di inizio",
+      "endDate": "Data di fine",
+      "startTime": "Ora di inizio",
+      "endTime": "Ora di fine"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "Nessun record trovato",
+      "errorMessage": "Richiesta non riuscita"
     }
   }
 }

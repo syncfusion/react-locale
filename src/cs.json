@@ -1,81 +1,87 @@
 {
   "cs": {
     "message": {
-      "close": "Blízko"
+      "close": "Zavřít"
     },
     "grid": {
       "noRecordsMessage": "Žádné záznamy k zobrazení",
-      "filterBarTooltip": "„S buňka filtru",
+      "filterBarTooltip": "s filtrem",
       "invalidFilterMessage": "Neplatná data filtru",
-      "booleanTrueLabel": "věrný",
+      "booleanTrueLabel": "pravda",
       "booleanFalseLabel": "falešný",
       "addButtonLabel": "Přidat",
       "editButtonLabel": "Upravit",
       "cancelButtonLabel": "Zrušit",
       "updateButtonLabel": "Aktualizovat",
-      "deleteButtonLabel": "Vymazat",
-      "searchButtonLabel": "Vyhledávání",
-      "unsavedChangesConfirmation": "Neochvějné změny budou ztraceny. Jste si jisti, že chcete pokračovat?",
-      "noRecordsEditMessage": "Žádné záznamy byly vybrány pro operaci úprav",
-      "noRecordsDeleteMessage": "Pro provoz smazání nejsou žádné záznamy",
-      "okButtonLabel": "Dobře",
-      "confirmDeleteMessage": "Jste si jisti, že chcete záznam odstranit?"
+      "deleteButtonLabel": "Smazat",
+      "searchButtonLabel": "Hledat",
+      "unsavedChangesConfirmation": "Neuložené změny budou ztraceny. Opravdu chcete pokračovat?",
+      "noRecordsEditMessage": "Pro operaci úprav nebyly vybrány žádné záznamy",
+      "noRecordsDeleteMessage": "Pro operaci odstranění nebyly vybrány žádné záznamy",
+      "okButtonLabel": "OK",
+      "confirmDeleteMessage": "Opravdu chcete záznam smazat?"
     },
     "pager": {
-      "currentPageLabel": "{0} stránek {1}",
-      "totalItemsLabel": "({0} položky)",
+      "currentPageLabel": "{0} z {1} stránek",
+      "totalItemsLabel": "(počet položek: {0})",
       "totalItemLabel": "({0} položka)",
       "firstPageTooltip": "Přejděte na první stránku",
       "lastPageTooltip": "Přejít na poslední stránku",
-      "nextPageTooltip": "Přejděte na další stránku",
-      "previousPageTooltip": "Přejděte na předchozí stránku",
-      "nextPageGroupTooltip": "Přejděte do skupiny další stránky",
-      "previousPageGroupTooltip": "Přejděte na skupinu předchozí stránky",
-      "paginationStatusMessage": "Externí zpráva Pager",
-      "pageLabel": "Strana ",
-      "ofLabel": " z ",
+      "nextPageTooltip": "Přejít na další stránku",
+      "previousPageTooltip": "Přejít na předchozí stránku",
+      "nextPageGroupTooltip": "Přejít na další skupinu stránek",
+      "previousPageGroupTooltip": "Přejít na předchozí skupinu stránek",
+      "pagerStatusMessage": "Externí zpráva pageru",
+      "pageLabel": "stránku ",
+      "pagerOfLabel": " z ",
       "pagesLabel": " Stránky"
     },
     "chart": {
-      "zoom": "Zoom",
-      "zoomIn": "Zoomin",
-      "zoomOut": "Zvětšení",
+      "zoom": "Přiblížení",
+      "zoomIn": "Přiblížit",
+      "zoomOut": "Oddálit",
       "reset": "Resetovat",
-      "pan": "Pánev",
-      "resetZoom": "Resetovat zoom"
+      "pan": "Pan",
+      "resetZoom": "Obnovit přiblížení"
     },
     "dialog": {
-      "close": "Blízko"
+      "close": "Zavřít"
     },
     "calendar": {
-      "today": "Dnes"
+      "today": "dnes",
+      "nextMonth": "Příští měsíc",
+      "previousMonth": "Předchozí měsíc",
+      "nextYear": "Příští rok",
+      "previousYear": "Předchozí rok",
+      "nextDecade": "Příští desetiletí",
+      "previousDecade": "Předchozí dekáda"
     },
     "datepicker": {
-      "today": "Dnes",
+      "today": "dnes",
       "placeholder": "Vyberte datum"
     },
     "formValidator": {
-      "required": "Toto pole je vyžadováno.",
-      "email": "Zadejte platnou e -mailovou adresu.",
+      "required": "Toto pole je povinné.",
+      "email": "Zadejte prosím platnou e-mailovou adresu.",
       "url": "Zadejte prosím platnou adresu URL.",
       "date": "Zadejte prosím platné datum.",
-      "dateIso": "Zadejte platné datum (ISO).",
-      "creditCard": "Zadejte prosím platné číslo karty.",
+      "dateIso": "Zadejte prosím platné datum (ISO).",
+      "creditCard": "Zadejte platné číslo karty.",
       "number": "Zadejte prosím platné číslo.",
-      "digits": "Zadejte pouze číslice.",
-      "maxLength": "Zadejte prosím ne více než {0} znaky.",
-      "minLength": "Zadejte alespoň {0} znaky.",
-      "rangeLength": "Zadejte hodnotu mezi znaky {0} a {1}.",
-      "range": "Zadejte hodnotu mezi {0} a {1}.",
-      "max": "Zadejte hodnotu menší nebo rovna {0}.",
-      "min": "Zadejte hodnotu větší nebo rovna {0}.",
-      "regex": "Zadejte správnou hodnotu.",
+      "digits": "Zadejte prosím pouze číslice.",
+      "maxLength": "Zadejte prosím maximálně {0} znaků.",
+      "minLength": "Zadejte prosím alespoň {0} znaků.",
+      "rangeLength": "Zadejte hodnotu mezi {0} a {1} znaků.",
+      "range": "Zadejte prosím hodnotu mezi {0} a {1}.",
+      "max": "Zadejte hodnotu menší nebo rovnou {0}.",
+      "min": "Zadejte hodnotu větší nebo rovnou {0}.",
+      "regex": "Zadejte prosím správnou hodnotu.",
       "tel": "Zadejte prosím platné telefonní číslo.",
-      "equalTo": "Znovu zadejte stejnou hodnotu."
+      "equalTo": "Zadejte znovu stejnou hodnotu."
     },
     "numericTextbox": {
-      "increment": "Hodnota přírůstku",
-      "decrement": "Hodnota snížení",
+      "increment": "Zvýšit hodnotu",
+      "decrement": "Snížit hodnotu",
       "clear": "Jasný"
     },
     "textarea": {
@@ -83,6 +89,69 @@
     },
     "textbox": {
       "clear": "Jasný"
+    },
+    "schedule": {
+      "addTitle": "Přidejte název",
+      "save": "Uložit",
+      "edit": "Upravit",
+      "delete": "Smazat",
+      "moreDetails": "Další podrobnosti",
+      "close": "Zavřít",
+      "newEvent": "Nová událost",
+      "today": "dnes",
+      "allDay": "Celý den",
+      "day": "den",
+      "week": "týden",
+      "workweek": "WorkWeek",
+      "month": "měsíc",
+      "more": "více",
+      "expandAllDaySection": "Rozbalte celodenní sekci",
+      "collapseAllDaySection": "Sbalit celodenní sekci",
+      "deleteEvent": "Smazat událost",
+      "confirmDeleteMessage": "Opravdu chcete smazat tuto událost?",
+      "cancel": "Zrušit",
+      "title": "Název",
+      "location": "Umístění",
+      "description": "Popis",
+      "startDate": "Datum zahájení",
+      "endDate": "Datum ukončení",
+      "startTime": "Čas zahájení",
+      "endTime": "Čas ukončení"
+    },
+    "timepicker": {
+      "placeholder": "Vyberte čas"
+    },
+    "scheduler": {
+      "addTitle": "Přidejte název",
+      "save": "Uložit",
+      "edit": "Upravit",
+      "delete": "Smazat",
+      "moreDetails": "Další podrobnosti",
+      "close": "Zavřít",
+      "newEvent": "Nová událost",
+      "today": "dnes",
+      "allDay": "Celý den",
+      "day": "den",
+      "week": "týden",
+      "workweek": "WorkWeek",
+      "month": "měsíc",
+      "more": "více",
+      "expandAllDaySection": "Rozbalte celodenní sekci",
+      "collapseAllDaySection": "Sbalit celodenní sekci",
+      "deleteEvent": "Smazat událost",
+      "confirmDeleteMessage": "Opravdu chcete smazat tuto událost?",
+      "cancel": "Zrušit",
+      "title": "Název",
+      "location": "Umístění",
+      "description": "Popis",
+      "startDate": "Datum zahájení",
+      "endDate": "Datum ukončení",
+      "startTime": "Čas zahájení",
+      "endTime": "Čas ukončení"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "Nebyly nalezeny žádné záznamy",
+      "errorMessage": "Požadavek se nezdařil"
     }
   }
 }

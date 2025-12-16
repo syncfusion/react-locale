@@ -1,88 +1,157 @@
 {
   "he": {
     "message": {
-      "close": "לִסְגוֹר"
+      "close": "סגור"
     },
     "grid": {
       "noRecordsMessage": "אין רשומות להצגה",
-      "filterBarTooltip": "\"תא סרגל המסנן",
+      "filterBarTooltip": "תא סרגל הסינון",
       "invalidFilterMessage": "נתוני סינון לא חוקיים",
-      "booleanTrueLabel": "נָכוֹן",
-      "booleanFalseLabel": "שֶׁקֶר",
-      "addButtonLabel": "לְהוֹסִיף",
-      "editButtonLabel": "לַעֲרוֹך",
-      "cancelButtonLabel": "לְבַטֵל",
-      "updateButtonLabel": "לְעַדְכֵּן",
-      "deleteButtonLabel": "לִמְחוֹק",
-      "searchButtonLabel": "לְחַפֵּשׂ",
+      "booleanTrueLabel": "נכון",
+      "booleanFalseLabel": "שקר",
+      "addButtonLabel": "הוסף",
+      "editButtonLabel": "ערוך",
+      "cancelButtonLabel": "בטל",
+      "updateButtonLabel": "עדכון",
+      "deleteButtonLabel": "מחק",
+      "searchButtonLabel": "חפש",
       "unsavedChangesConfirmation": "שינויים שלא נשמרו יאבדו. האם אתה בטוח שאתה רוצה להמשיך?",
-      "noRecordsEditMessage": "אין רשומות שנבחרו להפעלת עריכה",
-      "noRecordsDeleteMessage": "אין רשומות שנבחרו להפעלת מחיקה",
-      "okButtonLabel": "בְּסֵדֶר",
-      "confirmDeleteMessage": "האם אתה בטוח שאתה רוצה למחוק את הרשומה?"
+      "noRecordsEditMessage": "לא נבחרו רשומות לפעולת העריכה",
+      "noRecordsDeleteMessage": "לא נבחרו רשומות לפעולת המחיקה",
+      "okButtonLabel": "בסדר",
+      "confirmDeleteMessage": "האם אתה בטוח שברצונך למחוק את הרשומה?"
     },
     "pager": {
-      "currentPageLabel": "{0} של {1} עמודים",
+      "currentPageLabel": "{0} מתוך {1} דפים",
       "totalItemsLabel": "({0} פריטים)",
       "totalItemLabel": "({0} פריט)",
-      "firstPageTooltip": "עבור לדף הראשון",
-      "lastPageTooltip": "עבור לעמוד האחרון",
+      "firstPageTooltip": "עבור לעמוד הראשון",
+      "lastPageTooltip": "עבור לדף האחרון",
       "nextPageTooltip": "עבור לדף הבא",
       "previousPageTooltip": "עבור לדף הקודם",
-      "nextPageGroupTooltip": "עבור לקבוצת העמוד הבא",
-      "previousPageGroupTooltip": "עבור לקבוצת העמוד הקודם",
-      "paginationStatusMessage": "הודעה חיצונית של PAGER",
-      "pageLabel": "עַמוּד ",
-      "ofLabel": " שֶׁל ",
-      "pagesLabel": " עמודים"
+      "nextPageGroupTooltip": "עבור לקבוצת הדפים הבאה",
+      "previousPageGroupTooltip": "עבור לקבוצת הדפים הקודמת",
+      "pagerStatusMessage": "הודעה חיצונית של ביפר",
+      "pageLabel": "עמוד ",
+      "pagerOfLabel": " של ",
+      "pagesLabel": " דפים"
     },
     "chart": {
       "zoom": "זום",
-      "zoomIn": "זום",
-      "zoomOut": "ZOOMOUT",
-      "reset": "אִתחוּל",
-      "pan": "פָּאן",
+      "zoomIn": "ZoomIn",
+      "zoomOut": "ZoomOut",
+      "reset": "אפס",
+      "pan": "פאן",
       "resetZoom": "אפס זום"
     },
     "dialog": {
-      "close": "לִסְגוֹר"
+      "close": "סגור"
     },
     "calendar": {
-      "today": "הַיוֹם"
+      "today": "היום",
+      "nextMonth": "בחודש הבא",
+      "previousMonth": "החודש הקודם",
+      "nextYear": "שנה הבאה",
+      "previousYear": "שנה קודמת",
+      "nextDecade": "העשור הבא",
+      "previousDecade": "העשור הקודם"
     },
     "datepicker": {
-      "today": "הַיוֹם",
+      "today": "היום",
       "placeholder": "בחר תאריך"
     },
     "formValidator": {
-      "required": "שדה זה נדרש.",
-      "email": "אנא הזן כתובת דוא\"ל תקפה.",
-      "url": "אנא הזן כתובת אתר תקפה.",
-      "date": "אנא הזן תאריך תקף.",
-      "dateIso": "אנא הזן תאריך תקף (ISO).",
-      "creditCard": "אנא הזן את מספר הכרטיס התקף.",
-      "number": "אנא הזן מספר תקף.",
-      "digits": "אנא הכנס רק ספרות.",
-      "maxLength": "אנא הכנס לא יותר מ- {0} תווים.",
-      "minLength": "אנא הכנס לפחות {0} תווים.",
-      "rangeLength": "אנא הזן ערך בין {0} ו- {1} תווים.",
-      "range": "אנא הזן ערך בין {0} ל- {1}.",
-      "max": "אנא הזן ערך פחות או שווה ל- {0}.",
-      "min": "אנא הזן ערך גדול או שווה ל- {0}.",
-      "regex": "אנא הזן ערך נכון.",
-      "tel": "אנא הזן מספר טלפון תקף.",
-      "equalTo": "אנא הזן שוב את אותו הערך."
+      "required": "שדה זה חובה.",
+      "email": "נא להזין כתובת אימייל חוקית.",
+      "url": "אנא הזן כתובת אתר חוקית.",
+      "date": "נא להזין תאריך חוקי.",
+      "dateIso": "נא להזין תאריך חוקי (ISO).",
+      "creditCard": "נא להזין מספר כרטיס חוקי.",
+      "number": "נא להזין מספר חוקי.",
+      "digits": "נא להזין רק ספרות.",
+      "maxLength": "אנא הזן לא יותר מ-{0} תווים.",
+      "minLength": "אנא הזן לפחות {0} תווים.",
+      "rangeLength": "אנא הזן ערך באורך של בין {0} ל-{1} תווים.",
+      "range": "אנא הזן ערך בין {0} ל-{1}.",
+      "max": "אנא הזן ערך הקטן או שווה ל-{0}.",
+      "min": "אנא הזן ערך גדול או שווה ל-{0}.",
+      "regex": "נא להזין ערך נכון.",
+      "tel": "נא להזין מספר טלפון חוקי.",
+      "equalTo": "נא להזין שוב את אותו הערך."
     },
     "numericTextbox": {
-      "increment": "ערך תוספת",
-      "decrement": "ערך ירידה",
-      "clear": "בָּרוּר"
+      "increment": "הגדל את הערך",
+      "decrement": "הפחת ערך",
+      "clear": "ברור"
     },
     "textarea": {
-      "clear": "בָּרוּר"
+      "clear": "ברור"
     },
     "textbox": {
-      "clear": "בָּרוּר"
+      "clear": "ברור"
+    },
+    "schedule": {
+      "addTitle": "הוסף כותרת",
+      "save": "שמור",
+      "edit": "ערוך",
+      "delete": "מחק",
+      "moreDetails": "פרטים נוספים",
+      "close": "סגור",
+      "newEvent": "אירוע חדש",
+      "today": "היום",
+      "allDay": "כל היום",
+      "day": "יום",
+      "week": "שבוע",
+      "workweek": "שבוע עבודה",
+      "month": "חודש",
+      "more": "יותר",
+      "expandAllDaySection": "הרחב את הקטע של כל היום",
+      "collapseAllDaySection": "כווץ את הקטע של כל היום",
+      "deleteEvent": "מחק את האירוע",
+      "confirmDeleteMessage": "האם אתה בטוח שברצונך למחוק את האירוע הזה?",
+      "cancel": "בטל",
+      "title": "כותרת",
+      "location": "מיקום",
+      "description": "תיאור",
+      "startDate": "תאריך התחלה",
+      "endDate": "תאריך סיום",
+      "startTime": "שעת התחלה",
+      "endTime": "שעת סיום"
+    },
+    "timepicker": {
+      "placeholder": "בחר זמן"
+    },
+    "scheduler": {
+      "addTitle": "הוסף כותרת",
+      "save": "שמור",
+      "edit": "ערוך",
+      "delete": "מחק",
+      "moreDetails": "פרטים נוספים",
+      "close": "סגור",
+      "newEvent": "אירוע חדש",
+      "today": "היום",
+      "allDay": "כל היום",
+      "day": "יום",
+      "week": "שבוע",
+      "workweek": "שבוע עבודה",
+      "month": "חודש",
+      "more": "יותר",
+      "expandAllDaySection": "הרחב את הקטע של כל היום",
+      "collapseAllDaySection": "כווץ את הקטע של כל היום",
+      "deleteEvent": "מחק את האירוע",
+      "confirmDeleteMessage": "האם אתה בטוח שברצונך למחוק את האירוע הזה?",
+      "cancel": "בטל",
+      "title": "כותרת",
+      "location": "מיקום",
+      "description": "תיאור",
+      "startDate": "תאריך התחלה",
+      "endDate": "תאריך סיום",
+      "startTime": "שעת התחלה",
+      "endTime": "שעת סיום"
+    },
+    "dropdownList": {
+      "noRecordsMessage": "לא נמצאו רשומות",
+      "errorMessage": "הבקשה נכשלה"
     }
   }
 }
