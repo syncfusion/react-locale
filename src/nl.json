@@ -75,7 +75,7 @@
       "range": "Voer een waarde in tussen {0} en {1}.",
       "max": "Voer een waarde in die kleiner is dan of gelijk is aan {0}.",
       "min": "Voer een waarde in die groter is dan of gelijk is aan {0}.",
-      "regex": "Voer een juiste waarde in.",
+      "regex": "Voer een correcte waarde in.",
       "tel": "Voer een geldig telefoonnummer in.",
       "equalTo": "Voer dezelfde waarde opnieuw in."
     },

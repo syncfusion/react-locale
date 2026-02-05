@@ -18,7 +18,7 @@
       "unsavedChangesConfirmation": "Los cambios no guardados se perderán. ¿Estás seguro de que quieres continuar?",
       "noRecordsEditMessage": "No hay registros seleccionados para la operación de edición",
       "noRecordsDeleteMessage": "No se han seleccionado registros para la operación de eliminación",
-      "okButtonLabel": "OK",
+      "okButtonLabel": "bien",
       "confirmDeleteMessage": "¿Está seguro de que desea eliminar el registro?"
     },
     "pager": {

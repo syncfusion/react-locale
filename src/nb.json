@@ -82,13 +82,13 @@
     "numericTextbox": {
       "increment": "Øk verdi",
       "decrement": "Reduser verdien",
-      "clear": "Tøm"
+      "clear": "Klart"
     },
     "textarea": {
-      "clear": "Tøm"
+      "clear": "Klart"
     },
     "textbox": {
-      "clear": "Tøm"
+      "clear": "Klart"
     },
     "schedule": {
       "addTitle": "Legg til tittel",

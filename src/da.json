@@ -70,7 +70,7 @@
       "number": "Indtast venligst et gyldigt nummer.",
       "digits": "Indtast kun cifre.",
       "maxLength": "Indtast ikke mere end {0} tegn.",
-      "minLength": "Indtast mindst {0} tegn.",
+      "minLength": "Indtast venligst mindst {0} tegn.",
       "rangeLength": "Indtast en værdi på mellem {0} og {1} tegn.",
       "range": "Indtast venligst en værdi mellem {0} og {1}.",
       "max": "Indtast venligst en værdi mindre end eller lig med {0}.",

@@ -114,7 +114,7 @@
       "location": "Sijainti",
       "description": "Kuvaus",
       "startDate": "Aloituspäivämäärä",
-      "endDate": "Päättymispäivä",
+      "endDate": "Päättymispäivämäärä",
       "startTime": "Aloitusaika",
       "endTime": "Päättymisaika"
     },
@@ -145,7 +145,7 @@
       "location": "Sijainti",
       "description": "Kuvaus",
       "startDate": "Aloituspäivämäärä",
-      "endDate": "Päättymispäivä",
+      "endDate": "Päättymispäivämäärä",
       "startTime": "Aloitusaika",
       "endTime": "Päättymisaika"
     },
