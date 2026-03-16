@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "Очистить"
     },
-    "schedule": {
-      "addTitle": "Добавить заголовок",
-      "save": "Сохранить",
-      "edit": "Редактировать",
-      "delete": "Удалить",
-      "moreDetails": "Подробнее",
-      "close": "Закрыть",
-      "newEvent": "Новое событие",
-      "today": "Сегодня",
-      "allDay": "Весь день",
-      "day": "День",
-      "week": "неделя",
-      "workweek": "Рабочая неделя",
-      "month": "Месяц",
-      "more": "больше",
-      "expandAllDaySection": "Развернуть раздел «Весь день»",
-      "collapseAllDaySection": "Свернуть раздел «Весь день»",
-      "deleteEvent": "Удалить событие",
-      "confirmDeleteMessage": "Вы уверены, что хотите удалить это мероприятие?",
-      "cancel": "Отмена",
-      "title": "Название",
-      "location": "Расположение",
-      "description": "Описание",
-      "startDate": "Дата начала",
-      "endDate": "Дата окончания",
-      "startTime": "Время начала",
-      "endTime": "Время окончания"
-    },
     "timepicker": {
       "placeholder": "Выберите время"
     },
@@ -150,6 +122,14 @@
       "endTime": "Время окончания"
     },
     "dropdownList": {
+      "noRecordsMessage": "Записи не найдены",
+      "errorMessage": "Запрос не выполнен"
+    },
+    "comboBox": {
+      "noRecordsMessage": "Записи не найдены",
+      "errorMessage": "Запрос не выполнен"
+    },
+    "autoComplete": {
       "noRecordsMessage": "Записи не найдены",
       "errorMessage": "Запрос не выполнен"
     }

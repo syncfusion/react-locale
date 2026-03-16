@@ -51,7 +51,7 @@
       "today": "امروز",
       "nextMonth": "ماه آینده",
       "previousMonth": "ماه قبل",
-      "nextYear": "سال بعد",
+      "nextYear": "سال آینده",
       "previousYear": "سال قبل",
       "nextDecade": "دهه آینده",
       "previousDecade": "دهه قبل"
@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "پاک کردن"
     },
-    "schedule": {
-      "addTitle": "عنوان اضافه کنید",
-      "save": "ذخیره کنید",
-      "edit": "ویرایش کنید",
-      "delete": "حذف کنید",
-      "moreDetails": "جزئیات بیشتر",
-      "close": "بستن",
-      "newEvent": "رویداد جدید",
-      "today": "امروز",
-      "allDay": "تمام روز",
-      "day": "روز",
-      "week": "هفته",
-      "workweek": "هفته کاری",
-      "month": "ماه",
-      "more": "بیشتر",
-      "expandAllDaySection": "بخش تمام روز را گسترش دهید",
-      "collapseAllDaySection": "کوچک کردن بخش تمام روز",
-      "deleteEvent": "حذف رویداد",
-      "confirmDeleteMessage": "آیا مطمئنید که می خواهید این رویداد را حذف کنید؟",
-      "cancel": "لغو کنید",
-      "title": "عنوان",
-      "location": "مکان",
-      "description": "توضیحات",
-      "startDate": "تاریخ شروع",
-      "endDate": "تاریخ پایان",
-      "startTime": "زمان شروع",
-      "endTime": "زمان پایان"
-    },
     "timepicker": {
       "placeholder": "زمانی را انتخاب کنید"
     },
@@ -150,6 +122,14 @@
       "endTime": "زمان پایان"
     },
     "dropdownList": {
+      "noRecordsMessage": "هیچ سابقه ای یافت نشد",
+      "errorMessage": "درخواست ناموفق بود"
+    },
+    "comboBox": {
+      "noRecordsMessage": "هیچ سابقه ای یافت نشد",
+      "errorMessage": "درخواست ناموفق بود"
+    },
+    "autoComplete": {
       "noRecordsMessage": "هیچ سابقه ای یافت نشد",
       "errorMessage": "درخواست ناموفق بود"
     }

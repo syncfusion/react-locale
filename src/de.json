@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "Klar"
     },
-    "schedule": {
-      "addTitle": "Titel hinzufügen",
-      "save": "Speichern",
-      "edit": "Bearbeiten",
-      "delete": "Löschen",
-      "moreDetails": "Weitere Details",
-      "close": "Schließen",
-      "newEvent": "Neue Veranstaltung",
-      "today": "Heute",
-      "allDay": "Den ganzen Tag",
-      "day": "Tag",
-      "week": "Woche",
-      "workweek": "Arbeitswoche",
-      "month": "Monat",
-      "more": "mehr",
-      "expandAllDaySection": "Erweitern Sie den Abschnitt „Ganztägig“.",
-      "collapseAllDaySection": "Ganztägigen Abschnitt einklappen",
-      "deleteEvent": "Ereignis löschen",
-      "confirmDeleteMessage": "Sind Sie sicher, dass Sie dieses Ereignis löschen möchten?",
-      "cancel": "Abbrechen",
-      "title": "Titel",
-      "location": "Standort",
-      "description": "Beschreibung",
-      "startDate": "Startdatum",
-      "endDate": "Enddatum",
-      "startTime": "Startzeit",
-      "endTime": "Endzeit"
-    },
     "timepicker": {
       "placeholder": "Wählen Sie eine Zeit"
     },
@@ -150,6 +122,14 @@
       "endTime": "Endzeit"
     },
     "dropdownList": {
+      "noRecordsMessage": "Keine Datensätze gefunden",
+      "errorMessage": "Anfrage fehlgeschlagen"
+    },
+    "comboBox": {
+      "noRecordsMessage": "Keine Datensätze gefunden",
+      "errorMessage": "Anfrage fehlgeschlagen"
+    },
+    "autoComplete": {
       "noRecordsMessage": "Keine Datensätze gefunden",
       "errorMessage": "Anfrage fehlgeschlagen"
     }

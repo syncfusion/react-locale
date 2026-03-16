@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "Rensa"
     },
-    "schedule": {
-      "addTitle": "Lägg till titel",
-      "save": "Spara",
-      "edit": "Redigera",
-      "delete": "Ta bort",
-      "moreDetails": "Mer information",
-      "close": "Stäng",
-      "newEvent": "Nytt evenemang",
-      "today": "Idag",
-      "allDay": "Hela dagen",
-      "day": "dag",
-      "week": "Vecka",
-      "workweek": "Arbetsvecka",
-      "month": "Månad",
-      "more": "mer",
-      "expandAllDaySection": "Utöka heldagssektionen",
-      "collapseAllDaySection": "Komprimera avsnittet hela dagen",
-      "deleteEvent": "Ta bort händelse",
-      "confirmDeleteMessage": "Är du säker på att du vill ta bort den här händelsen?",
-      "cancel": "Avbryt",
-      "title": "Titel",
-      "location": "Plats",
-      "description": "Beskrivning",
-      "startDate": "Startdatum",
-      "endDate": "Slutdatum",
-      "startTime": "Starttid",
-      "endTime": "Sluttid"
-    },
     "timepicker": {
       "placeholder": "Välj en tid"
     },
@@ -150,6 +122,14 @@
       "endTime": "Sluttid"
     },
     "dropdownList": {
+      "noRecordsMessage": "Inga uppgifter hittades",
+      "errorMessage": "Begäran misslyckades"
+    },
+    "comboBox": {
+      "noRecordsMessage": "Inga uppgifter hittades",
+      "errorMessage": "Begäran misslyckades"
+    },
+    "autoComplete": {
       "noRecordsMessage": "Inga uppgifter hittades",
       "errorMessage": "Begäran misslyckades"
     }

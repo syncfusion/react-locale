@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "Jelas"
     },
-    "schedule": {
-      "addTitle": "Tambahkan judul",
-      "save": "Simpan",
-      "edit": "Sunting",
-      "delete": "Hapus",
-      "moreDetails": "Lebih detailnya",
-      "close": "Tutup",
-      "newEvent": "Acara baru",
-      "today": "Hari ini",
-      "allDay": "Sepanjang hari",
-      "day": "Hari",
-      "week": "Minggu",
-      "workweek": "Minggu Kerja",
-      "month": "Bulan",
-      "more": "lebih",
-      "expandAllDaySection": "Perluas bagian sepanjang hari",
-      "collapseAllDaySection": "Ciutkan bagian sepanjang hari",
-      "deleteEvent": "Hapus Acara",
-      "confirmDeleteMessage": "Apakah Anda yakin ingin menghapus acara ini?",
-      "cancel": "Batalkan",
-      "title": "Judul",
-      "location": "Lokasi",
-      "description": "Deskripsi",
-      "startDate": "Tanggal mulai",
-      "endDate": "Tanggal akhir",
-      "startTime": "Waktu mulai",
-      "endTime": "Waktu berakhir"
-    },
     "timepicker": {
       "placeholder": "Pilih waktu"
     },
@@ -150,6 +122,14 @@
       "endTime": "Waktu berakhir"
     },
     "dropdownList": {
+      "noRecordsMessage": "Tidak Ada Catatan yang Ditemukan",
+      "errorMessage": "Permintaan Gagal"
+    },
+    "comboBox": {
+      "noRecordsMessage": "Tidak Ada Catatan yang Ditemukan",
+      "errorMessage": "Permintaan Gagal"
+    },
+    "autoComplete": {
       "noRecordsMessage": "Tidak Ada Catatan yang Ditemukan",
       "errorMessage": "Permintaan Gagal"
     }

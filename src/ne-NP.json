@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "खाली गर्नुहोस्"
     },
-    "schedule": {
-      "addTitle": "शीर्षक थप्नुहोस्",
-      "save": "बचत गर्नुहोस्",
-      "edit": "सम्पादन गर्नुहोस्",
-      "delete": "मेट्नुहोस्",
-      "moreDetails": "थप विवरण",
-      "close": "बन्द गर्नुहोस्",
-      "newEvent": "नयाँ घटना",
-      "today": "आज",
-      "allDay": "दिनभर",
-      "day": "दिन",
-      "week": "हप्ता",
-      "workweek": "कार्य सप्ताह",
-      "month": "महिना",
-      "more": "थप",
-      "expandAllDaySection": "दिनभरी खण्ड विस्तार गर्नुहोस्",
-      "collapseAllDaySection": "दिनभरी खण्ड संक्षिप्त गर्नुहोस्",
-      "deleteEvent": "घटना मेटाउनुहोस्",
-      "confirmDeleteMessage": "के तपाइँ यो घटना मेटाउन निश्चित हुनुहुन्छ?",
-      "cancel": "रद्द गर्नुहोस्",
-      "title": "शीर्षक",
-      "location": "स्थान",
-      "description": "विवरण",
-      "startDate": "सुरु मिति",
-      "endDate": "अन्त्य मिति",
-      "startTime": "सुरु समय",
-      "endTime": "अन्त्य समय"
-    },
     "timepicker": {
       "placeholder": "समय छान्नुहोस्"
     },
@@ -150,6 +122,14 @@
       "endTime": "अन्त्य समय"
     },
     "dropdownList": {
+      "noRecordsMessage": "कुनै रेकर्ड फेला परेन",
+      "errorMessage": "अनुरोध असफल भयो"
+    },
+    "comboBox": {
+      "noRecordsMessage": "कुनै रेकर्ड फेला परेन",
+      "errorMessage": "अनुरोध असफल भयो"
+    },
+    "autoComplete": {
       "noRecordsMessage": "कुनै रेकर्ड फेला परेन",
       "errorMessage": "अनुरोध असफल भयो"
     }

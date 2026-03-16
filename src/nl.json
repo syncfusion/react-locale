@@ -75,7 +75,7 @@
       "range": "Voer een waarde in tussen {0} en {1}.",
       "max": "Voer een waarde in die kleiner is dan of gelijk is aan {0}.",
       "min": "Voer een waarde in die groter is dan of gelijk is aan {0}.",
-      "regex": "Voer een juiste waarde in.",
+      "regex": "Voer een correcte waarde in.",
       "tel": "Voer een geldig telefoonnummer in.",
       "equalTo": "Voer dezelfde waarde opnieuw in."
     },
@@ -89,34 +89,6 @@
     },
     "textbox": {
       "clear": "Duidelijk"
-    },
-    "schedule": {
-      "addTitle": "Titel toevoegen",
-      "save": "Opslaan",
-      "edit": "Bewerken",
-      "delete": "Verwijderen",
-      "moreDetails": "Meer details",
-      "close": "Sluiten",
-      "newEvent": "Nieuw evenement",
-      "today": "Vandaag",
-      "allDay": "De hele dag",
-      "day": "Dag",
-      "week": "Week",
-      "workweek": "Werkweek",
-      "month": "Maand",
-      "more": "meer",
-      "expandAllDaySection": "Vouw het gedeelte voor de hele dag uit",
-      "collapseAllDaySection": "Sectie hele dag samenvouwen",
-      "deleteEvent": "Evenement verwijderen",
-      "confirmDeleteMessage": "Weet je zeker dat je dit evenement wilt verwijderen?",
-      "cancel": "Annuleer",
-      "title": "Titel",
-      "location": "Locatie",
-      "description": "Beschrijving",
-      "startDate": "Startdatum",
-      "endDate": "Einddatum",
-      "startTime": "Begintijd",
-      "endTime": "Eindtijd"
     },
     "timepicker": {
       "placeholder": "Kies een tijdstip"
@@ -150,6 +122,14 @@
       "endTime": "Eindtijd"
     },
     "dropdownList": {
+      "noRecordsMessage": "Geen records gevonden",
+      "errorMessage": "Verzoek mislukt"
+    },
+    "comboBox": {
+      "noRecordsMessage": "Geen records gevonden",
+      "errorMessage": "Verzoek mislukt"
+    },
+    "autoComplete": {
       "noRecordsMessage": "Geen records gevonden",
       "errorMessage": "Verzoek mislukt"
     }

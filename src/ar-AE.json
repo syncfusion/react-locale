@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "واضح"
     },
-    "schedule": {
-      "addTitle": "أضف عنوانًا",
-      "save": "حفظ",
-      "edit": "تحرير",
-      "delete": "حذف",
-      "moreDetails": "مزيد من التفاصيل",
-      "close": "إغلاق",
-      "newEvent": "حدث جديد",
-      "today": "اليوم",
-      "allDay": "طوال اليوم",
-      "day": "يوم",
-      "week": "الأسبوع",
-      "workweek": "أسبوع العمل",
-      "month": "شهر",
-      "more": "المزيد",
-      "expandAllDaySection": "قم بتوسيع قسم اليوم كله",
-      "collapseAllDaySection": "طي قسم اليوم كله",
-      "deleteEvent": "حذف الحدث",
-      "confirmDeleteMessage": "هل أنت متأكد أنك تريد حذف هذا الحدث؟",
-      "cancel": "إلغاء",
-      "title": "العنوان",
-      "location": "الموقع",
-      "description": "الوصف",
-      "startDate": "تاريخ البدء",
-      "endDate": "تاريخ الانتهاء",
-      "startTime": "وقت البدء",
-      "endTime": "وقت الانتهاء"
-    },
     "timepicker": {
       "placeholder": "اختر وقتًا"
     },
@@ -150,6 +122,14 @@
       "endTime": "وقت الانتهاء"
     },
     "dropdownList": {
+      "noRecordsMessage": "لم يتم العثور على سجلات",
+      "errorMessage": "فشل الطلب"
+    },
+    "comboBox": {
+      "noRecordsMessage": "لم يتم العثور على سجلات",
+      "errorMessage": "فشل الطلب"
+    },
+    "autoComplete": {
       "noRecordsMessage": "لم يتم العثور على سجلات",
       "errorMessage": "فشل الطلب"
     }

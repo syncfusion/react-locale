@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "Jasne"
     },
-    "schedule": {
-      "addTitle": "Dodaj tytuł",
-      "save": "Zapisz",
-      "edit": "Edytuj",
-      "delete": "Usuń",
-      "moreDetails": "Więcej szczegółów",
-      "close": "Zamknij",
-      "newEvent": "Nowe wydarzenie",
-      "today": "Dzisiaj",
-      "allDay": "Cały dzień",
-      "day": "Dzień",
-      "week": "Tydzień",
-      "workweek": "Tydzień Pracy",
-      "month": "Miesiąc",
-      "more": "więcej",
-      "expandAllDaySection": "Rozwiń sekcję całodobową",
-      "collapseAllDaySection": "Zwiń sekcję całodniową",
-      "deleteEvent": "Usuń wydarzenie",
-      "confirmDeleteMessage": "Czy na pewno chcesz usunąć to wydarzenie?",
-      "cancel": "Anuluj",
-      "title": "Tytuł",
-      "location": "Lokalizacja",
-      "description": "Opis",
-      "startDate": "Data rozpoczęcia",
-      "endDate": "Data końcowa",
-      "startTime": "Czas rozpoczęcia",
-      "endTime": "Koniec czasu"
-    },
     "timepicker": {
       "placeholder": "Wybierz czas"
     },
@@ -150,6 +122,14 @@
       "endTime": "Koniec czasu"
     },
     "dropdownList": {
+      "noRecordsMessage": "Nie znaleziono żadnych rekordów",
+      "errorMessage": "Żądanie nie powiodło się"
+    },
+    "comboBox": {
+      "noRecordsMessage": "Nie znaleziono żadnych rekordów",
+      "errorMessage": "Żądanie nie powiodło się"
+    },
+    "autoComplete": {
       "noRecordsMessage": "Nie znaleziono żadnych rekordów",
       "errorMessage": "Żądanie nie powiodło się"
     }

@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "ברור"
     },
-    "schedule": {
-      "addTitle": "הוסף כותרת",
-      "save": "שמור",
-      "edit": "ערוך",
-      "delete": "מחק",
-      "moreDetails": "פרטים נוספים",
-      "close": "סגור",
-      "newEvent": "אירוע חדש",
-      "today": "היום",
-      "allDay": "כל היום",
-      "day": "יום",
-      "week": "שבוע",
-      "workweek": "שבוע עבודה",
-      "month": "חודש",
-      "more": "יותר",
-      "expandAllDaySection": "הרחב את הקטע של כל היום",
-      "collapseAllDaySection": "כווץ את הקטע של כל היום",
-      "deleteEvent": "מחק את האירוע",
-      "confirmDeleteMessage": "האם אתה בטוח שברצונך למחוק את האירוע הזה?",
-      "cancel": "בטל",
-      "title": "כותרת",
-      "location": "מיקום",
-      "description": "תיאור",
-      "startDate": "תאריך התחלה",
-      "endDate": "תאריך סיום",
-      "startTime": "שעת התחלה",
-      "endTime": "שעת סיום"
-    },
     "timepicker": {
       "placeholder": "בחר זמן"
     },
@@ -150,6 +122,14 @@
       "endTime": "שעת סיום"
     },
     "dropdownList": {
+      "noRecordsMessage": "לא נמצאו רשומות",
+      "errorMessage": "הבקשה נכשלה"
+    },
+    "comboBox": {
+      "noRecordsMessage": "לא נמצאו רשומות",
+      "errorMessage": "הבקשה נכשלה"
+    },
+    "autoComplete": {
       "noRecordsMessage": "לא נמצאו רשומות",
       "errorMessage": "הבקשה נכשלה"
     }

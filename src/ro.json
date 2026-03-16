@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "Clar"
     },
-    "schedule": {
-      "addTitle": "Adăugați titlu",
-      "save": "Salvați",
-      "edit": "Editați",
-      "delete": "Ștergeți",
-      "moreDetails": "Mai multe detalii",
-      "close": "Închide",
-      "newEvent": "Eveniment nou",
-      "today": "Astăzi",
-      "allDay": "Toată ziua",
-      "day": "Ziua",
-      "week": "Săptămâna",
-      "workweek": "Săptămâna de lucru",
-      "month": "luna",
-      "more": "mai mult",
-      "expandAllDaySection": "Extindeți secțiunea pentru toată ziua",
-      "collapseAllDaySection": "Restrângeți secțiunea de toată ziua",
-      "deleteEvent": "Șterge evenimentul",
-      "confirmDeleteMessage": "Sigur doriți să ștergeți acest eveniment?",
-      "cancel": "Anulează",
-      "title": "Titlu",
-      "location": "Locație",
-      "description": "Descriere",
-      "startDate": "Data de începere",
-      "endDate": "Data de încheiere",
-      "startTime": "Ora de începere",
-      "endTime": "Ora de sfârșit"
-    },
     "timepicker": {
       "placeholder": "Alegeți o oră"
     },
@@ -150,6 +122,14 @@
       "endTime": "Ora de sfârșit"
     },
     "dropdownList": {
+      "noRecordsMessage": "Nu au fost găsite înregistrări",
+      "errorMessage": "Solicitarea a eșuat"
+    },
+    "comboBox": {
+      "noRecordsMessage": "Nu au fost găsite înregistrări",
+      "errorMessage": "Solicitarea a eșuat"
+    },
+    "autoComplete": {
       "noRecordsMessage": "Nu au fost găsite înregistrări",
       "errorMessage": "Solicitarea a eșuat"
     }

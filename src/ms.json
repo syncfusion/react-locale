@@ -1,58 +1,58 @@
 {
   "ms": {
     "message": {
-      "close": "Tutup"
+      "close": "tutup"
     },
     "grid": {
       "noRecordsMessage": "Tiada rekod untuk dipaparkan",
-      "filterBarTooltip": "\"S Penapis Sel Sel",
+      "filterBarTooltip": "\"s sel bar penapis",
       "invalidFilterMessage": "Data penapis tidak sah",
-      "booleanTrueLabel": "Benar",
+      "booleanTrueLabel": "benar",
       "booleanFalseLabel": "palsu",
       "addButtonLabel": "Tambah",
-      "editButtonLabel": "Edit",
-      "cancelButtonLabel": "Batalkan",
+      "editButtonLabel": "Sunting",
+      "cancelButtonLabel": "Batal",
       "updateButtonLabel": "Kemas kini",
       "deleteButtonLabel": "Padam",
       "searchButtonLabel": "Cari",
-      "unsavedChangesConfirmation": "Perubahan yang tidak selamat akan hilang. Adakah anda pasti mahu meneruskan?",
-      "noRecordsEditMessage": "Tiada rekod yang dipilih untuk mengedit operasi",
-      "noRecordsDeleteMessage": "Tiada rekod yang dipilih untuk memadam operasi",
-      "okButtonLabel": "Ok",
+      "unsavedChangesConfirmation": "Perubahan yang tidak disimpan akan hilang. Adakah anda pasti mahu meneruskan?",
+      "noRecordsEditMessage": "Tiada rekod dipilih untuk operasi edit",
+      "noRecordsDeleteMessage": "Tiada rekod dipilih untuk operasi pemadaman",
+      "okButtonLabel": "OK",
       "confirmDeleteMessage": "Adakah anda pasti mahu memadamkan rekod?"
     },
     "pager": {
-      "currentPageLabel": "{0} halaman {1}",
+      "currentPageLabel": "{0} daripada {1} halaman",
       "totalItemsLabel": "({0} item)",
       "totalItemLabel": "({0} item)",
       "firstPageTooltip": "Pergi ke halaman pertama",
       "lastPageTooltip": "Pergi ke halaman terakhir",
       "nextPageTooltip": "Pergi ke halaman seterusnya",
       "previousPageTooltip": "Pergi ke halaman sebelumnya",
-      "nextPageGroupTooltip": "Pergi ke Kumpulan Halaman Seterusnya",
+      "nextPageGroupTooltip": "Pergi ke kumpulan halaman seterusnya",
       "previousPageGroupTooltip": "Pergi ke kumpulan halaman sebelumnya",
-      "pagerStatusMessage": "Mesej luaran pager",
+      "pagerStatusMessage": "Mesej luar kelui",
       "pageLabel": "Halaman ",
-      "pagerOfLabel": " dari ",
-      "pagesLabel": " Halaman"
+      "pagerOfLabel": " daripada ",
+      "pagesLabel": " muka surat"
     },
     "chart": {
       "zoom": "Zum",
-      "zoomIn": "Zoomin",
-      "zoomOut": "Zoomout",
+      "zoomIn": "ZoomIn",
+      "zoomOut": "ZumKeluar",
       "reset": "Tetapkan semula",
-      "pan": "Kuali",
-      "resetZoom": "Tetapkan semula zoom"
+      "pan": "kuali",
+      "resetZoom": "Tetapkan semula Zum"
     },
     "dialog": {
-      "close": "Tutup"
+      "close": "tutup"
     },
     "calendar": {
       "today": "Hari ini",
       "nextMonth": "Bulan depan",
       "previousMonth": "Bulan sebelumnya",
       "nextYear": "Tahun depan",
-      "previousYear": "Tahun sebelumnya",
+      "previousYear": "tahun sebelumnya",
       "nextDecade": "Dekad seterusnya",
       "previousDecade": "Dekad sebelumnya"
     },
@@ -61,19 +61,19 @@
       "placeholder": "Pilih tarikh"
     },
     "formValidator": {
-      "required": "Bidang ini diperlukan.",
-      "email": "Sila masukkan alamat e -mel yang sah.",
+      "required": "Medan ini diperlukan.",
+      "email": "Sila masukkan alamat e-mel yang sah.",
       "url": "Sila masukkan URL yang sah.",
       "date": "Sila masukkan tarikh yang sah.",
       "dateIso": "Sila masukkan tarikh yang sah (ISO).",
       "creditCard": "Sila masukkan nombor kad yang sah.",
       "number": "Sila masukkan nombor yang sah.",
-      "digits": "Sila masukkan hanya digit.",
+      "digits": "Sila masukkan digit sahaja.",
       "maxLength": "Sila masukkan tidak lebih daripada {0} aksara.",
-      "minLength": "Sila masukkan sekurang -kurangnya {0} aksara.",
+      "minLength": "Sila masukkan sekurang-kurangnya {0} aksara.",
       "rangeLength": "Sila masukkan nilai antara {0} dan {1} aksara panjang.",
       "range": "Sila masukkan nilai antara {0} dan {1}.",
-      "max": "Sila masukkan nilai kurang daripada atau sama dengan {0}.",
+      "max": "Sila masukkan nilai yang kurang daripada atau sama dengan {0}.",
       "min": "Sila masukkan nilai yang lebih besar daripada atau sama dengan {0}.",
       "regex": "Sila masukkan nilai yang betul.",
       "tel": "Sila masukkan nombor telefon yang sah.",
@@ -81,7 +81,7 @@
     },
     "numericTextbox": {
       "increment": "Nilai kenaikan",
-      "decrement": "Nilai pengurangan",
+      "decrement": "Nilai susut",
       "clear": "Jelas"
     },
     "textarea": {
@@ -90,68 +90,48 @@
     "textbox": {
       "clear": "Jelas"
     },
-    "schedule": {
-      "addTitle": "Tambah tajuk",
-      "save": "Simpan",
-      "edit": "Edit",
-      "delete": "Padam",
-      "moreDetails": "Maklumat lanjut",
-      "close": "Tutup",
-      "newEvent": "Acara Baru",
-      "today": "Hari ini",
-      "allDay": "Sepanjang hari",
-      "day": "Hari",
-      "week": "Minggu",
-      "workweek": "Kerja minggu",
-      "month": "Bulan",
-      "more": "lebih",
-      "expandAllDaySection": "Kembangkan bahagian sepanjang hari",
-      "collapseAllDaySection": "Runtuh seksyen sepanjang hari",
-      "deleteEvent": "Padam acara",
-      "confirmDeleteMessage": "Adakah anda pasti mahu memadamkan acara ini?",
-      "cancel": "Batalkan",
-      "title": "Tajuk",
-      "location": "Lokasi",
-      "description": "Penerangan",
-      "startDate": "Tarikh Mula",
-      "endDate": "Tarikh akhir",
-      "startTime": "Masa Mula",
-      "endTime": "Masa Akhir"
-    },
     "timepicker": {
       "placeholder": "Pilih masa"
     },
     "scheduler": {
       "addTitle": "Tambah tajuk",
-      "save": "Simpan",
-      "edit": "Edit",
+      "save": "Jimat",
+      "edit": "Sunting",
       "delete": "Padam",
-      "moreDetails": "Maklumat lanjut",
-      "close": "Tutup",
-      "newEvent": "Acara Baru",
+      "moreDetails": "Butiran lanjut",
+      "close": "tutup",
+      "newEvent": "Acara baru",
       "today": "Hari ini",
       "allDay": "Sepanjang hari",
       "day": "Hari",
       "week": "Minggu",
-      "workweek": "Kerja minggu",
-      "month": "Bulan",
+      "workweek": "Minggu Kerja",
+      "month": "bulan",
       "more": "lebih",
       "expandAllDaySection": "Kembangkan bahagian sepanjang hari",
-      "collapseAllDaySection": "Runtuh seksyen sepanjang hari",
-      "deleteEvent": "Padam acara",
+      "collapseAllDaySection": "Runtuhkan bahagian sepanjang hari",
+      "deleteEvent": "Padamkan Acara",
       "confirmDeleteMessage": "Adakah anda pasti mahu memadamkan acara ini?",
-      "cancel": "Batalkan",
+      "cancel": "Batal",
       "title": "Tajuk",
       "location": "Lokasi",
       "description": "Penerangan",
-      "startDate": "Tarikh Mula",
-      "endDate": "Tarikh akhir",
-      "startTime": "Masa Mula",
-      "endTime": "Masa Akhir"
+      "startDate": "Tarikh mula",
+      "endDate": "Tarikh tamat",
+      "startTime": "Masa mula",
+      "endTime": "Masa tamat"
     },
     "dropdownList": {
-      "noRecordsMessage": "Tiada rekod dijumpai",
-      "errorMessage": "Permintaan gagal"
+      "noRecordsMessage": "Tiada Rekod Ditemui",
+      "errorMessage": "Permintaan Gagal"
+    },
+    "comboBox": {
+      "noRecordsMessage": "Tiada Rekod Ditemui",
+      "errorMessage": "Permintaan Gagal"
+    },
+    "autoComplete": {
+      "noRecordsMessage": "Tiada Rekod Ditemui",
+      "errorMessage": "Permintaan Gagal"
     }
   }
 }

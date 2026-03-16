@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "クリア"
     },
-    "schedule": {
-      "addTitle": "タイトルを追加",
-      "save": "保存",
-      "edit": "編集",
-      "delete": "削除",
-      "moreDetails": "さらに詳しく",
-      "close": "閉じる",
-      "newEvent": "新しいイベント",
-      "today": "今日",
-      "allDay": "一日中",
-      "day": "日",
-      "week": "週",
-      "workweek": "勤務週間",
-      "month": "月",
-      "more": "もっと見る",
-      "expandAllDaySection": "終日セクションを拡大する",
-      "collapseAllDaySection": "終日セクションを折りたたむ",
-      "deleteEvent": "イベントの削除",
-      "confirmDeleteMessage": "このイベントを削除してもよろしいですか?",
-      "cancel": "キャンセル",
-      "title": "タイトル",
-      "location": "場所",
-      "description": "説明",
-      "startDate": "開始日",
-      "endDate": "終了日",
-      "startTime": "開始時間",
-      "endTime": "終了時刻"
-    },
     "timepicker": {
       "placeholder": "時間を選択してください"
     },
@@ -150,6 +122,14 @@
       "endTime": "終了時刻"
     },
     "dropdownList": {
+      "noRecordsMessage": "レコードが見つかりませんでした",
+      "errorMessage": "リクエストが失敗しました"
+    },
+    "comboBox": {
+      "noRecordsMessage": "レコードが見つかりませんでした",
+      "errorMessage": "リクエストが失敗しました"
+    },
+    "autoComplete": {
       "noRecordsMessage": "レコードが見つかりませんでした",
       "errorMessage": "リクエストが失敗しました"
     }
