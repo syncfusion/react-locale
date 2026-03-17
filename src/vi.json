@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "Xóa"
     },
-    "schedule": {
-      "addTitle": "Thêm tiêu đề",
-      "save": "Lưu",
-      "edit": "Chỉnh sửa",
-      "delete": "Xóa",
-      "moreDetails": "Thêm chi tiết",
-      "close": "Đóng",
-      "newEvent": "Sự kiện mới",
-      "today": "hôm nay",
-      "allDay": "Cả ngày",
-      "day": "ngày",
-      "week": "Tuần",
-      "workweek": "Tuần làm việc",
-      "month": "Tháng",
-      "more": "hơn thế nữa",
-      "expandAllDaySection": "Mở rộng phần cả ngày",
-      "collapseAllDaySection": "Thu gọn phần cả ngày",
-      "deleteEvent": "Xóa sự kiện",
-      "confirmDeleteMessage": "Bạn có chắc chắn muốn xóa sự kiện này?",
-      "cancel": "Hủy bỏ",
-      "title": "Tiêu đề",
-      "location": "Vị trí",
-      "description": "Mô tả",
-      "startDate": "Ngày bắt đầu",
-      "endDate": "Ngày kết thúc",
-      "startTime": "Thời gian bắt đầu",
-      "endTime": "Thời gian kết thúc"
-    },
     "timepicker": {
       "placeholder": "Chọn thời gian"
     },
@@ -150,6 +122,14 @@
       "endTime": "Thời gian kết thúc"
     },
     "dropdownList": {
+      "noRecordsMessage": "Không tìm thấy bản ghi nào",
+      "errorMessage": "Yêu cầu không thành công"
+    },
+    "comboBox": {
+      "noRecordsMessage": "Không tìm thấy bản ghi nào",
+      "errorMessage": "Yêu cầu không thành công"
+    },
+    "autoComplete": {
       "noRecordsMessage": "Không tìm thấy bản ghi nào",
       "errorMessage": "Yêu cầu không thành công"
     }

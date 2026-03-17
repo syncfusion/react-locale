@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "Tøm"
     },
-    "schedule": {
-      "addTitle": "Legg til tittel",
-      "save": "Lagre",
-      "edit": "Rediger",
-      "delete": "Slett",
-      "moreDetails": "Flere detaljer",
-      "close": "Lukk",
-      "newEvent": "Ny begivenhet",
-      "today": "I dag",
-      "allDay": "Hele dagen",
-      "day": "dag",
-      "week": "Uke",
-      "workweek": "Arbeidsuke",
-      "month": "Måned",
-      "more": "mer",
-      "expandAllDaySection": "Utvid heldagsdelen",
-      "collapseAllDaySection": "Skjul heldagsdelen",
-      "deleteEvent": "Slett hendelse",
-      "confirmDeleteMessage": "Er du sikker på at du vil slette denne hendelsen?",
-      "cancel": "Avbryt",
-      "title": "Tittel",
-      "location": "Beliggenhet",
-      "description": "Beskrivelse",
-      "startDate": "Startdato",
-      "endDate": "Sluttdato",
-      "startTime": "Starttid",
-      "endTime": "Sluttid"
-    },
     "timepicker": {
       "placeholder": "Velg et tidspunkt"
     },
@@ -150,6 +122,14 @@
       "endTime": "Sluttid"
     },
     "dropdownList": {
+      "noRecordsMessage": "Ingen poster funnet",
+      "errorMessage": "Forespørsel mislyktes"
+    },
+    "comboBox": {
+      "noRecordsMessage": "Ingen poster funnet",
+      "errorMessage": "Forespørsel mislyktes"
+    },
+    "autoComplete": {
       "noRecordsMessage": "Ingen poster funnet",
       "errorMessage": "Forespørsel mislyktes"
     }

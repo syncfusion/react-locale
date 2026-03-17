@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "čisto"
     },
-    "schedule": {
-      "addTitle": "Dodaj naslov",
-      "save": "spremiti",
-      "edit": "Uredi",
-      "delete": "Izbriši",
-      "moreDetails": "Više detalja",
-      "close": "Zatvori",
-      "newEvent": "Novi događaj",
-      "today": "Danas",
-      "allDay": "Cijeli dan",
-      "day": "dan",
-      "week": "tjedan",
-      "workweek": "Radni tjedan",
-      "month": "mjesec",
-      "more": "više",
-      "expandAllDaySection": "Proširi cjelodnevni odjeljak",
-      "collapseAllDaySection": "Sažmi cjelodnevni odjeljak",
-      "deleteEvent": "Izbriši događaj",
-      "confirmDeleteMessage": "Jeste li sigurni da želite izbrisati ovaj događaj?",
-      "cancel": "Odustani",
-      "title": "Naslov",
-      "location": "Lokacija",
-      "description": "Opis",
-      "startDate": "Datum početka",
-      "endDate": "Datum završetka",
-      "startTime": "Vrijeme početka",
-      "endTime": "Vrijeme završetka"
-    },
     "timepicker": {
       "placeholder": "Odaberite vrijeme"
     },
@@ -150,6 +122,14 @@
       "endTime": "Vrijeme završetka"
     },
     "dropdownList": {
+      "noRecordsMessage": "Nema pronađenih zapisa",
+      "errorMessage": "Zahtjev nije uspio"
+    },
+    "comboBox": {
+      "noRecordsMessage": "Nema pronađenih zapisa",
+      "errorMessage": "Zahtjev nije uspio"
+    },
+    "autoComplete": {
       "noRecordsMessage": "Nema pronađenih zapisa",
       "errorMessage": "Zahtjev nije uspio"
     }

@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "Világos"
     },
-    "schedule": {
-      "addTitle": "Cím hozzáadása",
-      "save": "Mentés",
-      "edit": "Szerkesztés",
-      "delete": "Törölje",
-      "moreDetails": "További részletek",
-      "close": "Bezárás",
-      "newEvent": "Új esemény",
-      "today": "Ma",
-      "allDay": "Egész nap",
-      "day": "nap",
-      "week": "hét",
-      "workweek": "Munkahét",
-      "month": "hónap",
-      "more": "több",
-      "expandAllDaySection": "Az egész napos szakasz kibontása",
-      "collapseAllDaySection": "Az egész napos szakasz összecsukása",
-      "deleteEvent": "Esemény törlése",
-      "confirmDeleteMessage": "Biztosan törli ezt az eseményt?",
-      "cancel": "Mégsem",
-      "title": "Cím",
-      "location": "Helyszín",
-      "description": "Leírás",
-      "startDate": "Kezdés dátuma",
-      "endDate": "Befejezés dátuma",
-      "startTime": "Kezdési idő",
-      "endTime": "Vége"
-    },
     "timepicker": {
       "placeholder": "Válasszon időpontot"
     },
@@ -150,6 +122,14 @@
       "endTime": "Vége"
     },
     "dropdownList": {
+      "noRecordsMessage": "Nem található rekord",
+      "errorMessage": "Sikertelen kérés"
+    },
+    "comboBox": {
+      "noRecordsMessage": "Nem található rekord",
+      "errorMessage": "Sikertelen kérés"
+    },
+    "autoComplete": {
       "noRecordsMessage": "Nem található rekord",
       "errorMessage": "Sikertelen kérés"
     }

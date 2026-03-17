@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "Selkeä"
     },
-    "schedule": {
-      "addTitle": "Lisää otsikko",
-      "save": "Tallenna",
-      "edit": "Muokkaa",
-      "delete": "Poista",
-      "moreDetails": "Lisätietoja",
-      "close": "Sulje",
-      "newEvent": "Uusi tapahtuma",
-      "today": "Tänään",
-      "allDay": "Koko päivän",
-      "day": "päivä",
-      "week": "Viikko",
-      "workweek": "Työviikko",
-      "month": "Kuukausi",
-      "more": "lisää",
-      "expandAllDaySection": "Laajenna koko päivän osio",
-      "collapseAllDaySection": "Tiivistä koko päivän osio",
-      "deleteEvent": "Poista tapahtuma",
-      "confirmDeleteMessage": "Haluatko varmasti poistaa tämän tapahtuman?",
-      "cancel": "Peruuta",
-      "title": "Otsikko",
-      "location": "Sijainti",
-      "description": "Kuvaus",
-      "startDate": "Aloituspäivämäärä",
-      "endDate": "Päättymispäivä",
-      "startTime": "Aloitusaika",
-      "endTime": "Päättymisaika"
-    },
     "timepicker": {
       "placeholder": "Valitse aika"
     },
@@ -150,6 +122,14 @@
       "endTime": "Päättymisaika"
     },
     "dropdownList": {
+      "noRecordsMessage": "Tietueita ei löytynyt",
+      "errorMessage": "Pyyntö epäonnistui"
+    },
+    "comboBox": {
+      "noRecordsMessage": "Tietueita ei löytynyt",
+      "errorMessage": "Pyyntö epäonnistui"
+    },
+    "autoComplete": {
       "noRecordsMessage": "Tietueita ei löytynyt",
       "errorMessage": "Pyyntö epäonnistui"
     }

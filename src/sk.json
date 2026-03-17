@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "Jasné"
     },
-    "schedule": {
-      "addTitle": "Pridajte názov",
-      "save": "Uložiť",
-      "edit": "Upraviť",
-      "delete": "Odstrániť",
-      "moreDetails": "Viac podrobností",
-      "close": "Zavrieť",
-      "newEvent": "Nová udalosť",
-      "today": "Dnes",
-      "allDay": "Celý deň",
-      "day": "deň",
-      "week": "týždeň",
-      "workweek": "WorkWeek",
-      "month": "mesiac",
-      "more": "viac",
-      "expandAllDaySection": "Rozbaliť celodennú sekciu",
-      "collapseAllDaySection": "Zbaliť celodennú sekciu",
-      "deleteEvent": "Odstrániť udalosť",
-      "confirmDeleteMessage": "Naozaj chcete odstrániť túto udalosť?",
-      "cancel": "Zrušiť",
-      "title": "Názov",
-      "location": "Poloha",
-      "description": "Popis",
-      "startDate": "Dátum začiatku",
-      "endDate": "Dátum ukončenia",
-      "startTime": "Čas začiatku",
-      "endTime": "Čas ukončenia"
-    },
     "timepicker": {
       "placeholder": "Vyberte si čas"
     },
@@ -150,6 +122,14 @@
       "endTime": "Čas ukončenia"
     },
     "dropdownList": {
+      "noRecordsMessage": "Nenašli sa žiadne záznamy",
+      "errorMessage": "Žiadosť zlyhala"
+    },
+    "comboBox": {
+      "noRecordsMessage": "Nenašli sa žiadne záznamy",
+      "errorMessage": "Žiadosť zlyhala"
+    },
+    "autoComplete": {
       "noRecordsMessage": "Nenašli sa žiadne záznamy",
       "errorMessage": "Žiadosť zlyhala"
     }

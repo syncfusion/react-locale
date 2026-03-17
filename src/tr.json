@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "Temizle"
     },
-    "schedule": {
-      "addTitle": "Başlık ekle",
-      "save": "Kaydet",
-      "edit": "Düzenle",
-      "delete": "Sil",
-      "moreDetails": "Daha fazla ayrıntı",
-      "close": "Kapat",
-      "newEvent": "Yeni etkinlik",
-      "today": "Bugün",
-      "allDay": "Bütün gün",
-      "day": "Gün",
-      "week": "Hafta",
-      "workweek": "Çalışma Haftası",
-      "month": "Ay",
-      "more": "daha fazla",
-      "expandAllDaySection": "Tüm gün bölümünü genişlet",
-      "collapseAllDaySection": "Tüm gün bölümünü daralt",
-      "deleteEvent": "Etkinliği Sil",
-      "confirmDeleteMessage": "Bu etkinliği silmek istediğinizden emin misiniz?",
-      "cancel": "İptal",
-      "title": "Başlık",
-      "location": "Konum",
-      "description": "Açıklama",
-      "startDate": "Başlangıç tarihi",
-      "endDate": "Bitiş tarihi",
-      "startTime": "Başlangıç zamanı",
-      "endTime": "Bitiş zamanı"
-    },
     "timepicker": {
       "placeholder": "Bir zaman seçin"
     },
@@ -150,6 +122,14 @@
       "endTime": "Bitiş zamanı"
     },
     "dropdownList": {
+      "noRecordsMessage": "Kayıt Bulunamadı",
+      "errorMessage": "İstek Başarısız Oldu"
+    },
+    "comboBox": {
+      "noRecordsMessage": "Kayıt Bulunamadı",
+      "errorMessage": "İstek Başarısız Oldu"
+    },
+    "autoComplete": {
       "noRecordsMessage": "Kayıt Bulunamadı",
       "errorMessage": "İstek Başarısız Oldu"
     }

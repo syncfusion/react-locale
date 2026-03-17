@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "ชัดเจน"
     },
-    "schedule": {
-      "addTitle": "เพิ่มชื่อ",
-      "save": "บันทึก",
-      "edit": "แก้ไข",
-      "delete": "ลบ",
-      "moreDetails": "รายละเอียดเพิ่มเติม",
-      "close": "ปิด",
-      "newEvent": "กิจกรรมใหม่",
-      "today": "วันนี้",
-      "allDay": "ทั้งวัน",
-      "day": "วัน",
-      "week": "สัปดาห์",
-      "workweek": "สัปดาห์การทำงาน",
-      "month": "เดือน",
-      "more": "มากขึ้น",
-      "expandAllDaySection": "ขยายส่วนทั้งวัน",
-      "collapseAllDaySection": "ยุบส่วนทั้งวัน",
-      "deleteEvent": "ลบกิจกรรม",
-      "confirmDeleteMessage": "คุณแน่ใจหรือไม่ว่าต้องการลบกิจกรรมนี้",
-      "cancel": "ยกเลิก",
-      "title": "ชื่อเรื่อง",
-      "location": "ที่ตั้ง",
-      "description": "คำอธิบาย",
-      "startDate": "วันที่เริ่มต้น",
-      "endDate": "วันที่สิ้นสุด",
-      "startTime": "เวลาเริ่มต้น",
-      "endTime": "เวลาสิ้นสุด"
-    },
     "timepicker": {
       "placeholder": "เลือกเวลา"
     },
@@ -150,6 +122,14 @@
       "endTime": "เวลาสิ้นสุด"
     },
     "dropdownList": {
+      "noRecordsMessage": "ไม่พบบันทึก",
+      "errorMessage": "คำขอล้มเหลว"
+    },
+    "comboBox": {
+      "noRecordsMessage": "ไม่พบบันทึก",
+      "errorMessage": "คำขอล้มเหลว"
+    },
+    "autoComplete": {
       "noRecordsMessage": "ไม่พบบันทึก",
       "errorMessage": "คำขอล้มเหลว"
     }

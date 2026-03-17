@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "清除"
     },
-    "schedule": {
-      "addTitle": "添加标题",
-      "save": "保存",
-      "edit": "编辑",
-      "delete": "删除",
-      "moreDetails": "更多详情",
-      "close": "关闭",
-      "newEvent": "新活动",
-      "today": "今天",
-      "allDay": "全天",
-      "day": "日",
-      "week": "周",
-      "workweek": "工作周",
-      "month": "月份",
-      "more": "更多",
-      "expandAllDaySection": "展开全天部分",
-      "collapseAllDaySection": "折叠全天部分",
-      "deleteEvent": "删除事件",
-      "confirmDeleteMessage": "您确定要删除此活动吗？",
-      "cancel": "取消",
-      "title": "标题",
-      "location": "地点",
-      "description": "描述",
-      "startDate": "开始日期",
-      "endDate": "结束日期",
-      "startTime": "开始时间",
-      "endTime": "结束时间"
-    },
     "timepicker": {
       "placeholder": "选择时间"
     },
@@ -150,6 +122,14 @@
       "endTime": "结束时间"
     },
     "dropdownList": {
+      "noRecordsMessage": "没有找到记录",
+      "errorMessage": "请求失败"
+    },
+    "comboBox": {
+      "noRecordsMessage": "没有找到记录",
+      "errorMessage": "请求失败"
+    },
+    "autoComplete": {
       "noRecordsMessage": "没有找到记录",
       "errorMessage": "请求失败"
     }

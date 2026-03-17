@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "Jasný"
     },
-    "schedule": {
-      "addTitle": "Přidejte název",
-      "save": "Uložit",
-      "edit": "Upravit",
-      "delete": "Smazat",
-      "moreDetails": "Další podrobnosti",
-      "close": "Zavřít",
-      "newEvent": "Nová událost",
-      "today": "dnes",
-      "allDay": "Celý den",
-      "day": "den",
-      "week": "týden",
-      "workweek": "WorkWeek",
-      "month": "měsíc",
-      "more": "více",
-      "expandAllDaySection": "Rozbalte celodenní sekci",
-      "collapseAllDaySection": "Sbalit celodenní sekci",
-      "deleteEvent": "Smazat událost",
-      "confirmDeleteMessage": "Opravdu chcete smazat tuto událost?",
-      "cancel": "Zrušit",
-      "title": "Název",
-      "location": "Umístění",
-      "description": "Popis",
-      "startDate": "Datum zahájení",
-      "endDate": "Datum ukončení",
-      "startTime": "Čas zahájení",
-      "endTime": "Čas ukončení"
-    },
     "timepicker": {
       "placeholder": "Vyberte čas"
     },
@@ -150,6 +122,14 @@
       "endTime": "Čas ukončení"
     },
     "dropdownList": {
+      "noRecordsMessage": "Nebyly nalezeny žádné záznamy",
+      "errorMessage": "Požadavek se nezdařil"
+    },
+    "comboBox": {
+      "noRecordsMessage": "Nebyly nalezeny žádné záznamy",
+      "errorMessage": "Požadavek se nezdařil"
+    },
+    "autoComplete": {
       "noRecordsMessage": "Nebyly nalezeny žádné záznamy",
       "errorMessage": "Požadavek se nezdařil"
     }

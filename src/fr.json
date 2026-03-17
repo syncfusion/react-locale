@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "Effacer"
     },
-    "schedule": {
-      "addTitle": "Ajouter un titre",
-      "save": "Enregistrer",
-      "edit": "Modifier",
-      "delete": "Supprimer",
-      "moreDetails": "Plus de détails",
-      "close": "Fermer",
-      "newEvent": "Nouvel événement",
-      "today": "Aujourd'hui",
-      "allDay": "Toute la journée",
-      "day": "Jour",
-      "week": "Semaine",
-      "workweek": "Semaine de travail",
-      "month": "Mois",
-      "more": "plus",
-      "expandAllDaySection": "Développer la section toute la journée",
-      "collapseAllDaySection": "Réduire la section Journée entière",
-      "deleteEvent": "Supprimer l'événement",
-      "confirmDeleteMessage": "Êtes-vous sûr de vouloir supprimer cet événement ?",
-      "cancel": "Annuler",
-      "title": "Titre",
-      "location": "Emplacement",
-      "description": "Descriptif",
-      "startDate": "Date de début",
-      "endDate": "Date de fin",
-      "startTime": "Heure de début",
-      "endTime": "Heure de fin"
-    },
     "timepicker": {
       "placeholder": "Choisissez une heure"
     },
@@ -150,6 +122,14 @@
       "endTime": "Heure de fin"
     },
     "dropdownList": {
+      "noRecordsMessage": "Aucun enregistrement trouvé",
+      "errorMessage": "La demande a échoué"
+    },
+    "comboBox": {
+      "noRecordsMessage": "Aucun enregistrement trouvé",
+      "errorMessage": "La demande a échoué"
+    },
+    "autoComplete": {
       "noRecordsMessage": "Aucun enregistrement trouvé",
       "errorMessage": "La demande a échoué"
     }

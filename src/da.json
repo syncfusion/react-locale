@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "Klar"
     },
-    "schedule": {
-      "addTitle": "Tilføj titel",
-      "save": "Gem",
-      "edit": "Rediger",
-      "delete": "Slet",
-      "moreDetails": "Flere detaljer",
-      "close": "Luk",
-      "newEvent": "Ny begivenhed",
-      "today": "I dag",
-      "allDay": "Hele dagen",
-      "day": "dag",
-      "week": "uge",
-      "workweek": "Arbejdsuge",
-      "month": "Måned",
-      "more": "mere",
-      "expandAllDaySection": "Udvid heldagsafsnittet",
-      "collapseAllDaySection": "Skjul heldagsafsnittet",
-      "deleteEvent": "Slet begivenhed",
-      "confirmDeleteMessage": "Er du sikker på, at du vil slette denne begivenhed?",
-      "cancel": "Annuller",
-      "title": "Titel",
-      "location": "Beliggenhed",
-      "description": "Beskrivelse",
-      "startDate": "Startdato",
-      "endDate": "Slutdato",
-      "startTime": "Starttidspunkt",
-      "endTime": "Sluttidspunkt"
-    },
     "timepicker": {
       "placeholder": "Vælg et tidspunkt"
     },
@@ -150,6 +122,14 @@
       "endTime": "Sluttidspunkt"
     },
     "dropdownList": {
+      "noRecordsMessage": "Ingen registreringer fundet",
+      "errorMessage": "Anmodning mislykkedes"
+    },
+    "comboBox": {
+      "noRecordsMessage": "Ingen registreringer fundet",
+      "errorMessage": "Anmodning mislykkedes"
+    },
+    "autoComplete": {
       "noRecordsMessage": "Ingen registreringer fundet",
       "errorMessage": "Anmodning mislykkedes"
     }

@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "Chiaro"
     },
-    "schedule": {
-      "addTitle": "Aggiungi titolo",
-      "save": "Salva",
-      "edit": "Modifica",
-      "delete": "Elimina",
-      "moreDetails": "Maggiori dettagli",
-      "close": "Chiudi",
-      "newEvent": "Nuovo evento",
-      "today": "Oggi",
-      "allDay": "Tutto il giorno",
-      "day": "Giorno",
-      "week": "Settimana",
-      "workweek": "Settimana lavorativa",
-      "month": "Mese",
-      "more": "di più",
-      "expandAllDaySection": "Espandi la sezione per tutto il giorno",
-      "collapseAllDaySection": "Comprimi la sezione dedicata all'intera giornata",
-      "deleteEvent": "Elimina evento",
-      "confirmDeleteMessage": "Sei sicuro di voler eliminare questo evento?",
-      "cancel": "Annulla",
-      "title": "Titolo",
-      "location": "Posizione",
-      "description": "Descrizione",
-      "startDate": "Data di inizio",
-      "endDate": "Data di fine",
-      "startTime": "Ora di inizio",
-      "endTime": "Ora di fine"
-    },
     "timepicker": {
       "placeholder": "Scegli un orario"
     },
@@ -150,6 +122,14 @@
       "endTime": "Ora di fine"
     },
     "dropdownList": {
+      "noRecordsMessage": "Nessun record trovato",
+      "errorMessage": "Richiesta non riuscita"
+    },
+    "comboBox": {
+      "noRecordsMessage": "Nessun record trovato",
+      "errorMessage": "Richiesta non riuscita"
+    },
+    "autoComplete": {
       "noRecordsMessage": "Nessun record trovato",
       "errorMessage": "Richiesta non riuscita"
     }

@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "Hreinsa"
     },
-    "schedule": {
-      "addTitle": "Bæta við titli",
-      "save": "Vista",
-      "edit": "Breyta",
-      "delete": "Eyða",
-      "moreDetails": "Nánari upplýsingar",
-      "close": "Loka",
-      "newEvent": "Nýr viðburður",
-      "today": "Í dag",
-      "allDay": "Allan daginn",
-      "day": "Dagur",
-      "week": "Vika",
-      "workweek": "Vinnuvika",
-      "month": "Mánuður",
-      "more": "meira",
-      "expandAllDaySection": "Stækkaðu hlutann allan daginn",
-      "collapseAllDaySection": "Draga saman allan daginn hluta",
-      "deleteEvent": "Eyða atburði",
-      "confirmDeleteMessage": "Ertu viss um að þú viljir eyða þessum viðburði?",
-      "cancel": "Hætta við",
-      "title": "Titill",
-      "location": "Staðsetning",
-      "description": "Lýsing",
-      "startDate": "Upphafsdagur",
-      "endDate": "Lokadagur",
-      "startTime": "Upphafstími",
-      "endTime": "Lokatími"
-    },
     "timepicker": {
       "placeholder": "Veldu tíma"
     },
@@ -150,6 +122,14 @@
       "endTime": "Lokatími"
     },
     "dropdownList": {
+      "noRecordsMessage": "Engar skrár fundust",
+      "errorMessage": "Beiðni mistókst"
+    },
+    "comboBox": {
+      "noRecordsMessage": "Engar skrár fundust",
+      "errorMessage": "Beiðni mistókst"
+    },
+    "autoComplete": {
       "noRecordsMessage": "Engar skrár fundust",
       "errorMessage": "Beiðni mistókst"
     }

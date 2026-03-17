@@ -90,34 +90,6 @@
     "textbox": {
       "clear": "Clear"
     },
-    "schedule": {
-      "addTitle": "Add title",
-      "save": "Save",
-      "edit": "Edit",
-      "delete": "Delete",
-      "moreDetails": "More details",
-      "close": "Close",
-      "newEvent": "New event",
-      "today": "Today",
-      "allDay": "All day",
-      "day": "Day",
-      "week": "Week",
-      "workweek": "WorkWeek",
-      "month": "Month",
-      "more": "more",
-      "expandAllDaySection": "Expand all-day section",
-      "collapseAllDaySection": "Collapse all-day section",
-      "deleteEvent": "Delete Event",
-      "confirmDeleteMessage": "Are you sure you want to delete this event?",
-      "cancel": "Cancel",
-      "title": "Title",
-      "location": "Location",
-      "description": "Description",
-      "startDate": "Start date",
-      "endDate": "End date",
-      "startTime": "Start time",
-      "endTime": "End time"
-    },
     "timepicker": {
       "placeholder": "Choose a time"
     },
@@ -150,6 +122,14 @@
       "endTime": "End time"
     },
     "dropdownList": {
+      "noRecordsMessage": "No Records Found",
+      "errorMessage": "Request Failed"
+    },
+    "comboBox": {
+      "noRecordsMessage": "No Records Found",
+      "errorMessage": "Request Failed"
+    },
+    "autoComplete": {
       "noRecordsMessage": "No Records Found",
       "errorMessage": "Request Failed"
     }
