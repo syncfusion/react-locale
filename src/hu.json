@@ -33,7 +33,7 @@
       "previousPageGroupTooltip": "Ugrás az előző oldalcsoportra",
       "pagerStatusMessage": "Pager külső üzenet",
       "pageLabel": "oldal ",
-      "pagerOfLabel": " -ból ",
+      "pagerOfLabel": " a ",
       "pagesLabel": " Oldalak"
     },
     "chart": {
@@ -118,7 +118,7 @@
       "description": "Leírás",
       "startDate": "Kezdés dátuma",
       "endDate": "Befejezés dátuma",
-      "startTime": "Kezdés időpontja",
+      "startTime": "Kezdési idő",
       "endTime": "Vége"
     },
     "dropdownList": {

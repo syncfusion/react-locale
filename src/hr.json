@@ -62,7 +62,7 @@
     },
     "formValidator": {
       "required": "Ovo polje je obavezno.",
-      "email": "Unesite važeću adresu e-pošte.",
+      "email": "Molimo unesite valjanu adresu e-pošte.",
       "url": "Unesite važeći URL.",
       "date": "Unesite važeći datum.",
       "dateIso": "Unesite važeći datum (ISO).",
