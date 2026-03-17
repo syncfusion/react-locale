@@ -19,7 +19,7 @@
       "noRecordsEditMessage": "Aucun enregistrement sélectionné pour l'opération de modification",
       "noRecordsDeleteMessage": "Aucun enregistrement sélectionné pour l'opération de suppression",
       "okButtonLabel": "D'accord",
-      "confirmDeleteMessage": "Etes-vous sûr de vouloir supprimer l'enregistrement ?"
+      "confirmDeleteMessage": "Etes-vous sûr de vouloir supprimer l'enregistrement ?"
     },
     "pager": {
       "currentPageLabel": "{0} sur {1} pages",
