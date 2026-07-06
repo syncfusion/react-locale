@@ -19,7 +19,10 @@
       "noRecordsEditMessage": "Inga poster har valts för redigering",
       "noRecordsDeleteMessage": "Inga poster har valts för raderingsåtgärd",
       "okButtonLabel": "OK",
-      "confirmDeleteMessage": "Är du säker på att du vill radera posten?"
+      "confirmDeleteMessage": "Är du säker på att du vill radera posten?",
+      "singleColumnGroupLabel": "Grupp",
+      "groupDropAreaLabel": "Grupp drop område",
+      "groupDropAreaHintText": "Dra en kolumnrubrik hit för att gruppera dess kolumn"
     },
     "pager": {
       "currentPageLabel": "{0} av {1} sidor",
@@ -58,7 +61,14 @@
     },
     "datepicker": {
       "today": "Idag",
-      "placeholder": "Välj ett datum"
+      "placeholder": "Välj ett datum",
+      "day": "dag",
+      "month": "månad",
+      "year": "år",
+      "hour": "timme",
+      "minute": "minut",
+      "second": "andra",
+      "meridiem": "AM"
     },
     "formValidator": {
       "required": "Detta fält är obligatoriskt.",
@@ -91,7 +101,14 @@
       "clear": "Rensa"
     },
     "timepicker": {
-      "placeholder": "Välj en tid"
+      "placeholder": "Välj en tid",
+      "day": "dag",
+      "month": "månad",
+      "year": "år",
+      "hour": "timme",
+      "minute": "minut",
+      "second": "andra",
+      "meridiem": "AM"
     },
     "scheduler": {
       "addTitle": "Lägg till titel",
@@ -107,6 +124,7 @@
       "week": "Vecka",
       "workweek": "Arbetsvecka",
       "month": "Månad",
+      "agenda": "Agenda",
       "more": "mer",
       "expandAllDaySection": "Utöka heldagssektionen",
       "collapseAllDaySection": "Komprimera avsnittet hela dagen",
@@ -119,7 +137,40 @@
       "startDate": "Startdatum",
       "endDate": "Slutdatum",
       "startTime": "Starttid",
-      "endTime": "Sluttid"
+      "endTime": "Sluttid",
+      "eventOverlap": "Händelseöverlappning",
+      "overlapAlert": "Händelser kan inte schemaläggas under den valda tiden eftersom den överlappar en annan händelse.",
+      "blockAlert": "Händelser kan inte schemaläggas inom det blockerade tidsintervallet.",
+      "ok": "OK",
+      "alert": "Varning",
+      "invalidDateValue": "Det angivna datumvärdet är ogiltigt.",
+      "invalidTimeValue": "Det angivna tidsvärdet är ogiltigt.",
+      "invalidDateRange": "Det valda slutdatumet infaller före startdatumet.",
+      "repeat": "Upprepa",
+      "never": "Aldrig",
+      "daily": "Dagligen",
+      "weekly": "Varje vecka",
+      "monthly": "Månadsvis",
+      "yearly": "Årligen",
+      "custom": "Anpassad",
+      "timezone": "Tidszon",
+      "startTimezone": "Starta tidszon",
+      "endTimezone": "Avsluta tidszon",
+      "searchTimezone": "Sök tidszon",
+      "customRecurrence": "Anpassad upprepning",
+      "seriesChangeAlert": "Vill du avbryta ändringarna som gjorts i specifika instanser av den här serien och matcha den med hela serien igen?",
+      "createError": "Händelsens varaktighet måste vara kortare än hur ofta den inträffar. Förkorta varaktigheten eller ändra upprepningsmönstret i redigeraren för återkommande händelser.",
+      "sameDayAlert": "Två händelser av samma händelse kan inte inträffa på samma dag.",
+      "occurenceAlert": "Det går inte att boka om en förekomst av det återkommande mötet om det hoppar över en senare förekomst av samma möte.",
+      "editEventContent": "Hur skulle du vilja ändra mötet i serien?",
+      "editEvent": "Redigera händelse",
+      "editThisEvent": "Redigera händelse",
+      "editEntireSeries": "Hela serien",
+      "yes": "Ja",
+      "no": "Nej",
+      "followingEvents": "Följande evenemang",
+      "eventsFor": "Evenemang för",
+      "noEvents": "Inga händelser"
     },
     "dropdownList": {
       "noRecordsMessage": "Inga uppgifter hittades",
@@ -132,6 +183,88 @@
     "autoComplete": {
       "noRecordsMessage": "Inga uppgifter hittades",
       "errorMessage": "Begäran misslyckades"
+    },
+    "recurrenceEditor": {
+      "day": "dag",
+      "week": "Vecka",
+      "month": "Månad",
+      "year": "år",
+      "repeat": "Upprepa",
+      "repeatEvery": "Upprepa varje",
+      "repeatedMode": "Läge",
+      "end": "Slut",
+      "repeatOn": "Upprepa på",
+      "repeatMode": "Upprepa läge",
+      "first": "Först",
+      "second": "För det andra",
+      "third": "Tredje",
+      "fourth": "Fjärde",
+      "last": "Sist",
+      "never": "Aldrig",
+      "until": "Tills",
+      "count": "Räkna",
+      "every": "Varje",
+      "days": "dagar",
+      "weeks": "Veckor",
+      "months": "månader",
+      "years": "år",
+      "summaryDay": "dag(ar)",
+      "summaryWeek": "vecka(r)",
+      "summaryMonth": "månad(er)",
+      "summaryYear": "år",
+      "summaryOn": "på",
+      "summaryUntil": "tills",
+      "summaryTimes": "tid(er)",
+      "intervalAriaLabel": "Antal upprepningar",
+      "frequencyAriaLabel": "Välj upprepningsfrekvens",
+      "byMonthAriaLabel": "Välj månad på året",
+      "byMonthDayAriaLabel": "Upprepa på månadsdagen",
+      "byDayAriaLabel": "Upprepa en viss veckodag i månaden",
+      "bySetPositionAriaLabel": "Välj veckoposition i månad",
+      "endTypeAriaLabel": "Välj sluttyp för återkommande",
+      "countAriaLabel": "Antal händelser",
+      "untilAriaLabel": "Välj upprepning fram till datum"
+    },
+    "datetimepicker": {
+      "date": "Datum",
+      "time": "Tid",
+      "cancel": "Avbryt",
+      "set": "Ställ in",
+      "now": "Nu",
+      "today": "Idag",
+      "toggleDateTime": "Växla datum- och tidväljare",
+      "clearValue": "Tydligt värde",
+      "previous": "Föregående",
+      "next": "Nästa",
+      "day": "dag",
+      "month": "månad",
+      "year": "år",
+      "hour": "timme",
+      "minute": "minut",
+      "second": "andra",
+      "meridiem": "AM"
+    },
+    "multiSelect": {
+      "noRecordsMessage": "Inga uppgifter hittades",
+      "errorMessage": "Begäran misslyckades"
+    },
+    "daterangepicker": {
+      "startDate": "Startdatum",
+      "endDate": "Slutdatum",
+      "selectedDays": "Utvalda dagar",
+      "customRange": "Anpassat intervall",
+      "apply": "Ansök",
+      "cancel": "Avbryt",
+      "day": "dag",
+      "month": "månad",
+      "year": "år",
+      "hour": "timme",
+      "minute": "minut",
+      "second": "andra",
+      "meridiem": "AM"
+    },
+    "toast": {
+      "close": "Stäng"
     }
   }
 }

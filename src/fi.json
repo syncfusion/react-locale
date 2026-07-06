@@ -19,7 +19,10 @@
       "noRecordsEditMessage": "Muokkaustoimintoon ei ole valittu tietueita",
       "noRecordsDeleteMessage": "Poistotoimintoon ei ole valittu tietueita",
       "okButtonLabel": "OK",
-      "confirmDeleteMessage": "Haluatko varmasti poistaa tietueen?"
+      "confirmDeleteMessage": "Haluatko varmasti poistaa tietueen?",
+      "singleColumnGroupLabel": "ryhmä",
+      "groupDropAreaLabel": "Ryhmän pudotusalue",
+      "groupDropAreaHintText": "Vedä sarakkeen otsikko tähän ryhmitelläksesi sen sarakkeen"
     },
     "pager": {
       "currentPageLabel": "{0}/{1} sivua",
@@ -58,7 +61,14 @@
     },
     "datepicker": {
       "today": "Tänään",
-      "placeholder": "Valitse päivämäärä"
+      "placeholder": "Valitse päivämäärä",
+      "day": "päivä",
+      "month": "kuukausi",
+      "year": "vuosi",
+      "hour": "tunti",
+      "minute": "minuutti",
+      "second": "toinen",
+      "meridiem": "AM"
     },
     "formValidator": {
       "required": "Tämä kenttä on pakollinen.",
@@ -91,7 +101,14 @@
       "clear": "Selkeä"
     },
     "timepicker": {
-      "placeholder": "Valitse aika"
+      "placeholder": "Valitse aika",
+      "day": "päivä",
+      "month": "kuukausi",
+      "year": "vuosi",
+      "hour": "tunti",
+      "minute": "minuutti",
+      "second": "toinen",
+      "meridiem": "AM"
     },
     "scheduler": {
       "addTitle": "Lisää otsikko",
@@ -107,6 +124,7 @@
       "week": "Viikko",
       "workweek": "Työviikko",
       "month": "Kuukausi",
+      "agenda": "Agenda",
       "more": "lisää",
       "expandAllDaySection": "Laajenna koko päivän osio",
       "collapseAllDaySection": "Tiivistä koko päivän osio",
@@ -119,7 +137,40 @@
       "startDate": "Aloituspäivämäärä",
       "endDate": "Päättymispäivä",
       "startTime": "Aloitusaika",
-      "endTime": "Päättymisaika"
+      "endTime": "Päättymisaika",
+      "eventOverlap": "Tapahtuman päällekkäisyys",
+      "overlapAlert": "Tapahtumia ei voi ajoittaa valitulle ajalle, koska se on päällekkäinen toisen tapahtuman kanssa.",
+      "blockAlert": "Tapahtumia ei voida ajoittaa estetylle aikavälille.",
+      "ok": "OK",
+      "alert": "Varoitus",
+      "invalidDateValue": "Annettu päivämääräarvo on virheellinen.",
+      "invalidTimeValue": "Annettu aika-arvo on virheellinen.",
+      "invalidDateRange": "Valittu lopetuspäivä on ennen aloituspäivää.",
+      "repeat": "Toista",
+      "never": "Ei koskaan",
+      "daily": "Päivittäin",
+      "weekly": "viikoittain",
+      "monthly": "Kuukausittain",
+      "yearly": "Vuosittain",
+      "custom": "Mukautettu",
+      "timezone": "Aikavyöhyke",
+      "startTimezone": "Aloita aikavyöhyke",
+      "endTimezone": "Lopeta aikavyöhyke",
+      "searchTimezone": "Hae aikavyöhykettä",
+      "customRecurrence": "Mukautettu toistuminen",
+      "seriesChangeAlert": "Haluatko peruuttaa tämän sarjan tiettyihin esiintymiin tehdyt muutokset ja yhdistää ne uudelleen koko sarjaan?",
+      "createError": "Tapahtuman keston tulee olla lyhyempi kuin kuinka usein se esiintyy. Lyhennä kestoa tai muuta toistumiskuviota toistumistapahtumaeditorissa.",
+      "sameDayAlert": "Samaa tapahtumaa ei voi tapahtua kahta kertaa samana päivänä.",
+      "occurenceAlert": "Toistuvan tapaamisen tapahtumaa ei voi ajoittaa uudelleen, jos se ohittaa saman tapaamisen myöhemmän tapahtuman.",
+      "editEventContent": "Miten haluaisit muuttaa sarjan tapaamista?",
+      "editEvent": "Muokkaa tapahtumaa",
+      "editThisEvent": "Muokkaa tapahtumaa",
+      "editEntireSeries": "Koko sarja",
+      "yes": "Kyllä",
+      "no": "Ei",
+      "followingEvents": "Seuraavia tapahtumia",
+      "eventsFor": "Tapahtumat varten",
+      "noEvents": "Ei tapahtumia"
     },
     "dropdownList": {
       "noRecordsMessage": "Tietueita ei löytynyt",
@@ -132,6 +183,88 @@
     "autoComplete": {
       "noRecordsMessage": "Tietueita ei löytynyt",
       "errorMessage": "Pyyntö epäonnistui"
+    },
+    "recurrenceEditor": {
+      "day": "päivä",
+      "week": "Viikko",
+      "month": "Kuukausi",
+      "year": "vuosi",
+      "repeat": "Toista",
+      "repeatEvery": "Toista joka",
+      "repeatedMode": "tila",
+      "end": "Loppu",
+      "repeatOn": "Toista",
+      "repeatMode": "Toistotila",
+      "first": "Ensin",
+      "second": "Toinen",
+      "third": "Kolmas",
+      "fourth": "Neljäs",
+      "last": "Viimeinen",
+      "never": "Ei koskaan",
+      "until": "Kunnes",
+      "count": "Count",
+      "every": "Jokainen",
+      "days": "päivää",
+      "weeks": "Viikot",
+      "months": "Kuukausia",
+      "years": "Vuosia",
+      "summaryDay": "päivä(t)",
+      "summaryWeek": "viikko(t)",
+      "summaryMonth": "kuukausi(t)",
+      "summaryYear": "vuosi(t)",
+      "summaryOn": "päällä",
+      "summaryUntil": "asti",
+      "summaryTimes": "aika(t)",
+      "intervalAriaLabel": "Toistojen määrä",
+      "frequencyAriaLabel": "Valitse toistotaajuus",
+      "byMonthAriaLabel": "Valitse vuoden kuukausi",
+      "byMonthDayAriaLabel": "Toista kuukauden päivänä",
+      "byDayAriaLabel": "Toista tiettynä kuukauden viikonpäivänä",
+      "bySetPositionAriaLabel": "Valitse viikon paikka kuukaudessa",
+      "endTypeAriaLabel": "Valitse toistumisen lopetustyyppi",
+      "countAriaLabel": "Tapahtumien määrä",
+      "untilAriaLabel": "Valitse toistuvuus päivämäärään asti"
+    },
+    "datetimepicker": {
+      "date": "Päivämäärä",
+      "time": "Aika",
+      "cancel": "Peruuta",
+      "set": "Aseta",
+      "now": "Nyt",
+      "today": "Tänään",
+      "toggleDateTime": "Vaihda päivämäärän ja kellonajan valitsin",
+      "clearValue": "Selkeä arvo",
+      "previous": "Edellinen",
+      "next": "Seuraavaksi",
+      "day": "päivä",
+      "month": "kuukausi",
+      "year": "vuosi",
+      "hour": "tunti",
+      "minute": "minuutti",
+      "second": "toinen",
+      "meridiem": "AM"
+    },
+    "multiSelect": {
+      "noRecordsMessage": "Tietueita ei löytynyt",
+      "errorMessage": "Pyyntö epäonnistui"
+    },
+    "daterangepicker": {
+      "startDate": "Aloituspäivämäärä",
+      "endDate": "Päättymispäivämäärä",
+      "selectedDays": "Valitut päivät",
+      "customRange": "Mukautettu valikoima",
+      "apply": "Käytä",
+      "cancel": "Peruuta",
+      "day": "päivä",
+      "month": "kuukausi",
+      "year": "vuosi",
+      "hour": "tunti",
+      "minute": "minuutti",
+      "second": "toinen",
+      "meridiem": "AM"
+    },
+    "toast": {
+      "close": "Sulje"
     }
   }
 }

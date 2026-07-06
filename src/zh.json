@@ -19,7 +19,10 @@
       "noRecordsEditMessage": "未选择任何记录进行编辑操作",
       "noRecordsDeleteMessage": "没有选择要删除操作的记录",
       "okButtonLabel": "好的",
-      "confirmDeleteMessage": "您确定要删除该记录吗？"
+      "confirmDeleteMessage": "您确定要删除该记录吗？",
+      "singleColumnGroupLabel": "集团",
+      "groupDropAreaLabel": "团体降落区",
+      "groupDropAreaHintText": "将列标题拖动到此处以对其列进行分组"
     },
     "pager": {
       "currentPageLabel": "第 {0} 页（共 {1} 页）",
@@ -58,7 +61,14 @@
     },
     "datepicker": {
       "today": "今天",
-      "placeholder": "选择日期"
+      "placeholder": "选择日期",
+      "day": "日",
+      "month": "月",
+      "year": "年",
+      "hour": "小时",
+      "minute": "分钟",
+      "second": "第二",
+      "meridiem": "调幅"
     },
     "formValidator": {
       "required": "此字段为必填字段。",
@@ -91,7 +101,14 @@
       "clear": "清除"
     },
     "timepicker": {
-      "placeholder": "选择时间"
+      "placeholder": "选择时间",
+      "day": "日",
+      "month": "月",
+      "year": "年",
+      "hour": "小时",
+      "minute": "分钟",
+      "second": "第二",
+      "meridiem": "调幅"
     },
     "scheduler": {
       "addTitle": "添加标题",
@@ -107,6 +124,7 @@
       "week": "周",
       "workweek": "工作周",
       "month": "月份",
+      "agenda": "议程",
       "more": "更多",
       "expandAllDaySection": "展开全天部分",
       "collapseAllDaySection": "折叠全天部分",
@@ -119,7 +137,40 @@
       "startDate": "开始日期",
       "endDate": "结束日期",
       "startTime": "开始时间",
-      "endTime": "结束时间"
+      "endTime": "结束时间",
+      "eventOverlap": "事件重叠",
+      "overlapAlert": "无法在所选时间安排活动，因为它与其他活动重叠。",
+      "blockAlert": "无法在封锁的时间范围内安排活动。",
+      "ok": "好的",
+      "alert": "警报",
+      "invalidDateValue": "输入的日期值无效。",
+      "invalidTimeValue": "输入的时间值无效。",
+      "invalidDateRange": "所选的结束日期早于开始日期。",
+      "repeat": "重复",
+      "never": "从来没有",
+      "daily": "每日",
+      "weekly": "每周",
+      "monthly": "每月",
+      "yearly": "每年",
+      "custom": "定制",
+      "timezone": "时区",
+      "startTimezone": "开始时区",
+      "endTimezone": "结束时区",
+      "searchTimezone": "搜索时区",
+      "customRecurrence": "自定义重复",
+      "seriesChangeAlert": "您想取消对该系列的特定实例所做的更改并再次将其与整个系列匹配吗？",
+      "createError": "事件的持续时间必须短于其发生的频率。缩短持续时间，或在重复事件编辑器中更改重复模式。",
+      "sameDayAlert": "同一事件不能在同一天发生两次。",
+      "occurenceAlert": "如果重复约会跳过了稍后发生的同一约会，则无法重新安排该重复约会的发生。",
+      "editEventContent": "您想如何更改该系列中的约会？",
+      "editEvent": "编辑活动",
+      "editThisEvent": "编辑事件",
+      "editEntireSeries": "全系列",
+      "yes": "是的",
+      "no": "否",
+      "followingEvents": "后续活动",
+      "eventsFor": "活动为",
+      "noEvents": "没有活动"
     },
     "dropdownList": {
       "noRecordsMessage": "没有找到记录",
@@ -132,6 +183,88 @@
     "autoComplete": {
       "noRecordsMessage": "没有找到记录",
       "errorMessage": "请求失败"
+    },
+    "recurrenceEditor": {
+      "day": "日",
+      "week": "周",
+      "month": "月份",
+      "year": "年份",
+      "repeat": "重复",
+      "repeatEvery": "重复每个",
+      "repeatedMode": "模式",
+      "end": "结束",
+      "repeatOn": "重复",
+      "repeatMode": "重复模式",
+      "first": "第一",
+      "second": "第二",
+      "third": "第三",
+      "fourth": "第四",
+      "last": "最后",
+      "never": "从来没有",
+      "until": "直到",
+      "count": "计数",
+      "every": "每个",
+      "days": "天数",
+      "weeks": "周数",
+      "months": "几个月",
+      "years": "年",
+      "summaryDay": "天",
+      "summaryWeek": "周",
+      "summaryMonth": "月",
+      "summaryYear": "年",
+      "summaryOn": "上",
+      "summaryUntil": "直到",
+      "summaryTimes": "时间",
+      "intervalAriaLabel": "重复次数",
+      "frequencyAriaLabel": "选择重复频率",
+      "byMonthAriaLabel": "选择一年中的月份",
+      "byMonthDayAriaLabel": "在每月的某一天重复",
+      "byDayAriaLabel": "在该月的特定工作日重复",
+      "bySetPositionAriaLabel": "选择月份中的周位置",
+      "endTypeAriaLabel": "选择重复结束类型",
+      "countAriaLabel": "出现次数",
+      "untilAriaLabel": "选择重复截止日期"
+    },
+    "datetimepicker": {
+      "date": "日期",
+      "time": "时间",
+      "cancel": "取消",
+      "set": "套装",
+      "now": "现在",
+      "today": "今天",
+      "toggleDateTime": "切换日期时间选择器",
+      "clearValue": "清晰的价值",
+      "previous": "上一页",
+      "next": "下一步",
+      "day": "日",
+      "month": "月",
+      "year": "年",
+      "hour": "小时",
+      "minute": "分钟",
+      "second": "第二",
+      "meridiem": "调幅"
+    },
+    "multiSelect": {
+      "noRecordsMessage": "没有找到记录",
+      "errorMessage": "请求失败"
+    },
+    "daterangepicker": {
+      "startDate": "开始日期",
+      "endDate": "结束日期",
+      "selectedDays": "选定日期",
+      "customRange": "定制范围",
+      "apply": "申请",
+      "cancel": "取消",
+      "day": "日",
+      "month": "月",
+      "year": "年",
+      "hour": "小时",
+      "minute": "分钟",
+      "second": "第二",
+      "meridiem": "调幅"
+    },
+    "toast": {
+      "close": "关闭"
     }
   }
 }

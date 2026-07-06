@@ -19,7 +19,10 @@
       "noRecordsEditMessage": "ไม่มีบันทึกที่เลือกสำหรับการดำเนินการแก้ไข",
       "noRecordsDeleteMessage": "ไม่มีบันทึกที่เลือกสำหรับการดำเนินการลบ",
       "okButtonLabel": "ตกลง",
-      "confirmDeleteMessage": "คุณแน่ใจหรือไม่ว่าต้องการลบบันทึก?"
+      "confirmDeleteMessage": "คุณแน่ใจหรือไม่ว่าต้องการลบบันทึก?",
+      "singleColumnGroupLabel": "กลุ่ม",
+      "groupDropAreaLabel": "พื้นที่วางกลุ่ม",
+      "groupDropAreaHintText": "ลากส่วนหัวของคอลัมน์มาที่นี่เพื่อจัดกลุ่มคอลัมน์"
     },
     "pager": {
       "currentPageLabel": "{0} จาก {1} หน้า",
@@ -58,7 +61,14 @@
     },
     "datepicker": {
       "today": "วันนี้",
-      "placeholder": "เลือกวันที่"
+      "placeholder": "เลือกวันที่",
+      "day": "วัน",
+      "month": "เดือน",
+      "year": "ปี",
+      "hour": "ชั่วโมง",
+      "minute": "นาที",
+      "second": "ประการที่สอง",
+      "meridiem": "เช้า"
     },
     "formValidator": {
       "required": "ต้องระบุข้อมูลในช่องนี้",
@@ -91,7 +101,14 @@
       "clear": "ชัดเจน"
     },
     "timepicker": {
-      "placeholder": "เลือกเวลา"
+      "placeholder": "เลือกเวลา",
+      "day": "วัน",
+      "month": "เดือน",
+      "year": "ปี",
+      "hour": "ชั่วโมง",
+      "minute": "นาที",
+      "second": "ประการที่สอง",
+      "meridiem": "เช้า"
     },
     "scheduler": {
       "addTitle": "เพิ่มชื่อ",
@@ -107,6 +124,7 @@
       "week": "สัปดาห์",
       "workweek": "สัปดาห์การทำงาน",
       "month": "เดือน",
+      "agenda": "วาระการประชุม",
       "more": "มากขึ้น",
       "expandAllDaySection": "ขยายส่วนทั้งวัน",
       "collapseAllDaySection": "ยุบส่วนทั้งวัน",
@@ -119,7 +137,40 @@
       "startDate": "วันที่เริ่มต้น",
       "endDate": "วันที่สิ้นสุด",
       "startTime": "เวลาเริ่มต้น",
-      "endTime": "เวลาสิ้นสุด"
+      "endTime": "เวลาสิ้นสุด",
+      "eventOverlap": "เหตุการณ์ทับซ้อนกัน",
+      "overlapAlert": "ไม่สามารถกำหนดเวลากิจกรรมในช่วงเวลาที่เลือกได้ เนื่องจากซ้อนทับกับกิจกรรมอื่น",
+      "blockAlert": "ไม่สามารถกำหนดเวลากิจกรรมภายในช่วงเวลาที่ถูกบล็อกได้",
+      "ok": "ตกลง",
+      "alert": "การแจ้งเตือน",
+      "invalidDateValue": "ค่าวันที่ที่ป้อนไม่ถูกต้อง",
+      "invalidTimeValue": "ค่าเวลาที่ป้อนไม่ถูกต้อง",
+      "invalidDateRange": "วันที่สิ้นสุดที่เลือกเกิดขึ้นก่อนวันที่เริ่มต้น",
+      "repeat": "ทำซ้ำ",
+      "never": "ไม่เคย",
+      "daily": "รายวัน",
+      "weekly": "รายสัปดาห์",
+      "monthly": "รายเดือน",
+      "yearly": "เป็นประจำทุกปี",
+      "custom": "กำหนดเอง",
+      "timezone": "เขตเวลา",
+      "startTimezone": "เริ่มเขตเวลา",
+      "endTimezone": "สิ้นสุดเขตเวลา",
+      "searchTimezone": "ค้นหาเขตเวลา",
+      "customRecurrence": "การกำเริบที่กำหนดเอง",
+      "seriesChangeAlert": "คุณต้องการยกเลิกการเปลี่ยนแปลงที่ทำกับอินสแตนซ์เฉพาะของซีรีส์นี้และจับคู่กับซีรีส์ทั้งหมดอีกครั้งหรือไม่",
+      "createError": "ระยะเวลาของกิจกรรมต้องสั้นกว่าความถี่ที่เกิดขึ้น ลดระยะเวลาหรือเปลี่ยนรูปแบบการเกิดซ้ำในตัวแก้ไขเหตุการณ์การเกิดซ้ำ",
+      "sameDayAlert": "เหตุการณ์เดียวกันสองครั้งไม่สามารถเกิดขึ้นในวันเดียวกันได้",
+      "occurenceAlert": "ไม่สามารถจัดกำหนดการใหม่ของการนัดหมายที่เกิดซ้ำได้ถ้าข้ามการนัดหมายเดิมที่เกิดขึ้นในภายหลัง",
+      "editEventContent": "คุณต้องการเปลี่ยนแปลงการนัดหมายในซีรีส์อย่างไร?",
+      "editEvent": "แก้ไขกิจกรรม",
+      "editThisEvent": "แก้ไขกิจกรรม",
+      "editEntireSeries": "ทั้งซีรีย์",
+      "yes": "ใช่",
+      "no": "ไม่",
+      "followingEvents": "เหตุการณ์ต่อไปนี้",
+      "eventsFor": "กิจกรรมสำหรับ",
+      "noEvents": "ไม่มีกิจกรรม"
     },
     "dropdownList": {
       "noRecordsMessage": "ไม่พบบันทึก",
@@ -132,6 +183,88 @@
     "autoComplete": {
       "noRecordsMessage": "ไม่พบบันทึก",
       "errorMessage": "คำขอล้มเหลว"
+    },
+    "recurrenceEditor": {
+      "day": "วัน",
+      "week": "สัปดาห์",
+      "month": "เดือน",
+      "year": "ปี",
+      "repeat": "ทำซ้ำ",
+      "repeatEvery": "ทำซ้ำทุก",
+      "repeatedMode": "โหมด",
+      "end": "สิ้นสุด",
+      "repeatOn": "ทำซ้ำใน",
+      "repeatMode": "โหมดเล่นซ้ำ",
+      "first": "อันดับแรก",
+      "second": "ประการที่สอง",
+      "third": "ประการที่สาม",
+      "fourth": "ที่สี่",
+      "last": "สุดท้าย",
+      "never": "ไม่เคย",
+      "until": "จนกระทั่ง",
+      "count": "นับ",
+      "every": "ทุกๆ",
+      "days": "วัน",
+      "weeks": "สัปดาห์",
+      "months": "เดือน",
+      "years": "ปี",
+      "summaryDay": "วัน",
+      "summaryWeek": "สัปดาห์",
+      "summaryMonth": "เดือน",
+      "summaryYear": "ปี",
+      "summaryOn": "บน",
+      "summaryUntil": "จนกระทั่ง",
+      "summaryTimes": "เวลา",
+      "intervalAriaLabel": "จำนวนการทำซ้ำ",
+      "frequencyAriaLabel": "เลือกความถี่ซ้ำ",
+      "byMonthAriaLabel": "เลือกเดือนของปี",
+      "byMonthDayAriaLabel": "ทำซ้ำในวันที่ของเดือน",
+      "byDayAriaLabel": "ทำซ้ำในวันธรรมดาของเดือน",
+      "bySetPositionAriaLabel": "เลือกตำแหน่งสัปดาห์ในเดือน",
+      "endTypeAriaLabel": "เลือกประเภทการสิ้นสุดการเกิดซ้ำ",
+      "countAriaLabel": "จำนวนครั้งที่เกิดขึ้น",
+      "untilAriaLabel": "เลือกการเกิดซ้ำจนถึงวันที่"
+    },
+    "datetimepicker": {
+      "date": "วันที่",
+      "time": "เวลา",
+      "cancel": "ยกเลิก",
+      "set": "ชุด",
+      "now": "ตอนนี้",
+      "today": "วันนี้",
+      "toggleDateTime": "สลับตัวเลือกวันที่-เวลา",
+      "clearValue": "ชัดเจนค่า",
+      "previous": "ก่อนหน้า",
+      "next": "ถัดไป",
+      "day": "วัน",
+      "month": "เดือน",
+      "year": "ปี",
+      "hour": "ชั่วโมง",
+      "minute": "นาที",
+      "second": "ประการที่สอง",
+      "meridiem": "เช้า"
+    },
+    "multiSelect": {
+      "noRecordsMessage": "ไม่พบบันทึก",
+      "errorMessage": "คำขอล้มเหลว"
+    },
+    "daterangepicker": {
+      "startDate": "วันที่เริ่มต้น",
+      "endDate": "วันที่สิ้นสุด",
+      "selectedDays": "วันที่เลือก",
+      "customRange": "ช่วงที่กำหนดเอง",
+      "apply": "สมัคร",
+      "cancel": "ยกเลิก",
+      "day": "วัน",
+      "month": "เดือน",
+      "year": "ปี",
+      "hour": "ชั่วโมง",
+      "minute": "นาที",
+      "second": "ประการที่สอง",
+      "meridiem": "เช้า"
+    },
+    "toast": {
+      "close": "ปิด"
     }
   }
 }

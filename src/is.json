@@ -19,7 +19,10 @@
       "noRecordsEditMessage": "Engar skrár valdar fyrir breytingaaðgerð",
       "noRecordsDeleteMessage": "Engar skrár valdar fyrir eyðingaraðgerð",
       "okButtonLabel": "Allt í lagi",
-      "confirmDeleteMessage": "Ertu viss um að þú viljir eyða færslunni?"
+      "confirmDeleteMessage": "Ertu viss um að þú viljir eyða færslunni?",
+      "singleColumnGroupLabel": "Hópur",
+      "groupDropAreaLabel": "Fallsvæði hópa",
+      "groupDropAreaHintText": "Dragðu dálkhaus hingað til að flokka dálkinn hans"
     },
     "pager": {
       "currentPageLabel": "{0} af {1} síðum",
@@ -58,7 +61,14 @@
     },
     "datepicker": {
       "today": "Í dag",
-      "placeholder": "Veldu dagsetningu"
+      "placeholder": "Veldu dagsetningu",
+      "day": "dag",
+      "month": "mánuði",
+      "year": "ári",
+      "hour": "klukkustund",
+      "minute": "mínútu",
+      "second": "annað",
+      "meridiem": "AM"
     },
     "formValidator": {
       "required": "Þessi reitur er nauðsynlegur.",
@@ -91,7 +101,14 @@
       "clear": "Hreinsa"
     },
     "timepicker": {
-      "placeholder": "Veldu tíma"
+      "placeholder": "Veldu tíma",
+      "day": "dag",
+      "month": "mánuði",
+      "year": "ári",
+      "hour": "klukkustund",
+      "minute": "mínútu",
+      "second": "annað",
+      "meridiem": "AM"
     },
     "scheduler": {
       "addTitle": "Bæta við titli",
@@ -107,6 +124,7 @@
       "week": "Vika",
       "workweek": "Vinnuvika",
       "month": "Mánuður",
+      "agenda": "Dagskrá",
       "more": "meira",
       "expandAllDaySection": "Stækkaðu hlutann allan daginn",
       "collapseAllDaySection": "Draga saman allan daginn hluta",
@@ -119,7 +137,40 @@
       "startDate": "Upphafsdagur",
       "endDate": "Lokadagur",
       "startTime": "Upphafstími",
-      "endTime": "Lokatími"
+      "endTime": "Lokatími",
+      "eventOverlap": "Viðburðir skarast",
+      "overlapAlert": "Ekki er hægt að skipuleggja viðburði á völdum tíma þar sem þeir skarast við annan viðburð.",
+      "blockAlert": "Ekki er hægt að skipuleggja viðburði innan lokaðs tímabils.",
+      "ok": "Allt í lagi",
+      "alert": "Viðvörun",
+      "invalidDateValue": "Fært dagsetningargildi er ógilt.",
+      "invalidTimeValue": "Innlagt tímagildi er ógilt.",
+      "invalidDateRange": "Valin lokadagsetning á sér stað fyrir upphafsdagsetningu.",
+      "repeat": "Endurtaktu",
+      "never": "Aldrei",
+      "daily": "Daglega",
+      "weekly": "Vikulega",
+      "monthly": "Mánaðarlega",
+      "yearly": "Árlega",
+      "custom": "Sérsniðin",
+      "timezone": "Tímabelti",
+      "startTimezone": "Byrja tímabelti",
+      "endTimezone": "Enda tímabelti",
+      "searchTimezone": "Leitaðu að tímabelti",
+      "customRecurrence": "Sérsniðin endurtekning",
+      "seriesChangeAlert": "Viltu hætta við breytingarnar sem gerðar voru á tilteknum tilfellum af þessari seríu og passa hana við alla seríuna aftur?",
+      "createError": "Lengd atviksins verður að vera styttri en hversu oft hann á sér stað. Styttu tímalengdina eða breyttu endurtekningarmynstrinu í endurtekningartilvikaritilinum.",
+      "sameDayAlert": "Tvö atvik af sama atburði geta ekki átt sér stað á sama degi.",
+      "occurenceAlert": "Ekki er hægt að endurskipuleggja tilvik af endurtekinni stefnumóti ef það sleppir síðari tilviki sama stefnumóts.",
+      "editEventContent": "Hvernig myndir þú vilja breyta skipuninni í röðinni?",
+      "editEvent": "Breyta atburði",
+      "editThisEvent": "Breyta atburði",
+      "editEntireSeries": "Heil serían",
+      "yes": "Já",
+      "no": "Nei",
+      "followingEvents": "Eftirfarandi viðburðir",
+      "eventsFor": "Viðburðir fyrir",
+      "noEvents": "Engir viðburðir"
     },
     "dropdownList": {
       "noRecordsMessage": "Engar skrár fundust",
@@ -132,6 +183,88 @@
     "autoComplete": {
       "noRecordsMessage": "Engar skrár fundust",
       "errorMessage": "Beiðni mistókst"
+    },
+    "recurrenceEditor": {
+      "day": "Dagur",
+      "week": "Vika",
+      "month": "Mánuður",
+      "year": "Ár",
+      "repeat": "Endurtaktu",
+      "repeatEvery": "Endurtaktu hvert",
+      "repeatedMode": "Mode",
+      "end": "Enda",
+      "repeatOn": "Endurtaktu á",
+      "repeatMode": "Endurtekningarhamur",
+      "first": "Fyrst",
+      "second": "Í öðru lagi",
+      "third": "Þriðja",
+      "fourth": "Í fjórða lagi",
+      "last": "Síðast",
+      "never": "Aldrei",
+      "until": "Þangað til",
+      "count": "Telja",
+      "every": "Hvert",
+      "days": "Dagar",
+      "weeks": "Vikur",
+      "months": "Mánuðir",
+      "years": "Ár",
+      "summaryDay": "dag(ar)",
+      "summaryWeek": "viku(r)",
+      "summaryMonth": "mánuður",
+      "summaryYear": "ár",
+      "summaryOn": "á",
+      "summaryUntil": "þar til",
+      "summaryTimes": "tími(r)",
+      "intervalAriaLabel": "Fjöldi endurtekningar",
+      "frequencyAriaLabel": "Veldu endurtekningartíðni",
+      "byMonthAriaLabel": "Veldu mánuð ársins",
+      "byMonthDayAriaLabel": "Endurtaktu á mánaðardegi",
+      "byDayAriaLabel": "Endurtaktu á tilteknum virkum degi mánaðarins",
+      "bySetPositionAriaLabel": "Veldu vikustöðu í mánuði",
+      "endTypeAriaLabel": "Veldu gerð endurtekningarloka",
+      "countAriaLabel": "Fjöldi atvika",
+      "untilAriaLabel": "Veldu endurtekningu fram að dagsetningu"
+    },
+    "datetimepicker": {
+      "date": "Dagsetning",
+      "time": "Tími",
+      "cancel": "Hætta við",
+      "set": "Sett",
+      "now": "Nú",
+      "today": "Í dag",
+      "toggleDateTime": "Breyttu vali dagsetningar og tíma",
+      "clearValue": "Hreint gildi",
+      "previous": "Fyrri",
+      "next": "Næst",
+      "day": "dag",
+      "month": "mánuði",
+      "year": "ári",
+      "hour": "klukkustund",
+      "minute": "mínútu",
+      "second": "annað",
+      "meridiem": "AM"
+    },
+    "multiSelect": {
+      "noRecordsMessage": "Engar skrár fundust",
+      "errorMessage": "Beiðni mistókst"
+    },
+    "daterangepicker": {
+      "startDate": "Upphafsdagur",
+      "endDate": "Lokadagur",
+      "selectedDays": "Valdir dagar",
+      "customRange": "Sérsniðið svið",
+      "apply": "Sækja um",
+      "cancel": "Hætta við",
+      "day": "dag",
+      "month": "mánuði",
+      "year": "ári",
+      "hour": "klukkustund",
+      "minute": "mínútu",
+      "second": "annað",
+      "meridiem": "AM"
+    },
+    "toast": {
+      "close": "Loka"
     }
   }
 }
