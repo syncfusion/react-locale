@@ -19,7 +19,10 @@
       "noRecordsEditMessage": "Geen records geselecteerd voor bewerking",
       "noRecordsDeleteMessage": "Er zijn geen records geselecteerd voor verwijdering",
       "okButtonLabel": "Oké",
-      "confirmDeleteMessage": "Weet u zeker dat u de record wilt verwijderen?"
+      "confirmDeleteMessage": "Weet u zeker dat u de record wilt verwijderen?",
+      "singleColumnGroupLabel": "Groep",
+      "groupDropAreaLabel": "Afzetgebied voor groepen",
+      "groupDropAreaHintText": "Sleep een kolomkop hierheen om de kolom te groeperen"
     },
     "pager": {
       "currentPageLabel": "{0} van {1} pagina's",
@@ -58,7 +61,14 @@
     },
     "datepicker": {
       "today": "Vandaag",
-      "placeholder": "Kies een datum"
+      "placeholder": "Kies een datum",
+      "day": "dag",
+      "month": "maand",
+      "year": "jaar",
+      "hour": "uur",
+      "minute": "minuut",
+      "second": "tweede",
+      "meridiem": "BEN"
     },
     "formValidator": {
       "required": "Dit veld is verplicht.",
@@ -91,7 +101,14 @@
       "clear": "Duidelijk"
     },
     "timepicker": {
-      "placeholder": "Kies een tijdstip"
+      "placeholder": "Kies een tijdstip",
+      "day": "dag",
+      "month": "maand",
+      "year": "jaar",
+      "hour": "uur",
+      "minute": "minuut",
+      "second": "tweede",
+      "meridiem": "BEN"
     },
     "scheduler": {
       "addTitle": "Titel toevoegen",
@@ -107,6 +124,7 @@
       "week": "Week",
       "workweek": "Werkweek",
       "month": "Maand",
+      "agenda": "Agenda",
       "more": "meer",
       "expandAllDaySection": "Vouw het gedeelte voor de hele dag uit",
       "collapseAllDaySection": "Sectie hele dag samenvouwen",
@@ -119,7 +137,40 @@
       "startDate": "Startdatum",
       "endDate": "Einddatum",
       "startTime": "Begintijd",
-      "endTime": "Eindtijd"
+      "endTime": "Eindtijd",
+      "eventOverlap": "Gebeurtenisoverlap",
+      "overlapAlert": "Evenementen kunnen niet worden gepland op de gekozen tijd, omdat deze overlapt met een ander evenement.",
+      "blockAlert": "Er kunnen geen evenementen worden gepland binnen het geblokkeerde tijdsbereik.",
+      "ok": "Oké",
+      "alert": "Waarschuw",
+      "invalidDateValue": "De ingevoerde datumwaarde is ongeldig.",
+      "invalidTimeValue": "De ingevoerde tijdswaarde is ongeldig.",
+      "invalidDateRange": "De geselecteerde einddatum ligt vóór de startdatum.",
+      "repeat": "Herhaal",
+      "never": "Nooit",
+      "daily": "Dagelijks",
+      "weekly": "Wekelijks",
+      "monthly": "Maandelijks",
+      "yearly": "Jaarlijks",
+      "custom": "Aangepast",
+      "timezone": "Tijdzone",
+      "startTimezone": "Tijdzone starten",
+      "endTimezone": "Tijdzone beëindigen",
+      "searchTimezone": "Zoek tijdzone",
+      "customRecurrence": "Aangepaste herhaling",
+      "seriesChangeAlert": "Wilt u de wijzigingen die zijn aangebracht aan specifieke exemplaren van deze serie ongedaan maken en deze opnieuw aan de hele serie koppelen?",
+      "createError": "De duur van de gebeurtenis moet korter zijn dan hoe vaak deze voorkomt. Verkort de duur of wijzig het herhalingspatroon in de herhalingsgebeurteniseditor.",
+      "sameDayAlert": "Twee voorvallen van dezelfde gebeurtenis kunnen niet op dezelfde dag plaatsvinden.",
+      "occurenceAlert": "Kan een exemplaar van de terugkerende afspraak niet opnieuw plannen als een later exemplaar van dezelfde afspraak wordt overgeslagen.",
+      "editEventContent": "Hoe wilt u de afspraak in de reeks wijzigen?",
+      "editEvent": "Evenement bewerken",
+      "editThisEvent": "Evenement bewerken",
+      "editEntireSeries": "Volledige serie",
+      "yes": "Ja",
+      "no": "Nee",
+      "followingEvents": "Volgende evenementen",
+      "eventsFor": "Evenementen voor",
+      "noEvents": "Geen evenementen"
     },
     "dropdownList": {
       "noRecordsMessage": "Geen records gevonden",
@@ -132,6 +183,88 @@
     "autoComplete": {
       "noRecordsMessage": "Geen records gevonden",
       "errorMessage": "Verzoek mislukt"
+    },
+    "recurrenceEditor": {
+      "day": "Dag",
+      "week": "Week",
+      "month": "Maand",
+      "year": "Jaar",
+      "repeat": "Herhaal",
+      "repeatEvery": "Herhaal elke",
+      "repeatedMode": "Modus",
+      "end": "Einde",
+      "repeatOn": "Herhaal aan",
+      "repeatMode": "Herhaalmodus",
+      "first": "Ten eerste",
+      "second": "Ten tweede",
+      "third": "Ten derde",
+      "fourth": "Vierde",
+      "last": "Laatste",
+      "never": "Nooit",
+      "until": "Tot",
+      "count": "Tel",
+      "every": "Elke",
+      "days": "Dagen",
+      "weeks": "Weken",
+      "months": "Maanden",
+      "years": "Jaren",
+      "summaryDay": "dag(en)",
+      "summaryWeek": "week(en)",
+      "summaryMonth": "maand(en)",
+      "summaryYear": "jaar(en)",
+      "summaryOn": "op",
+      "summaryUntil": "tot",
+      "summaryTimes": "tijd(en)",
+      "intervalAriaLabel": "Aantal herhalingen",
+      "frequencyAriaLabel": "Selecteer herhaalfrequentie",
+      "byMonthAriaLabel": "Selecteer maand van het jaar",
+      "byMonthDayAriaLabel": "Herhaal op de dag van de maand",
+      "byDayAriaLabel": "Herhaal dit op een specifieke weekdag van de maand",
+      "bySetPositionAriaLabel": "Selecteer weekpositie in maand",
+      "endTypeAriaLabel": "Selecteer het eindtype van het terugkeerpatroon",
+      "countAriaLabel": "Aantal voorkomens",
+      "untilAriaLabel": "Kies herhaling tot datum"
+    },
+    "datetimepicker": {
+      "date": "Datum",
+      "time": "Tijd",
+      "cancel": "Annuleer",
+      "set": "Instellen",
+      "now": "Nu",
+      "today": "Vandaag",
+      "toggleDateTime": "Schakel de datum-tijdkiezer in",
+      "clearValue": "Duidelijke waarde",
+      "previous": "Vorige",
+      "next": "Volgende",
+      "day": "dag",
+      "month": "maand",
+      "year": "jaar",
+      "hour": "uur",
+      "minute": "minuut",
+      "second": "tweede",
+      "meridiem": "BEN"
+    },
+    "multiSelect": {
+      "noRecordsMessage": "Geen records gevonden",
+      "errorMessage": "Verzoek mislukt"
+    },
+    "daterangepicker": {
+      "startDate": "Startdatum",
+      "endDate": "Einddatum",
+      "selectedDays": "Geselecteerde dagen",
+      "customRange": "Aangepast bereik",
+      "apply": "Toepassen",
+      "cancel": "Annuleer",
+      "day": "dag",
+      "month": "maand",
+      "year": "jaar",
+      "hour": "uur",
+      "minute": "minuut",
+      "second": "tweede",
+      "meridiem": "BEN"
+    },
+    "toast": {
+      "close": "Sluiten"
     }
   }
 }

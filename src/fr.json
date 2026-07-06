@@ -19,7 +19,10 @@
       "noRecordsEditMessage": "Aucun enregistrement sélectionné pour l'opération de modification",
       "noRecordsDeleteMessage": "Aucun enregistrement sélectionné pour l'opération de suppression",
       "okButtonLabel": "D'accord",
-      "confirmDeleteMessage": "Etes-vous sûr de vouloir supprimer l'enregistrement ?"
+      "confirmDeleteMessage": "Etes-vous sûr de vouloir supprimer l'enregistrement ?",
+      "singleColumnGroupLabel": "Groupe",
+      "groupDropAreaLabel": "Zone de dépôt de groupe",
+      "groupDropAreaHintText": "Faites glisser un en-tête de colonne ici pour regrouper sa colonne"
     },
     "pager": {
       "currentPageLabel": "{0} sur {1} pages",
@@ -58,7 +61,14 @@
     },
     "datepicker": {
       "today": "Aujourd'hui",
-      "placeholder": "Choisissez une date"
+      "placeholder": "Choisissez une date",
+      "day": "jour",
+      "month": "mois",
+      "year": "année",
+      "hour": "heure",
+      "minute": "minute",
+      "second": "deuxième",
+      "meridiem": "SUIS"
     },
     "formValidator": {
       "required": "Ce champ est obligatoire.",
@@ -91,7 +101,14 @@
       "clear": "Effacer"
     },
     "timepicker": {
-      "placeholder": "Choisissez une heure"
+      "placeholder": "Choisissez une heure",
+      "day": "jour",
+      "month": "mois",
+      "year": "année",
+      "hour": "heure",
+      "minute": "minute",
+      "second": "deuxième",
+      "meridiem": "SUIS"
     },
     "scheduler": {
       "addTitle": "Ajouter un titre",
@@ -107,6 +124,7 @@
       "week": "Semaine",
       "workweek": "Semaine de travail",
       "month": "Mois",
+      "agenda": "Ordre du jour",
       "more": "plus",
       "expandAllDaySection": "Développer la section toute la journée",
       "collapseAllDaySection": "Réduire la section Journée entière",
@@ -119,7 +137,40 @@
       "startDate": "Date de début",
       "endDate": "Date de fin",
       "startTime": "Heure de début",
-      "endTime": "Heure de fin"
+      "endTime": "Heure de fin",
+      "eventOverlap": "Chevauchement d'événements",
+      "overlapAlert": "Les événements ne peuvent pas être programmés pendant l'heure choisie car elle chevauche un autre événement.",
+      "blockAlert": "Les événements ne peuvent pas être programmés dans la plage horaire bloquée.",
+      "ok": "D'accord",
+      "alert": "Alerte",
+      "invalidDateValue": "La valeur de date saisie n'est pas valide.",
+      "invalidTimeValue": "La valeur de temps saisie n'est pas valide.",
+      "invalidDateRange": "La date de fin sélectionnée est antérieure à la date de début.",
+      "repeat": "Répéter",
+      "never": "Jamais",
+      "daily": "Quotidiennement",
+      "weekly": "Hebdomadaire",
+      "monthly": "Mensuel",
+      "yearly": "Annuel",
+      "custom": "Personnalisé",
+      "timezone": "Fuseau horaire",
+      "startTimezone": "Fuseau horaire de début",
+      "endTimezone": "Fin du fuseau horaire",
+      "searchTimezone": "Rechercher le fuseau horaire",
+      "customRecurrence": "Récurrence personnalisée",
+      "seriesChangeAlert": "Souhaitez-vous annuler les modifications apportées à des instances spécifiques de cette série et les faire correspondre à nouveau à l'ensemble de la série ?",
+      "createError": "La durée de l'événement doit être inférieure à la fréquence à laquelle il se produit. Raccourcissez la durée ou modifiez le modèle de récurrence dans l'éditeur d'événements de récurrence.",
+      "sameDayAlert": "Deux occurrences du même événement ne peuvent pas se produire le même jour.",
+      "occurenceAlert": "Impossible de replanifier une occurrence du rendez-vous récurrent si elle ignore une occurrence ultérieure du même rendez-vous.",
+      "editEventContent": "Comment souhaiteriez-vous modifier le rendez-vous dans la série ?",
+      "editEvent": "Modifier l'événement",
+      "editThisEvent": "Modifier l'événement",
+      "editEntireSeries": "Série entière",
+      "yes": "Oui",
+      "no": "Non",
+      "followingEvents": "Événements suivants",
+      "eventsFor": "Événements pour",
+      "noEvents": "Aucun événement"
     },
     "dropdownList": {
       "noRecordsMessage": "Aucun enregistrement trouvé",
@@ -132,6 +183,88 @@
     "autoComplete": {
       "noRecordsMessage": "Aucun enregistrement trouvé",
       "errorMessage": "La demande a échoué"
+    },
+    "recurrenceEditor": {
+      "day": "Jour",
+      "week": "Semaine",
+      "month": "Mois",
+      "year": "Année",
+      "repeat": "Répéter",
+      "repeatEvery": "Répétez tous les",
+      "repeatedMode": "Mode",
+      "end": "Fin",
+      "repeatOn": "Répétez sur",
+      "repeatMode": "Mode répétition",
+      "first": "D'abord",
+      "second": "Deuxième",
+      "third": "Troisième",
+      "fourth": "Quatrième",
+      "last": "Dernier",
+      "never": "Jamais",
+      "until": "Jusqu'à",
+      "count": "Compter",
+      "every": "Chaque",
+      "days": "Jours",
+      "weeks": "Semaines",
+      "months": "Mois",
+      "years": "Années",
+      "summaryDay": "jour(s)",
+      "summaryWeek": "semaine(s)",
+      "summaryMonth": "mois",
+      "summaryYear": "année(s)",
+      "summaryOn": "sur",
+      "summaryUntil": "jusqu'à",
+      "summaryTimes": "heure(s)",
+      "intervalAriaLabel": "Nombre de répétitions",
+      "frequencyAriaLabel": "Sélectionnez la fréquence de répétition",
+      "byMonthAriaLabel": "Sélectionnez le mois de l'année",
+      "byMonthDayAriaLabel": "Répéter le jour du mois",
+      "byDayAriaLabel": "Répéter un jour de semaine spécifique du mois",
+      "bySetPositionAriaLabel": "Sélectionnez la position de la semaine dans le mois",
+      "endTypeAriaLabel": "Sélectionnez le type de fin de récurrence",
+      "countAriaLabel": "Nombre d'occurrences",
+      "untilAriaLabel": "Choisissez la récurrence jusqu'à la date"
+    },
+    "datetimepicker": {
+      "date": "Date",
+      "time": "Temps",
+      "cancel": "Annuler",
+      "set": "Ensemble",
+      "now": "Maintenant",
+      "today": "Aujourd'hui",
+      "toggleDateTime": "Basculer le sélecteur de date et d'heure",
+      "clearValue": "Effacer la valeur",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "day": "jour",
+      "month": "mois",
+      "year": "année",
+      "hour": "heure",
+      "minute": "minute",
+      "second": "deuxième",
+      "meridiem": "SUIS"
+    },
+    "multiSelect": {
+      "noRecordsMessage": "Aucun enregistrement trouvé",
+      "errorMessage": "La demande a échoué"
+    },
+    "daterangepicker": {
+      "startDate": "Date de début",
+      "endDate": "Date de fin",
+      "selectedDays": "Jours sélectionnés",
+      "customRange": "Gamme personnalisée",
+      "apply": "Postuler",
+      "cancel": "Annuler",
+      "day": "jour",
+      "month": "mois",
+      "year": "année",
+      "hour": "heure",
+      "minute": "minute",
+      "second": "deuxième",
+      "meridiem": "SUIS"
+    },
+    "toast": {
+      "close": "Fermer"
     }
   }
 }

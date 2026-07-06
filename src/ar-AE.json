@@ -19,7 +19,10 @@
       "noRecordsEditMessage": "لم يتم تحديد أي سجلات لعملية التحرير",
       "noRecordsDeleteMessage": "لم يتم تحديد أي سجلات لعملية الحذف",
       "okButtonLabel": "حسنًا",
-      "confirmDeleteMessage": "هل أنت متأكد أنك تريد حذف السجل؟"
+      "confirmDeleteMessage": "هل أنت متأكد أنك تريد حذف السجل؟",
+      "singleColumnGroupLabel": "المجموعة",
+      "groupDropAreaLabel": "منطقة إسقاط المجموعة",
+      "groupDropAreaHintText": "اسحب رأس العمود هنا لتجميع العمود الخاص به"
     },
     "pager": {
       "currentPageLabel": "{0} من {1} صفحة",
@@ -58,7 +61,14 @@
     },
     "datepicker": {
       "today": "اليوم",
-      "placeholder": "اختر تاريخًا"
+      "placeholder": "اختر تاريخًا",
+      "day": "يوم",
+      "month": "شهر",
+      "year": "سنة",
+      "hour": "ساعة",
+      "minute": "دقيقة",
+      "second": "ثانيا",
+      "meridiem": "صباحا"
     },
     "formValidator": {
       "required": "هذا الحقل مطلوب.",
@@ -91,7 +101,14 @@
       "clear": "واضح"
     },
     "timepicker": {
-      "placeholder": "اختر وقتًا"
+      "placeholder": "اختر وقتًا",
+      "day": "يوم",
+      "month": "شهر",
+      "year": "سنة",
+      "hour": "ساعة",
+      "minute": "دقيقة",
+      "second": "ثانيا",
+      "meridiem": "صباحا"
     },
     "scheduler": {
       "addTitle": "أضف عنوانًا",
@@ -107,6 +124,7 @@
       "week": "الأسبوع",
       "workweek": "أسبوع العمل",
       "month": "شهر",
+      "agenda": "جدول الأعمال",
       "more": "المزيد",
       "expandAllDaySection": "قم بتوسيع قسم اليوم كله",
       "collapseAllDaySection": "طي قسم اليوم كله",
@@ -119,7 +137,40 @@
       "startDate": "تاريخ البدء",
       "endDate": "تاريخ الانتهاء",
       "startTime": "وقت البدء",
-      "endTime": "وقت الانتهاء"
+      "endTime": "وقت الانتهاء",
+      "eventOverlap": "تداخل الأحداث",
+      "overlapAlert": "لا يمكن جدولة الأحداث خلال الوقت المختار لأنه يتداخل مع حدث آخر.",
+      "blockAlert": "لا يمكن جدولة الأحداث ضمن النطاق الزمني المحظور.",
+      "ok": "حسنًا",
+      "alert": "تنبيه",
+      "invalidDateValue": "قيمة التاريخ المدخلة غير صالحة.",
+      "invalidTimeValue": "قيمة الوقت المدخلة غير صالحة.",
+      "invalidDateRange": "يقع تاريخ الانتهاء المحدد قبل تاريخ البدء.",
+      "repeat": "كرر",
+      "never": "أبدا",
+      "daily": "يوميا",
+      "weekly": "أسبوعيا",
+      "monthly": "شهريا",
+      "yearly": "سنويا",
+      "custom": "مخصص",
+      "timezone": "المنطقة الزمنية",
+      "startTimezone": "بدء المنطقة الزمنية",
+      "endTimezone": "نهاية المنطقة الزمنية",
+      "searchTimezone": "البحث في المنطقة الزمنية",
+      "customRecurrence": "التكرار المخصص",
+      "seriesChangeAlert": "هل تريد إلغاء التغييرات التي تم إجراؤها على مثيلات معينة من هذه السلسلة ومطابقتها مع السلسلة بأكملها مرة أخرى؟",
+      "createError": "يجب أن تكون مدة الحدث أقل من عدد مرات حدوثه. قم بتقصير المدة، أو قم بتغيير نمط التكرار في محرر حدث التكرار.",
+      "sameDayAlert": "لا يمكن أن يحدث حدثان لنفس الحدث في نفس اليوم.",
+      "occurenceAlert": "لا يمكن إعادة جدولة تكرار للموعد المتكرر إذا تم تخطي تكرار لاحق لنفس الموعد.",
+      "editEventContent": "كيف تريد تغيير الموعد في السلسلة؟",
+      "editEvent": "تحرير الحدث",
+      "editThisEvent": "تحرير الحدث",
+      "editEntireSeries": "السلسلة بأكملها",
+      "yes": "نعم",
+      "no": "لا",
+      "followingEvents": "متابعة الأحداث",
+      "eventsFor": "أحداث ل",
+      "noEvents": "لا توجد أحداث"
     },
     "dropdownList": {
       "noRecordsMessage": "لم يتم العثور على سجلات",
@@ -132,6 +183,88 @@
     "autoComplete": {
       "noRecordsMessage": "لم يتم العثور على سجلات",
       "errorMessage": "فشل الطلب"
+    },
+    "recurrenceEditor": {
+      "day": "يوم",
+      "week": "الأسبوع",
+      "month": "شهر",
+      "year": "سنة",
+      "repeat": "كرر",
+      "repeatEvery": "كرر كل",
+      "repeatedMode": "الوضع",
+      "end": "نهاية",
+      "repeatOn": "كرر",
+      "repeatMode": "وضع التكرار",
+      "first": "أولا",
+      "second": "ثانيا",
+      "third": "ثالثا",
+      "fourth": "الرابع",
+      "last": "الاخير",
+      "never": "أبدا",
+      "until": "حتى",
+      "count": "عد",
+      "every": "كل",
+      "days": "أيام",
+      "weeks": "أسابيع",
+      "months": "أشهر",
+      "years": "سنوات",
+      "summaryDay": "يوم (أيام)",
+      "summaryWeek": "الأسبوع (الأسابيع)",
+      "summaryMonth": "شهر (أشهر)",
+      "summaryYear": "سنة (سنوات)",
+      "summaryOn": "على",
+      "summaryUntil": "حتى",
+      "summaryTimes": "الوقت (الأوقات)",
+      "intervalAriaLabel": "عدد التكرارات",
+      "frequencyAriaLabel": "حدد تردد التكرار",
+      "byMonthAriaLabel": "اختر شهرًا من السنة",
+      "byMonthDayAriaLabel": "كرر في يوم من الشهر",
+      "byDayAriaLabel": "كرر ذلك في يوم محدد من أيام الأسبوع من الشهر",
+      "bySetPositionAriaLabel": "حدد موضع الأسبوع في الشهر",
+      "endTypeAriaLabel": "حدد نوع نهاية التكرار",
+      "countAriaLabel": "عدد مرات الظهور",
+      "untilAriaLabel": "اختر التكرار حتى التاريخ"
+    },
+    "datetimepicker": {
+      "date": "التاريخ",
+      "time": "الوقت",
+      "cancel": "إلغاء",
+      "set": "تعيين",
+      "now": "الآن",
+      "today": "اليوم",
+      "toggleDateTime": "تبديل محدد التاريخ والوقت",
+      "clearValue": "مسح القيمة",
+      "previous": "السابق",
+      "next": "التالي",
+      "day": "يوم",
+      "month": "شهر",
+      "year": "سنة",
+      "hour": "ساعة",
+      "minute": "دقيقة",
+      "second": "ثانيا",
+      "meridiem": "صباحا"
+    },
+    "multiSelect": {
+      "noRecordsMessage": "لم يتم العثور على سجلات",
+      "errorMessage": "فشل الطلب"
+    },
+    "daterangepicker": {
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء",
+      "selectedDays": "أيام مختارة",
+      "customRange": "نطاق مخصص",
+      "apply": "تطبيق",
+      "cancel": "إلغاء",
+      "day": "يوم",
+      "month": "شهر",
+      "year": "سنة",
+      "hour": "ساعة",
+      "minute": "دقيقة",
+      "second": "ثانيا",
+      "meridiem": "صباحا"
+    },
+    "toast": {
+      "close": "إغلاق"
     }
   }
 }

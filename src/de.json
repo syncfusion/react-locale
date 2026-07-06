@@ -19,7 +19,10 @@
       "noRecordsEditMessage": "Es sind keine Datensätze für den Bearbeitungsvorgang ausgewählt",
       "noRecordsDeleteMessage": "Es wurden keine Datensätze für den Löschvorgang ausgewählt",
       "okButtonLabel": "Okay",
-      "confirmDeleteMessage": "Sind Sie sicher, dass Sie den Datensatz löschen möchten?"
+      "confirmDeleteMessage": "Sind Sie sicher, dass Sie den Datensatz löschen möchten?",
+      "singleColumnGroupLabel": "Gruppe",
+      "groupDropAreaLabel": "Gruppenablagebereich",
+      "groupDropAreaHintText": "Ziehen Sie eine Spaltenüberschrift hierher, um ihre Spalte zu gruppieren"
     },
     "pager": {
       "currentPageLabel": "{0} von {1} Seiten",
@@ -58,7 +61,14 @@
     },
     "datepicker": {
       "today": "Heute",
-      "placeholder": "Wählen Sie ein Datum"
+      "placeholder": "Wählen Sie ein Datum",
+      "day": "Tag",
+      "month": "Monat",
+      "year": "Jahr",
+      "hour": "Stunde",
+      "minute": "Minute",
+      "second": "zweitens",
+      "meridiem": "BIN"
     },
     "formValidator": {
       "required": "Dieses Feld ist erforderlich.",
@@ -91,7 +101,14 @@
       "clear": "Klar"
     },
     "timepicker": {
-      "placeholder": "Wählen Sie eine Zeit"
+      "placeholder": "Wählen Sie eine Zeit",
+      "day": "Tag",
+      "month": "Monat",
+      "year": "Jahr",
+      "hour": "Stunde",
+      "minute": "Minute",
+      "second": "zweitens",
+      "meridiem": "BIN"
     },
     "scheduler": {
       "addTitle": "Titel hinzufügen",
@@ -107,6 +124,7 @@
       "week": "Woche",
       "workweek": "Arbeitswoche",
       "month": "Monat",
+      "agenda": "Tagesordnung",
       "more": "mehr",
       "expandAllDaySection": "Erweitern Sie den Abschnitt „Ganztägig“.",
       "collapseAllDaySection": "Ganztägigen Abschnitt einklappen",
@@ -119,7 +137,40 @@
       "startDate": "Startdatum",
       "endDate": "Enddatum",
       "startTime": "Startzeit",
-      "endTime": "Endzeit"
+      "endTime": "Endzeit",
+      "eventOverlap": "Ereignisüberschneidung",
+      "overlapAlert": "Für die gewählte Zeit können keine Veranstaltungen geplant werden, da diese sich mit einer anderen Veranstaltung überschneiden.",
+      "blockAlert": "Innerhalb des blockierten Zeitraums können keine Veranstaltungen geplant werden.",
+      "ok": "Okay",
+      "alert": "Alarm",
+      "invalidDateValue": "Der eingegebene Datumswert ist ungültig.",
+      "invalidTimeValue": "Der eingegebene Zeitwert ist ungültig.",
+      "invalidDateRange": "Das ausgewählte Enddatum liegt vor dem Startdatum.",
+      "repeat": "Wiederholen",
+      "never": "Niemals",
+      "daily": "Täglich",
+      "weekly": "Wöchentlich",
+      "monthly": "Monatlich",
+      "yearly": "Jährlich",
+      "custom": "Benutzerdefiniert",
+      "timezone": "Zeitzone",
+      "startTimezone": "Zeitzone starten",
+      "endTimezone": "Zeitzone beenden",
+      "searchTimezone": "Zeitzone suchen",
+      "customRecurrence": "Benutzerdefinierte Wiederholung",
+      "seriesChangeAlert": "Möchten Sie die an bestimmten Instanzen dieser Serie vorgenommenen Änderungen rückgängig machen und sie erneut der gesamten Serie zuordnen?",
+      "createError": "Die Dauer des Ereignisses muss kürzer sein als seine Häufigkeit. Verkürzen Sie die Dauer oder ändern Sie das Wiederholungsmuster im Editor für Wiederholungsereignisse.",
+      "sameDayAlert": "Das gleiche Ereignis kann nicht zweimal am selben Tag auftreten.",
+      "occurenceAlert": "Eine Neuplanung eines wiederkehrenden Termins ist nicht möglich, wenn dadurch ein späterer Termin desselben Termins übersprungen wird.",
+      "editEventContent": "Wie möchten Sie den Termin in der Serie ändern?",
+      "editEvent": "Veranstaltung bearbeiten",
+      "editThisEvent": "Ereignis bearbeiten",
+      "editEntireSeries": "Gesamte Serie",
+      "yes": "Ja",
+      "no": "Nein",
+      "followingEvents": "Verfolgen von Ereignissen",
+      "eventsFor": "Veranstaltungen für",
+      "noEvents": "Keine Veranstaltungen"
     },
     "dropdownList": {
       "noRecordsMessage": "Keine Datensätze gefunden",
@@ -132,6 +183,88 @@
     "autoComplete": {
       "noRecordsMessage": "Keine Datensätze gefunden",
       "errorMessage": "Anfrage fehlgeschlagen"
+    },
+    "recurrenceEditor": {
+      "day": "Tag",
+      "week": "Woche",
+      "month": "Monat",
+      "year": "Jahr",
+      "repeat": "Wiederholen",
+      "repeatEvery": "Wiederholen Sie alle",
+      "repeatedMode": "Modus",
+      "end": "Ende",
+      "repeatOn": "Wiederholen Sie den Vorgang",
+      "repeatMode": "Wiederholungsmodus",
+      "first": "Erstens",
+      "second": "Zweitens",
+      "third": "Drittens",
+      "fourth": "Viertens",
+      "last": "Zuletzt",
+      "never": "Niemals",
+      "until": "Bis",
+      "count": "Zählen",
+      "every": "Jeder",
+      "days": "Tage",
+      "weeks": "Wochen",
+      "months": "Monate",
+      "years": "Jahre",
+      "summaryDay": "Tag(e)",
+      "summaryWeek": "Woche(n)",
+      "summaryMonth": "Monat(e)",
+      "summaryYear": "Jahr(e)",
+      "summaryOn": "auf",
+      "summaryUntil": "bis",
+      "summaryTimes": "Zeit(en)",
+      "intervalAriaLabel": "Anzahl der Wiederholungen",
+      "frequencyAriaLabel": "Wählen Sie die Wiederholungsfrequenz",
+      "byMonthAriaLabel": "Wählen Sie den Monat des Jahres aus",
+      "byMonthDayAriaLabel": "Wiederholen Sie dies am Tag des Monats",
+      "byDayAriaLabel": "Wiederholen Sie dies an einem bestimmten Wochentag im Monat",
+      "bySetPositionAriaLabel": "Wählen Sie die Wochenposition im Monat",
+      "endTypeAriaLabel": "Wählen Sie den Endtyp der Wiederholung aus",
+      "countAriaLabel": "Anzahl der Vorkommen",
+      "untilAriaLabel": "Wählen Sie Wiederholung bis Datum"
+    },
+    "datetimepicker": {
+      "date": "Datum",
+      "time": "Zeit",
+      "cancel": "Abbrechen",
+      "set": "Set",
+      "now": "Jetzt",
+      "today": "Heute",
+      "toggleDateTime": "Datum-Uhrzeit-Auswahl umschalten",
+      "clearValue": "Klarer Wert",
+      "previous": "Zurück",
+      "next": "Als nächstes",
+      "day": "Tag",
+      "month": "Monat",
+      "year": "Jahr",
+      "hour": "Stunde",
+      "minute": "Minute",
+      "second": "zweitens",
+      "meridiem": "BIN"
+    },
+    "multiSelect": {
+      "noRecordsMessage": "Keine Datensätze gefunden",
+      "errorMessage": "Anfrage fehlgeschlagen"
+    },
+    "daterangepicker": {
+      "startDate": "Startdatum",
+      "endDate": "Enddatum",
+      "selectedDays": "Ausgewählte Tage",
+      "customRange": "Benutzerdefinierter Bereich",
+      "apply": "Bewerben",
+      "cancel": "Abbrechen",
+      "day": "Tag",
+      "month": "Monat",
+      "year": "Jahr",
+      "hour": "Stunde",
+      "minute": "Minute",
+      "second": "zweitens",
+      "meridiem": "BIN"
+    },
+    "toast": {
+      "close": "Schließen"
     }
   }
 }

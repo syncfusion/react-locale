@@ -19,7 +19,10 @@
       "noRecordsEditMessage": "לא נבחרו רשומות לפעולת העריכה",
       "noRecordsDeleteMessage": "לא נבחרו רשומות לפעולת המחיקה",
       "okButtonLabel": "בסדר",
-      "confirmDeleteMessage": "האם אתה בטוח שברצונך למחוק את הרשומה?"
+      "confirmDeleteMessage": "האם אתה בטוח שברצונך למחוק את הרשומה?",
+      "singleColumnGroupLabel": "קבוצה",
+      "groupDropAreaLabel": "אזור ירידה בקבוצה",
+      "groupDropAreaHintText": "גרור לכאן כותרת עמודה כדי לקבץ את העמודה שלה"
     },
     "pager": {
       "currentPageLabel": "{0} מתוך {1} דפים",
@@ -58,7 +61,14 @@
     },
     "datepicker": {
       "today": "היום",
-      "placeholder": "בחר תאריך"
+      "placeholder": "בחר תאריך",
+      "day": "יום",
+      "month": "חודש",
+      "year": "שנה",
+      "hour": "שעה",
+      "minute": "דקה",
+      "second": "השני",
+      "meridiem": "AM"
     },
     "formValidator": {
       "required": "שדה זה חובה.",
@@ -91,7 +101,14 @@
       "clear": "ברור"
     },
     "timepicker": {
-      "placeholder": "בחר זמן"
+      "placeholder": "בחר זמן",
+      "day": "יום",
+      "month": "חודש",
+      "year": "שנה",
+      "hour": "שעה",
+      "minute": "דקה",
+      "second": "השני",
+      "meridiem": "AM"
     },
     "scheduler": {
       "addTitle": "הוסף כותרת",
@@ -107,6 +124,7 @@
       "week": "שבוע",
       "workweek": "שבוע עבודה",
       "month": "חודש",
+      "agenda": "סדר יום",
       "more": "יותר",
       "expandAllDaySection": "הרחב את הקטע של כל היום",
       "collapseAllDaySection": "כווץ את הקטע של כל היום",
@@ -119,7 +137,40 @@
       "startDate": "תאריך התחלה",
       "endDate": "תאריך סיום",
       "startTime": "שעת התחלה",
-      "endTime": "שעת סיום"
+      "endTime": "שעת סיום",
+      "eventOverlap": "חפיפת אירוע",
+      "overlapAlert": "לא ניתן לתזמן אירועים בזמן שנבחר מכיוון שהוא חופף לאירוע אחר.",
+      "blockAlert": "לא ניתן לתזמן אירועים בטווח הזמן החסום.",
+      "ok": "בסדר",
+      "alert": "התראה",
+      "invalidDateValue": "ערך התאריך שהוזן אינו חוקי.",
+      "invalidTimeValue": "ערך הזמן שהוזן אינו חוקי.",
+      "invalidDateRange": "תאריך הסיום שנבחר מתרחש לפני תאריך ההתחלה.",
+      "repeat": "חזור",
+      "never": "לעולם לא",
+      "daily": "יומי",
+      "weekly": "שבועי",
+      "monthly": "חודשי",
+      "yearly": "מדי שנה",
+      "custom": "מותאם אישית",
+      "timezone": "אזור זמן",
+      "startTimezone": "התחל אזור זמן",
+      "endTimezone": "סיום אזור זמן",
+      "searchTimezone": "חפש אזור זמן",
+      "customRecurrence": "הישנות מותאמת אישית",
+      "seriesChangeAlert": "האם ברצונך לבטל את השינויים שבוצעו במופעים ספציפיים של הסדרה הזו ולהתאים אותה שוב לכל הסדרה?",
+      "createError": "משך האירוע חייב להיות קצר מהתדירות שבה הוא מתרחש. קצר את משך הזמן, או שנה את דפוס החזרה בעורך אירועי החזרה.",
+      "sameDayAlert": "שני התרחשויות של אותו אירוע לא יכולות להתרחש באותו יום.",
+      "occurenceAlert": "לא ניתן לתזמן מחדש מופע של הפגישה החוזרת אם הוא מדלג על מופע מאוחר יותר של אותו פגישה.",
+      "editEventContent": "איך תרצו לשנות את המינוי בסדרה?",
+      "editEvent": "ערוך אירוע",
+      "editThisEvent": "ערוך אירוע",
+      "editEntireSeries": "כל הסדרה",
+      "yes": "כן",
+      "no": "לא",
+      "followingEvents": "בעקבות אירועים",
+      "eventsFor": "אירועים עבור",
+      "noEvents": "אין אירועים"
     },
     "dropdownList": {
       "noRecordsMessage": "לא נמצאו רשומות",
@@ -132,6 +183,88 @@
     "autoComplete": {
       "noRecordsMessage": "לא נמצאו רשומות",
       "errorMessage": "הבקשה נכשלה"
+    },
+    "recurrenceEditor": {
+      "day": "יום",
+      "week": "שבוע",
+      "month": "חודש",
+      "year": "שנה",
+      "repeat": "חזור",
+      "repeatEvery": "חזור על כל",
+      "repeatedMode": "מצב",
+      "end": "סוף",
+      "repeatOn": "חזור על",
+      "repeatMode": "מצב חזרה",
+      "first": "ראשית",
+      "second": "שנית",
+      "third": "שלישית",
+      "fourth": "רביעית",
+      "last": "אחרון",
+      "never": "לעולם לא",
+      "until": "עד",
+      "count": "לספור",
+      "every": "כל",
+      "days": "ימים",
+      "weeks": "שבועות",
+      "months": "חודשים",
+      "years": "שנים",
+      "summaryDay": "ימים",
+      "summaryWeek": "שבוע(ים)",
+      "summaryMonth": "חודש(ים)",
+      "summaryYear": "שנים",
+      "summaryOn": "על",
+      "summaryUntil": "עד",
+      "summaryTimes": "זמנים",
+      "intervalAriaLabel": "מספר חזרות",
+      "frequencyAriaLabel": "בחר תדירות חזרה",
+      "byMonthAriaLabel": "בחר חודש בשנה",
+      "byMonthDayAriaLabel": "חזור ביום של החודש",
+      "byDayAriaLabel": "חזור על יום חול ספציפי בחודש",
+      "bySetPositionAriaLabel": "בחר תפקיד שבועי בחודש",
+      "endTypeAriaLabel": "בחר את סוג סיום החזרה",
+      "countAriaLabel": "מספר התרחשויות",
+      "untilAriaLabel": "בחר הישנות עד תאריך"
+    },
+    "datetimepicker": {
+      "date": "תאריך",
+      "time": "זמן",
+      "cancel": "בטל",
+      "set": "סט",
+      "now": "עכשיו",
+      "today": "היום",
+      "toggleDateTime": "החלף את בורר התאריך והשעה",
+      "clearValue": "ערך ברור",
+      "previous": "הקודם",
+      "next": "הבא",
+      "day": "יום",
+      "month": "חודש",
+      "year": "שנה",
+      "hour": "שעה",
+      "minute": "דקה",
+      "second": "השני",
+      "meridiem": "AM"
+    },
+    "multiSelect": {
+      "noRecordsMessage": "לא נמצאו רשומות",
+      "errorMessage": "הבקשה נכשלה"
+    },
+    "daterangepicker": {
+      "startDate": "תאריך התחלה",
+      "endDate": "תאריך סיום",
+      "selectedDays": "ימים נבחרים",
+      "customRange": "טווח מותאם אישית",
+      "apply": "החל",
+      "cancel": "בטל",
+      "day": "יום",
+      "month": "חודש",
+      "year": "שנה",
+      "hour": "שעה",
+      "minute": "דקה",
+      "second": "השני",
+      "meridiem": "AM"
+    },
+    "toast": {
+      "close": "סגור"
     }
   }
 }

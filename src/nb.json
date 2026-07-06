@@ -19,7 +19,10 @@
       "noRecordsEditMessage": "Ingen poster valgt for redigering",
       "noRecordsDeleteMessage": "Ingen poster valgt for sletting",
       "okButtonLabel": "OK",
-      "confirmDeleteMessage": "Er du sikker på at du vil slette posten?"
+      "confirmDeleteMessage": "Er du sikker på at du vil slette posten?",
+      "singleColumnGroupLabel": "Gruppe",
+      "groupDropAreaLabel": "Gruppeslippområde",
+      "groupDropAreaHintText": "Dra en kolonneoverskrift hit for å gruppere kolonnen"
     },
     "pager": {
       "currentPageLabel": "{0} av {1} sider",
@@ -58,7 +61,14 @@
     },
     "datepicker": {
       "today": "I dag",
-      "placeholder": "Velg en dato"
+      "placeholder": "Velg en dato",
+      "day": "dag",
+      "month": "måned",
+      "year": "år",
+      "hour": "time",
+      "minute": "minutt",
+      "second": "sekund",
+      "meridiem": "AM"
     },
     "formValidator": {
       "required": "Dette feltet er obligatorisk.",
@@ -82,16 +92,23 @@
     "numericTextbox": {
       "increment": "Øk verdi",
       "decrement": "Reduser verdien",
-      "clear": "Tøm"
+      "clear": "Klart"
     },
     "textarea": {
-      "clear": "Tøm"
+      "clear": "Klart"
     },
     "textbox": {
-      "clear": "Tøm"
+      "clear": "Klart"
     },
     "timepicker": {
-      "placeholder": "Velg et tidspunkt"
+      "placeholder": "Velg et tidspunkt",
+      "day": "dag",
+      "month": "måned",
+      "year": "år",
+      "hour": "time",
+      "minute": "minutt",
+      "second": "sekund",
+      "meridiem": "AM"
     },
     "scheduler": {
       "addTitle": "Legg til tittel",
@@ -107,6 +124,7 @@
       "week": "Uke",
       "workweek": "Arbeidsuke",
       "month": "Måned",
+      "agenda": "Agenda",
       "more": "mer",
       "expandAllDaySection": "Utvid heldagsdelen",
       "collapseAllDaySection": "Skjul heldagsdelen",
@@ -119,7 +137,40 @@
       "startDate": "Startdato",
       "endDate": "Sluttdato",
       "startTime": "Starttid",
-      "endTime": "Sluttid"
+      "endTime": "Sluttid",
+      "eventOverlap": "Begivenhetsoverlapping",
+      "overlapAlert": "Arrangementer kan ikke planlegges i løpet av det valgte tidspunktet da det overlapper med en annen hendelse.",
+      "blockAlert": "Hendelser kan ikke planlegges innenfor det blokkerte tidsrommet.",
+      "ok": "OK",
+      "alert": "Varsel",
+      "invalidDateValue": "Den angitte datoverdien er ugyldig.",
+      "invalidTimeValue": "Den angitte tidsverdien er ugyldig.",
+      "invalidDateRange": "Den valgte sluttdatoen inntreffer før startdatoen.",
+      "repeat": "Gjenta",
+      "never": "Aldri",
+      "daily": "Daglig",
+      "weekly": "Ukentlig",
+      "monthly": "Månedlig",
+      "yearly": "Årlig",
+      "custom": "Egendefinert",
+      "timezone": "Tidssone",
+      "startTimezone": "Start tidssone",
+      "endTimezone": "Slutt tidssone",
+      "searchTimezone": "Søk etter tidssone",
+      "customRecurrence": "Tilpasset gjentakelse",
+      "seriesChangeAlert": "Vil du avbryte endringene som er gjort i bestemte forekomster av denne serien og matche den med hele serien igjen?",
+      "createError": "Varigheten av hendelsen må være kortere enn hvor ofte den inntreffer. Forkort varigheten, eller endre gjentakelsesmønsteret i redigeringsprogrammet for gjentakende hendelser.",
+      "sameDayAlert": "To forekomster av samme hendelse kan ikke skje på samme dag.",
+      "occurenceAlert": "Kan ikke omplanlegge en forekomst av den tilbakevendende avtalen hvis den hopper over en senere forekomst av den samme avtalen.",
+      "editEventContent": "Hvordan vil du endre avtalen i serien?",
+      "editEvent": "Rediger hendelse",
+      "editThisEvent": "Rediger hendelse",
+      "editEntireSeries": "Hele serien",
+      "yes": "Ja",
+      "no": "Nei",
+      "followingEvents": "Følgende hendelser",
+      "eventsFor": "Arrangementer for",
+      "noEvents": "Ingen hendelser"
     },
     "dropdownList": {
       "noRecordsMessage": "Ingen poster funnet",
@@ -132,6 +183,88 @@
     "autoComplete": {
       "noRecordsMessage": "Ingen poster funnet",
       "errorMessage": "Forespørsel mislyktes"
+    },
+    "recurrenceEditor": {
+      "day": "dag",
+      "week": "Uke",
+      "month": "Måned",
+      "year": "år",
+      "repeat": "Gjenta",
+      "repeatEvery": "Gjenta hver",
+      "repeatedMode": "Modus",
+      "end": "Slutt",
+      "repeatOn": "Gjenta på",
+      "repeatMode": "Gjenta modus",
+      "first": "Først",
+      "second": "For det andre",
+      "third": "Tredje",
+      "fourth": "Fjerde",
+      "last": "Sist",
+      "never": "Aldri",
+      "until": "Inntil",
+      "count": "Telle",
+      "every": "Hver",
+      "days": "Dager",
+      "weeks": "Uker",
+      "months": "Måneder",
+      "years": "år",
+      "summaryDay": "dag(er)",
+      "summaryWeek": "uke(r)",
+      "summaryMonth": "måned(er)",
+      "summaryYear": "år",
+      "summaryOn": "på",
+      "summaryUntil": "inntil",
+      "summaryTimes": "tid(er)",
+      "intervalAriaLabel": "Antall gjentakelser",
+      "frequencyAriaLabel": "Velg gjentakelsesfrekvens",
+      "byMonthAriaLabel": "Velg måned i året",
+      "byMonthDayAriaLabel": "Gjenta på månedsdagen",
+      "byDayAriaLabel": "Gjenta på en bestemt ukedag i måneden",
+      "bySetPositionAriaLabel": "Velg ukestilling i måned",
+      "endTypeAriaLabel": "Velg slutttype for gjentakelse",
+      "countAriaLabel": "Antall forekomster",
+      "untilAriaLabel": "Velg gjentakelse frem til dato"
+    },
+    "datetimepicker": {
+      "date": "Dato",
+      "time": "Tid",
+      "cancel": "Avbryt",
+      "set": "Sett",
+      "now": "Nå",
+      "today": "I dag",
+      "toggleDateTime": "Slå på dato- og klokkeslettvelgeren",
+      "clearValue": "Klar verdi",
+      "previous": "Forrige",
+      "next": "Neste",
+      "day": "dag",
+      "month": "måned",
+      "year": "år",
+      "hour": "time",
+      "minute": "minutt",
+      "second": "sekund",
+      "meridiem": "AM"
+    },
+    "multiSelect": {
+      "noRecordsMessage": "Ingen poster funnet",
+      "errorMessage": "Forespørsel mislyktes"
+    },
+    "daterangepicker": {
+      "startDate": "Startdato",
+      "endDate": "Sluttdato",
+      "selectedDays": "Utvalgte dager",
+      "customRange": "Egendefinert område",
+      "apply": "Søk",
+      "cancel": "Avbryt",
+      "day": "dag",
+      "month": "måned",
+      "year": "år",
+      "hour": "time",
+      "minute": "minutt",
+      "second": "sekund",
+      "meridiem": "AM"
+    },
+    "toast": {
+      "close": "Lukk"
     }
   }
 }

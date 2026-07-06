@@ -19,7 +19,10 @@
       "noRecordsEditMessage": "Nessun record selezionato per l'operazione di modifica",
       "noRecordsDeleteMessage": "Nessun record selezionato per l'operazione di eliminazione",
       "okButtonLabel": "Va bene",
-      "confirmDeleteMessage": "Sei sicuro di voler eliminare il record?"
+      "confirmDeleteMessage": "Sei sicuro di voler eliminare il record?",
+      "singleColumnGroupLabel": "Gruppo",
+      "groupDropAreaLabel": "Area di rilascio del gruppo",
+      "groupDropAreaHintText": "Trascina qui l'intestazione di una colonna per raggrupparne la colonna"
     },
     "pager": {
       "currentPageLabel": "{0} di {1} pagine",
@@ -58,7 +61,14 @@
     },
     "datepicker": {
       "today": "Oggi",
-      "placeholder": "Scegli una data"
+      "placeholder": "Scegli una data",
+      "day": "giorno",
+      "month": "mese",
+      "year": "anno",
+      "hour": "ora",
+      "minute": "minuto",
+      "second": "secondo",
+      "meridiem": "AM"
     },
     "formValidator": {
       "required": "Questo campo è obbligatorio.",
@@ -91,7 +101,14 @@
       "clear": "Chiaro"
     },
     "timepicker": {
-      "placeholder": "Scegli un orario"
+      "placeholder": "Scegli un orario",
+      "day": "giorno",
+      "month": "mese",
+      "year": "anno",
+      "hour": "ora",
+      "minute": "minuto",
+      "second": "secondo",
+      "meridiem": "AM"
     },
     "scheduler": {
       "addTitle": "Aggiungi titolo",
@@ -107,6 +124,7 @@
       "week": "Settimana",
       "workweek": "Settimana lavorativa",
       "month": "Mese",
+      "agenda": "ordine del giorno",
       "more": "di più",
       "expandAllDaySection": "Espandi la sezione per tutto il giorno",
       "collapseAllDaySection": "Comprimi la sezione dedicata all'intera giornata",
@@ -119,7 +137,40 @@
       "startDate": "Data di inizio",
       "endDate": "Data di fine",
       "startTime": "Ora di inizio",
-      "endTime": "Ora di fine"
+      "endTime": "Ora di fine",
+      "eventOverlap": "Sovrapposizione di eventi",
+      "overlapAlert": "Non è possibile programmare eventi nell'orario prescelto poiché si sovrappone ad un altro evento.",
+      "blockAlert": "Non è possibile programmare eventi nell'intervallo di tempo bloccato.",
+      "ok": "Va bene",
+      "alert": "Avviso",
+      "invalidDateValue": "Il valore della data inserito non è valido.",
+      "invalidTimeValue": "Il valore temporale inserito non è valido.",
+      "invalidDateRange": "La data di fine selezionata è precedente alla data di inizio.",
+      "repeat": "Ripeti",
+      "never": "Mai",
+      "daily": "Ogni giorno",
+      "weekly": "Settimanale",
+      "monthly": "Mensile",
+      "yearly": "Annuale",
+      "custom": "Personalizzato",
+      "timezone": "Fuso orario",
+      "startTimezone": "Inizia il fuso orario",
+      "endTimezone": "Fine fuso orario",
+      "searchTimezone": "Cerca fuso orario",
+      "customRecurrence": "Ricorrenza personalizzata",
+      "seriesChangeAlert": "Vuoi annullare le modifiche apportate a istanze specifiche di questa serie e associarle nuovamente all'intera serie?",
+      "createError": "La durata dell'evento deve essere inferiore alla frequenza con cui si verifica. Riduci la durata o modifica lo schema di ricorrenza nell'editor degli eventi di ricorrenza.",
+      "sameDayAlert": "Due occorrenze dello stesso evento non possono verificarsi nello stesso giorno.",
+      "occurenceAlert": "Non è possibile riprogrammare un'occorrenza dell'appuntamento ricorrente se viene saltata un'occorrenza successiva dello stesso appuntamento.",
+      "editEventContent": "Come vorresti cambiare l'appuntamento della serie?",
+      "editEvent": "Modifica evento",
+      "editThisEvent": "Modifica evento",
+      "editEntireSeries": "Tutta la serie",
+      "yes": "Sì",
+      "no": "No",
+      "followingEvents": "Eventi successivi",
+      "eventsFor": "Eventi per",
+      "noEvents": "Nessun evento"
     },
     "dropdownList": {
       "noRecordsMessage": "Nessun record trovato",
@@ -132,6 +183,88 @@
     "autoComplete": {
       "noRecordsMessage": "Nessun record trovato",
       "errorMessage": "Richiesta non riuscita"
+    },
+    "recurrenceEditor": {
+      "day": "Giorno",
+      "week": "Settimana",
+      "month": "Mese",
+      "year": "Anno",
+      "repeat": "Ripeti",
+      "repeatEvery": "Ripeti ogni",
+      "repeatedMode": "Modalità",
+      "end": "Fine",
+      "repeatOn": "Ripeti",
+      "repeatMode": "Modalità di ripetizione",
+      "first": "Primo",
+      "second": "Secondo",
+      "third": "Terzo",
+      "fourth": "Quarto",
+      "last": "Ultimo",
+      "never": "Mai",
+      "until": "Fino a quando",
+      "count": "Conte",
+      "every": "Ogni",
+      "days": "Giorni",
+      "weeks": "Settimane",
+      "months": "Mesi",
+      "years": "Anni",
+      "summaryDay": "giorno/i",
+      "summaryWeek": "settimana/e",
+      "summaryMonth": "mese(i)",
+      "summaryYear": "anno/i",
+      "summaryOn": "su",
+      "summaryUntil": "fino a quando",
+      "summaryTimes": "tempo(i)",
+      "intervalAriaLabel": "Numero di ripetizioni",
+      "frequencyAriaLabel": "Seleziona la frequenza di ripetizione",
+      "byMonthAriaLabel": "Seleziona il mese dell'anno",
+      "byMonthDayAriaLabel": "Ripetere il giorno del mese",
+      "byDayAriaLabel": "Ripeti in un giorno feriale specifico del mese",
+      "bySetPositionAriaLabel": "Seleziona la posizione della settimana nel mese",
+      "endTypeAriaLabel": "Seleziona il tipo di fine della ricorrenza",
+      "countAriaLabel": "Numero di occorrenze",
+      "untilAriaLabel": "Scegli la ricorrenza fino alla data"
+    },
+    "datetimepicker": {
+      "date": "Data",
+      "time": "Tempo",
+      "cancel": "Annulla",
+      "set": "Impostato",
+      "now": "Ora",
+      "today": "Oggi",
+      "toggleDateTime": "Attiva/disattiva il selettore data-ora",
+      "clearValue": "Valore chiaro",
+      "previous": "Precedente",
+      "next": "Avanti",
+      "day": "giorno",
+      "month": "mese",
+      "year": "anno",
+      "hour": "ora",
+      "minute": "minuto",
+      "second": "secondo",
+      "meridiem": "AM"
+    },
+    "multiSelect": {
+      "noRecordsMessage": "Nessun record trovato",
+      "errorMessage": "Richiesta non riuscita"
+    },
+    "daterangepicker": {
+      "startDate": "Data di inizio",
+      "endDate": "Data di fine",
+      "selectedDays": "Giorni selezionati",
+      "customRange": "Gamma personalizzata",
+      "apply": "Applicare",
+      "cancel": "Annulla",
+      "day": "giorno",
+      "month": "mese",
+      "year": "anno",
+      "hour": "ora",
+      "minute": "minuto",
+      "second": "secondo",
+      "meridiem": "AM"
+    },
+    "toast": {
+      "close": "Chiudi"
     }
   }
 }

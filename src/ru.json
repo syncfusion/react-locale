@@ -19,7 +19,10 @@
       "noRecordsEditMessage": "Никакие записи не выбраны для операции редактирования",
       "noRecordsDeleteMessage": "Не выбрано ни одной записи для операции удаления",
       "okButtonLabel": "ОК",
-      "confirmDeleteMessage": "Вы уверены, что хотите удалить запись?"
+      "confirmDeleteMessage": "Вы уверены, что хотите удалить запись?",
+      "singleColumnGroupLabel": "Группа",
+      "groupDropAreaLabel": "Зона высадки группы",
+      "groupDropAreaHintText": "Перетащите сюда заголовок столбца, чтобы сгруппировать его столбец."
     },
     "pager": {
       "currentPageLabel": "{0} из {1} страниц",
@@ -58,7 +61,14 @@
     },
     "datepicker": {
       "today": "Сегодня",
-      "placeholder": "Выберите дату"
+      "placeholder": "Выберите дату",
+      "day": "день",
+      "month": "месяц",
+      "year": "год",
+      "hour": "час",
+      "minute": "минута",
+      "second": "второй",
+      "meridiem": "AM"
     },
     "formValidator": {
       "required": "Это поле является обязательным.",
@@ -91,7 +101,14 @@
       "clear": "Очистить"
     },
     "timepicker": {
-      "placeholder": "Выберите время"
+      "placeholder": "Выберите время",
+      "day": "день",
+      "month": "месяц",
+      "year": "год",
+      "hour": "час",
+      "minute": "минута",
+      "second": "второй",
+      "meridiem": "AM"
     },
     "scheduler": {
       "addTitle": "Добавить заголовок",
@@ -107,6 +124,7 @@
       "week": "неделя",
       "workweek": "Рабочая неделя",
       "month": "Месяц",
+      "agenda": "Повестка дня",
       "more": "больше",
       "expandAllDaySection": "Развернуть раздел «Весь день»",
       "collapseAllDaySection": "Свернуть раздел «Весь день»",
@@ -119,7 +137,40 @@
       "startDate": "Дата начала",
       "endDate": "Дата окончания",
       "startTime": "Время начала",
-      "endTime": "Время окончания"
+      "endTime": "Время окончания",
+      "eventOverlap": "Перекрытие событий",
+      "overlapAlert": "События нельзя запланировать на выбранное время, поскольку оно пересекается с другим событием.",
+      "blockAlert": "События нельзя планировать в пределах заблокированного диапазона времени.",
+      "ok": "ОК",
+      "alert": "Оповещение",
+      "invalidDateValue": "Введенное значение даты недействительно.",
+      "invalidTimeValue": "Введенное значение времени недействительно.",
+      "invalidDateRange": "Выбранная дата окончания предшествует дате начала.",
+      "repeat": "Повторить",
+      "never": "Никогда",
+      "daily": "Ежедневно",
+      "weekly": "Еженедельно",
+      "monthly": "Ежемесячно",
+      "yearly": "Ежегодно",
+      "custom": "Пользовательский",
+      "timezone": "Часовой пояс",
+      "startTimezone": "Начальный часовой пояс",
+      "endTimezone": "Конечный часовой пояс",
+      "searchTimezone": "Поиск часового пояса",
+      "customRecurrence": "Пользовательское повторение",
+      "seriesChangeAlert": "Хотите отменить изменения, внесенные в отдельные экземпляры этой серии, и снова сопоставить их со всей серией?",
+      "createError": "Продолжительность события должна быть короче, чем частота его возникновения. Сократите продолжительность или измените шаблон повторения в редакторе событий повторения.",
+      "sameDayAlert": "Два появления одного и того же события не могут произойти в один и тот же день.",
+      "occurenceAlert": "Невозможно перенести повтор повторяющейся встречи, если она пропускает более позднее повторение той же встречи.",
+      "editEventContent": "Как бы вы хотели изменить назначение в сериале?",
+      "editEvent": "Редактировать событие",
+      "editThisEvent": "Редактировать событие",
+      "editEntireSeries": "Вся серия",
+      "yes": "Да",
+      "no": "Нет",
+      "followingEvents": "Следующие события",
+      "eventsFor": "Мероприятия для",
+      "noEvents": "Нет событий"
     },
     "dropdownList": {
       "noRecordsMessage": "Записи не найдены",
@@ -132,6 +183,88 @@
     "autoComplete": {
       "noRecordsMessage": "Записи не найдены",
       "errorMessage": "Запрос не выполнен"
+    },
+    "recurrenceEditor": {
+      "day": "День",
+      "week": "неделя",
+      "month": "Месяц",
+      "year": "Год",
+      "repeat": "Повторить",
+      "repeatEvery": "Повторяйте каждые",
+      "repeatedMode": "Режим",
+      "end": "Конец",
+      "repeatOn": "Повторить дальше",
+      "repeatMode": "Режим повтора",
+      "first": "Первый",
+      "second": "Второй",
+      "third": "Третий",
+      "fourth": "Четвертый",
+      "last": "Последний",
+      "never": "Никогда",
+      "until": "До тех пор, пока",
+      "count": "Граф",
+      "every": "Каждый",
+      "days": "Дни",
+      "weeks": "Недели",
+      "months": "Месяцы",
+      "years": "Годы",
+      "summaryDay": "день(а)",
+      "summaryWeek": "неделя(и)",
+      "summaryMonth": "месяц(ы)",
+      "summaryYear": "год(а)",
+      "summaryOn": "на",
+      "summaryUntil": "пока",
+      "summaryTimes": "время(а)",
+      "intervalAriaLabel": "Количество повторов",
+      "frequencyAriaLabel": "Выберите частоту повторения",
+      "byMonthAriaLabel": "Выберите месяц года",
+      "byMonthDayAriaLabel": "Повторить в день месяца",
+      "byDayAriaLabel": "Повторить в определенный будний день месяца",
+      "bySetPositionAriaLabel": "Выберите положение недели в месяце",
+      "endTypeAriaLabel": "Выберите тип завершения повторения",
+      "countAriaLabel": "Количество вхождений",
+      "untilAriaLabel": "Выберите повторение до даты"
+    },
+    "datetimepicker": {
+      "date": "Дата",
+      "time": "Время",
+      "cancel": "Отмена",
+      "set": "Установить",
+      "now": "Сейчас",
+      "today": "Сегодня",
+      "toggleDateTime": "Переключить выбор даты и времени",
+      "clearValue": "Очистить значение",
+      "previous": "Предыдущий",
+      "next": "Далее",
+      "day": "день",
+      "month": "месяц",
+      "year": "год",
+      "hour": "час",
+      "minute": "минута",
+      "second": "второй",
+      "meridiem": "AM"
+    },
+    "multiSelect": {
+      "noRecordsMessage": "Записи не найдены",
+      "errorMessage": "Запрос не выполнен"
+    },
+    "daterangepicker": {
+      "startDate": "Дата начала",
+      "endDate": "Дата окончания",
+      "selectedDays": "Выбранные дни",
+      "customRange": "Пользовательский диапазон",
+      "apply": "Применить",
+      "cancel": "Отмена",
+      "day": "день",
+      "month": "месяц",
+      "year": "год",
+      "hour": "час",
+      "minute": "минута",
+      "second": "второй",
+      "meridiem": "AM"
+    },
+    "toast": {
+      "close": "Закрыть"
     }
   }
 }
